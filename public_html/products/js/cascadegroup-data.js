@@ -20,7 +20,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "1",
             "Path": "alder\/superior.html",
-            "Cutting Face": "cf2",
+            "Cutting Face": "cf1",
             "Width": "4+",
             "Matrix": {
                 "13-16": {
@@ -115,7 +115,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "22",
             "Path": "alder\/superior-color.html",
-            "Cutting Face": "cf2",
+            "Cutting Face": "cf1",
             "Limiting Characteristics": "color",
             "Width": "4+",
             "Matrix": {
@@ -326,7 +326,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "11",
             "Path": "alder\/jacket-board-1.html",
-            "Cutting Face": "cf2",
+            "Cutting Face": "cf1",
             "Width": "4-",
             "Matrix": {
                 "4-4": {

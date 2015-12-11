@@ -192,14 +192,18 @@ if ($('ul#primary li.active')[0]) {
 				return;
 			}
 
+			var state_active = false;
+
 			$( '#zoomer' ).click(function() {
-				$screenImage.okzoom({
+				if (state_active == false) {
+					$screenImage.okzoom({
 					width: 200,
 					height: 200,
 					border: "5px solid #fff",
 					shadow: "0 0 5px #000"
 				});
-
+					return state_active = true;
+				} 
 				return false;
 			});
 		});

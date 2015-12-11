@@ -313,3 +313,12 @@ div#content-bottom p {
 	color:#666;
 	margin-bottom:25px;
 }
+
+/* Make justify on text */
+.field-item.odd {
+    text-align: justify;
+}
+
+.node-body {
+    text-align: justify;
+}
