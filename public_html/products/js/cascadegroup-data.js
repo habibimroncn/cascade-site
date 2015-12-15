@@ -794,7 +794,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "30",
             "Path": "ash\/1-shop.html",
-            "Cutting Face": "cf1",
+            "Cutting Face": "",
             "Width": {
                 "1": "4-",
                 "2": "4+"
@@ -820,7 +820,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "33",
             "Path": "ash\/2-shop.html",
-            "Cutting Face": "cf1",
+            "Cutting Face": "",
             "Limiting Characteristics": "knots",
             "Width": {
                 "1": "4-",
@@ -1268,10 +1268,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "43",
             "Path": "cottonwood\/select-and-better.html",
-            "Cutting Face": {
-                "1": "cf1",
-                "2": "cf2"
-            },
+            "Cutting Face": "",
             "Limiting Characteristics": "color",
             "Width": {
                 "1": "4-"
