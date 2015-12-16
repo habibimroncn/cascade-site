@@ -686,10 +686,10 @@ jQuery.extend(Drupal.settings, {
                 "2": "4+"
             },
             "Matrix": {
-                "13-16": {
-                    "8-1": true,
-                    "10-1": true
-                },
+                // "13-16": {
+                //     "8-1": true,
+                //     "10-1": true
+                // },
                 "4-4": {
                     "6-1": true,
                     "8-1": true,
