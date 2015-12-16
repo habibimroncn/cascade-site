@@ -771,7 +771,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "31",
             "Path": "ash\/select-and-better.html",
-            "Cutting Face": "",
+            "Cutting Face": "cf1",
             "Width": {
                 "1": "4-",
                 "2": "4+"
@@ -900,7 +900,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "27",
             "Path": "maple\/select-and-better.html",
-            "Cutting Face": "",
+            "Cutting Face": "cf1",
             "Width": {
                 "1": "4-",
                 "2": "4+"
@@ -941,7 +941,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "38",
             "Path": "maple\/select-and-better-color.html",
-            "Cutting Face": "",
+            "Cutting Face": "cf1",
             "Limiting Characteristics": "color",
             "Width": {
                 "1": "4-",
@@ -979,7 +979,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "29",
             "Path": "maple\/1-shop.html",
-            "Cutting Face": "",
+            "Cutting Face": "cf1",
             "Limiting Characteristics": "knots",
             "Width": {
                 "1": "4-",
@@ -1022,7 +1022,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "39",
             "Path": "maple\/1-shop-color.html",
-            "Cutting Face": "",
+            "Cutting Face": "cf1",
             "Limiting Characteristics": {
                 "1": "knots",
                 "2": "color"
@@ -1087,7 +1087,7 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "32",
             "Path": "maple\/2-shop.html",
-            "Cutting Face": "",
+            "Cutting Face": "cf1",
             "Limiting Characteristics": {
                 "1": "knots",
                 "2": "skip"
