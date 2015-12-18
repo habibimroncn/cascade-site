@@ -1,6 +1,0 @@
-; $Id:
-name = CCK Matrix Field
-description = Defines a CCK field type for tables with textfields (using the CCK API).
-package = CCK
-core = 6.x
-dependencies[] = content

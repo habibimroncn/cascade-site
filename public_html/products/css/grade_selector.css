@@ -335,7 +335,7 @@ div.side-cta p {
 }
 
 div.side-cta p.side-cta-phone {
-	font-size: 40px;
+	font-size: 30px;
 	color: #fff;
 }
 
@@ -353,7 +353,7 @@ img.side-footer-logo-index {
 div#content-area div.node-type-grade div.content {
 	padding:40px 25px 0 0px;
 	color:#fff;
-	overflow: scroll;
+	overflow: hidden;
 	font-family: "Source Sans Pro", sans-serif;
 }
 
