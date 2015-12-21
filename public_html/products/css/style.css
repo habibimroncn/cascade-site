@@ -32,6 +32,8 @@
     font-weight: normal;    font-style: normal;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 body {
   margin: 0;
   font: 14px/1.6 Arial, sans-serif;
@@ -314,11 +316,13 @@ div#content-bottom p {
 	margin-bottom:25px;
 }
 
-/* Make justify on text */
-.field-item.odd {
-    text-align: justify;
+p.additional-description {
+	font-family: 'Source Sans Pro';
+    font-size: 18pt;
+    line-height: 2;
 }
 
-.node-body {
-    text-align: justify;
+div#content-area div.page-content div.wrap.clearfix div.view div.attachment,
+div#content-area div.page-content div.wrap.clearfix div.view div.content{
+	min-height: 1980px !important;
 }
