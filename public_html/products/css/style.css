@@ -321,3 +321,8 @@ p.additional-description {
     font-size: 18pt;
     line-height: 2;
 }
+
+div#content-area div.page-content div.wrap.clearfix div.view div.attachment,
+div#content-area div.page-content div.wrap.clearfix div.view div.content{
+	min-height: 1980px !important;
+}
