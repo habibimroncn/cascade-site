@@ -36,6 +36,9 @@ jQuery(document).ready(function($) {
 	// Adding margin on last tile
 	$("li.views-row.views-row-last.show").last().css('margin-bottom','50px');
 
+	// Remove all category on page product
+	$(".category").remove();
+
 	if ($('body').hasClass('node-type-grade')) {
 		_initGradePage();
 	}
