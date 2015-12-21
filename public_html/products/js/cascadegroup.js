@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-   // Hide back button on index and show on sub page
+    // Hide back button on index and show on sub page
     var dom = document.domain;
 	var attributed1 = location.pathname.split('/')[1]; 
 	var attributed2 = location.pathname.split('/')[2];
@@ -31,8 +31,10 @@ jQuery(document).ready(function($) {
 	if (attributed1 === 'products' && attributed2 === '') {
 		$('#back').css('display','none');
 	};
+	// End Hide back button on index and show on sub page
 
-
+	// Adding margin on last tile
+	$("li.views-row.views-row-last.show").last().css('margin-bottom','50px');
 
 	if ($('body').hasClass('node-type-grade')) {
 		_initGradePage();
