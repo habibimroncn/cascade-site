@@ -21,6 +21,17 @@ jQuery(document).ready(function($) {
         return false;
     });
 
+   // Hide back button on index and show on sub page
+    var dom = document.domain;
+	var attributed1 = location.pathname.split('/')[1]; 
+	var attributed2 = location.pathname.split('/')[2];
+	console.log("atribute 1 : "+ attributed1);
+	console.log("atribute 2 : "+ attributed2);
+
+	if (attributed1 === 'products' && attributed2 === '') {
+		$('#back').css('display','none');
+	};
+
 
 
 	if ($('body').hasClass('node-type-grade')) {
