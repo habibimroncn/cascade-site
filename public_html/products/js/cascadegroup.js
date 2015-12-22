@@ -219,10 +219,28 @@ if ($('ul#primary li.active')[0]) {
 					shadow: "0 0 5px #000"
 				});
 					return state_active = true;
-				} 
+				} else {
+					$screenImage.okzoom().off();
+					return state_active = false;
+				}
 				return false;
 			});
+
+
+			$(document).keyup(function(e) {
+  					if (e.keyCode == 27) {
+  						if (state_active == true) {
+  							$screenImage.okzoom().off();
+							return state_active = false;
+  						} else {
+  							console.log('Zoom have disabled');
+  						}
+
+  					} 
+			});// disabled using esc
 		});
+
+
 	})();
 
 });
