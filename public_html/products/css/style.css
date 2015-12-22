@@ -319,10 +319,22 @@ div#content-bottom p {
 p.additional-description {
 	font-family: 'Source Sans Pro';
     font-size: 18pt;
-    line-height: 2;
+    line-height: 20pt;
 }
 
-div#content-area div.page-content div.wrap.clearfix div.view div.attachment,
-div#content-area div.page-content div.wrap.clearfix div.view div.content{
-	min-height: 1980px !important;
+div#content-area div.page-content div.wrap.clearfix div.view div.attachment{
+	min-height: 1892px;
+}
+
+div#content-area div.page-content div.wrap.clearfix div.node div.content {
+	min-height: 2502px;
+}
+
+ul.list-item-product {
+    margin-left: -10px;
+}
+
+ul.list-item-product li {
+	margin-bottom: 0px;
+	color: white !important;
 }
