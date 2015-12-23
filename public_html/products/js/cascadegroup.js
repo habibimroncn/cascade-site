@@ -21,7 +21,44 @@ jQuery(document).ready(function($) {
         return false;
     });
 
+    // Hide back button on index and show on sub page
+    var dom = document.domain;
+	var attributed1 = location.pathname.split('/')[1]; 
+	var attributed2 = location.pathname.split('/')[2];
+	console.log("atribute 1 : "+ attributed1);
+	console.log("atribute 2 : "+ attributed2);
 
+	if (attributed1 === 'products' && attributed2 === '') {
+		$('#back').css('display','none');
+	};
+	// End Hide back button on index and show on sub page
+
+	var length_div = $('.species-group ul').length;
+	for (var i = 0; i < length_div; i++) {
+		var t = $($('.species-group ul')[i]).find('li.views-row.views-row-last.show').length;
+		if (t !== 0) {
+			// Adding margin on last tile
+			$($("li.views-row.views-row-last.show")[i]).last().css('margin-bottom','50px');
+		} else {
+			$($("li.views-row.views-row-first.show")[i]).last().css('margin-bottom','50px');
+		};
+	};
+
+    // Run line to bottom on product homepage
+
+	var length_row_last  = $("li.views-row.views-row-last.show").last().position();
+	var length_row_first = $("li.views-row.views-row-first.show").last().position();
+	if(jQuery.type(length_row_last) !== 'undefined' && jQuery.type(length_row_first) !== 'undefined') {
+		if (length_row_last.top > length_row_first.top ) {
+			$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_last.top+200+'px');
+		} else {
+			$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_first.top+200+'px');
+		};
+	}
+    
+
+	// Remove all category on page product
+	$(".category").remove();
 
 	if ($('body').hasClass('node-type-grade')) {
 		_initGradePage();
@@ -203,10 +240,33 @@ if ($('ul#primary li.active')[0]) {
 					shadow: "0 0 5px #000"
 				});
 					return state_active = true;
-				} 
+				} else {
+					$screenImage.okzoom().off();
+					return state_active = false;
+				}
 				return false;
 			});
+
+
+			$(document).keyup(function(e) {
+  					if (e.keyCode == 27) {
+  						if (state_active == true) {
+  							$screenImage.okzoom().off();
+							return state_active = false;
+  						} else {
+  							console.log('Zoom have disabled');
+  						}
+
+  					} 
+			});// disabled using esc
+
+			// Run line to bottom on subpage
+			var wood_length = $(".imagecache").height();
+			$("div#content-area div.page-content div.wrap.clearfix div.node div.content").css('min-height',wood_length+'px');
+
 		});
+
+
 	})();
 
 });
