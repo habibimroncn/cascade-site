@@ -94,14 +94,14 @@
 			<div id="header">
 	<div class="wrap">
       <div id="navigation" class="menu">
-        <ul id="primary" class="links main-menu"><li class="menu-304 active-trail first active"><a href="index.html" title="Alder Made Easy" class="active">Home</a></li>
+        <ul id="primary" class="links main-menu"><li class="menu-304 active-trail first active"><a href="/" title="Alder Made Easy" class="active">Home</a></li>
 <li class="menu-306"><a href="/lumber-sales" title="Lumber Sales">Lumber Sales</a></li>
 <li class="menu-309"><a href="/log-buying" title="Log Buying">Log Buying</a></li>
 <li class="menu-311"><a href="/our-mills" title="">Our Mills</a></li>
 <li class="menu-298"><a href="/our-resources" title="">Our Resources</a></li>
 <li class="menu-330 last"><a href="/contact-us" title="Contact Us">Contact Us</a></li>
 </ul>      </div>
-   		<a href="index.html" title="Cascade Hardwood Group Home Page" rel="home" id="logo"><img src="sites/all/themes/cascadegroup/logo.png" alt="Cascade Hardwood Group Logo"/></a>
+   		<a href="/" title="Cascade Hardwood Group Home Page" rel="home" id="logo"><img src="sites/all/themes/cascadegroup/logo.png" alt="Cascade Hardwood Group Logo"/></a>
 	</div>
 	<div class="shadow">
 		<div class="s1"></div>
