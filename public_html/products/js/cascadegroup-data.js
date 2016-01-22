@@ -326,7 +326,9 @@ jQuery.extend(Drupal.settings, {
             "Category": "clear",
             "Nid": "11",
             "Path": "alder\/jacket-board-1.html",
-            "Cutting Face": "cf1",
+            "Cutting Face": {
+                "1":"cf1",
+                "2":"cf2"},
             "Width": "4-",
             "Matrix": {
                 "4-4": {
