@@ -44,5 +44,25 @@
     "type":"0",
     "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/split.jpg'>A lengthwise separation of the wood, due to the tearing apart of wood cells.",
     "image": "img/glossary/split.jpg"
+  },{
+    "term":"Side Bend",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/sidebend.jpg'>A distortion of a board in which there is a deviation edgewise from a straight line from end to end of the board.",
+    "image": "img/glossary/sidebend.jpg"
+  },{
+    "term":"Wane",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/wane.jpg'>Bark or lack of wood.",
+    "image": "img/glossary/wane.jpg"
+  },{
+    "term":"Shake",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/shake.jpg'>A separation along the grain, the greater part of which occurs between the rings of annual growth.",
+    "image": "img/glossary/shake.jpg"
+  },{
+    "term":"Check",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/check.jpg'>A lengthwise separation of the wood that usually extends across the rings of annual growth and commonly results from stresses set up in wood during seasoning.",
+    "image": "img/glossary/check.jpg"
   }
 ]
