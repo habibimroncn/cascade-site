@@ -431,7 +431,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/olympic.png" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/ron.jpg" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Ron Hurn</h4>
