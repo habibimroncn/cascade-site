@@ -76,6 +76,11 @@ var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-37329135-1"]);_gaq.push(["_t
 //--><!]]>
 	jQuery(document).ready(function($) {
 		// spam protection for email addresses using jQuery
+		 $('a[href^="mailto:"]').each(function() {
+		  this.href = this.href.replace('[at]', '@').replace(/\[dot\]/g, '.');
+		  this.innerHTML = this.href.replace('mailto:', '');
+		 });
+
 		$('span.spamspan a').each(function() {
 			var $email = $(this);
 			var address = $email.text()
