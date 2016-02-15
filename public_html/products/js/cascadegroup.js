@@ -226,7 +226,28 @@ if ($('ul#primary li.active')[0]) {
 	// Desktop only
 	(function() {
 		if ( $( window ).width() < 900 ) {
-			return;
+			// Trigger zoom lense on touchscreen
+		$( "a img.imagecache" ).load(function() {
+			// Only enable zoom if the native image width is larger than the screen image width
+			var $screenImage = $( this );
+			var nativeImage  = new Image();
+			nativeImage.src  = $screenImage.attr( "src" );
+			if ( nativeImage.width < $screenImage.width() ) {
+				return;
+			}
+			$screenImage.mlens({
+				lensShape: "circle",
+				lensSize:["150px","150px"],
+				borderSize: 4,
+				borderColor: "#fff",
+				borderRadius: 0,
+				zoomLevel: 1,
+				responsive: true,
+			});
+			
+		});
+
+			
 		}
 
 		// Trigger zoom lense
