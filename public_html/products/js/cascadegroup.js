@@ -20,7 +20,18 @@ jQuery(document).ready(function($) {
         parent.history.back();
         return false;
     });
+	// Change url about contact us for all product page.
+	if ($($('div#contact a').last()).length != 0) {
+    	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr("target","_blank");
+	}
 
+	function add_emailto(){
+		// Adding mailto
+		if ($('div.side-cta p a').length != 0) {
+	    	$('div.side-cta p a').attr("href", "mailto:info@chgsales.com");
+		}
+	}
+	setTimeout(add_emailto, 3000);
     // Hide back button on index and show on sub page
     var dom = document.domain;
 	var attributed1 = location.pathname.split('/')[1]; 
