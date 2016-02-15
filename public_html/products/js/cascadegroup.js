@@ -20,7 +20,18 @@ jQuery(document).ready(function($) {
         parent.history.back();
         return false;
     });
+	// Change url about contact us for all product page.
+	if ($($('div#contact a').last()).length != 0) {
+    	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr("target","_blank");
+	}
 
+	function add_emailto(){
+		// Adding mailto
+		if ($('div.side-cta p a').length != 0) {
+	    	$('div.side-cta p a').attr("href", "mailto:info@chgsales.com");
+		}
+	}
+	setTimeout(add_emailto, 3000);
     // Hide back button on index and show on sub page
     var dom = document.domain;
 	var attributed1 = location.pathname.split('/')[1]; 
@@ -215,7 +226,28 @@ if ($('ul#primary li.active')[0]) {
 	// Desktop only
 	(function() {
 		if ( $( window ).width() < 900 ) {
-			return;
+			// Trigger zoom lense on touchscreen
+		$( "a img.imagecache" ).load(function() {
+			// Only enable zoom if the native image width is larger than the screen image width
+			var $screenImage = $( this );
+			var nativeImage  = new Image();
+			nativeImage.src  = $screenImage.attr( "src" );
+			if ( nativeImage.width < $screenImage.width() ) {
+				return;
+			}
+			$screenImage.mlens({
+				lensShape: "circle",
+				lensSize:["150px","150px"],
+				borderSize: 4,
+				borderColor: "#fff",
+				borderRadius: 0,
+				zoomLevel: 1,
+				responsive: true,
+			});
+			
+		});
+
+			
 		}
 
 		// Trigger zoom lense

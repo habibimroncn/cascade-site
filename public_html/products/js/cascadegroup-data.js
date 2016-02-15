@@ -1305,10 +1305,8 @@ jQuery.extend(Drupal.settings, {
                 }
             },
             "Rons_Category": {
-                "1": "clear",
-                "2": "clear_cutting",
-                "3": "crating",
-                "4": "structural"
+                "1": "crating",
+                "2": "structural"
             }
         }
     }]
