@@ -90,6 +90,8 @@ var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-37329135-1"]);_gaq.push(["_t
 		});
 		// Change text color
 		$('a[href^="mailto:"]').css('color','#000000');
+		$('div.map.cascade-map p span.spamspan a[href^="mailto:"]').css('color','#666');
+		$('div.map.pa-map p span.spamspan a[href^="mailto:"]').css('color','#666');
 });
 </script>
   </body>
