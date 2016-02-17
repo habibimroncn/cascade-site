@@ -23,10 +23,6 @@ jQuery.extend(Drupal.settings, {
             "Cutting Face": "cf1",
             "Width": "4+",
             "Matrix": {
-                "13-16": {
-                    "8-1": true,
-                    "10-1": true
-                },
                 "4-4": {
                     "6-1": true,
                     "7-1": true,
@@ -217,10 +213,6 @@ jQuery.extend(Drupal.settings, {
             "Cutting Face": "cf2",
             "Width": "4+",
             "Matrix": {
-                "13-16": {
-                    "8-1": true,
-                    "10-1": true
-                },
                 "4-4": {
                     "8-1": true,
                     "8-3": true,
@@ -354,10 +346,6 @@ jQuery.extend(Drupal.settings, {
             "Cutting Face": "cf1",
             "Width": "4+",
             "Matrix": {
-                "13-16": {
-                    "8-1": true,
-                    "10-1": true
-                },
                 "4-4": {
                     "8-1": true,
                     "8-3": true,
@@ -599,10 +587,6 @@ jQuery.extend(Drupal.settings, {
             },
             "Width": "4+",
             "Matrix": {
-                "13-16": {
-                    "8-1": true,
-                    "10-1": true
-                },
                 "4-4": {
                     "8-1": true,
                     "8-3": true,
