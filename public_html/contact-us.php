@@ -400,7 +400,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:randyb@chwa.com">randyb@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:randyb[at]chwa[dot]com">randyb@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -471,7 +471,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:ronhurn@pahardwood.com">ronhurn@pahardwood.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:ronhurn[at]pahardwood[dot]com">ronhurn@pahardwood.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -532,7 +532,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:darrella@chwa.com">darrella@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:darrella[at]chwa[dot]com">darrella@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -593,7 +593,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:kenj@chwa.com">kenj@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:kenj[at]chwa[dot]com">kenj@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -669,7 +669,7 @@
 		Chehalis, WA 98532<br />
 		Phone: 360-748-3317<br />
 		Fax: 360-740-5117<br />
-		Email: info@CHGsales.com</p>
+		Email: <span class="spamspan"><a href="mailto:info[at]CHGsales[dot]com">info@CHGsales.com</a></span></p>
 	<iframe frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?client=safari&amp;q=158+Ribelin+Road,+Chehalis,+WA+98532&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=158+Ribelin+Rd,+Chehalis,+Washington+98532&amp;gl=us&amp;t=m&amp;vpsrc=6&amp;ll=46.649318,-122.92654&amp;spn=0.041244,0.072956&amp;z=13&amp;output=embed&amp;iwloc=0" width="425"></iframe><br />
 	<small><a href="http://maps.google.com/maps?client=safari&amp;q=158+Ribelin+Road,+Chehalis,+WA+98532&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=158+Ribelin+Rd,+Chehalis,+Washington+98532&amp;gl=us&amp;t=m&amp;vpsrc=6&amp;ll=46.649318,-122.92654&amp;spn=0.041244,0.072956&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
 <div class="map pa-map">
@@ -678,7 +678,7 @@
 		Port Angeles, WA 98363<br />
 		Phone: 360-452-6041<br />
 		Fax: 360-417-6805<br />
-		Email: info@PAhardwood.com</p>
+		Email: <span class="spamspan"><a href="mailto:info[at]PAhardwood[dot]com">info@PAhardwood.com</a></span></p>
 	<iframe frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=333+Eclipse+Industrial+Parkway+Port+Angeles,+WA+98363&amp;aq=&amp;sll=46.636634,-122.931089&amp;sspn=0.015382,0.02429&amp;vpsrc=6&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=333+Eclipse+Ind+Pkwy,+Port+Angeles,+Washington+98363&amp;t=m&amp;ll=48.117288,-123.479118&amp;spn=0.040111,0.072956&amp;z=13&amp;iwloc=A&amp;output=embed&amp;iwloc=0" width="425"></iframe><br />
 	<small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=333+Eclipse+Industrial+Parkway+Port+Angeles,+WA+98363&amp;aq=&amp;sll=46.636634,-122.931089&amp;sspn=0.015382,0.02429&amp;vpsrc=6&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=333+Eclipse+Ind+Pkwy,+Port+Angeles,+Washington+98363&amp;t=m&amp;ll=48.117288,-123.479118&amp;spn=0.040111,0.072956&amp;z=13&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
     </div>
