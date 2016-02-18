@@ -246,7 +246,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:randyb@chwa.com">randyb@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:randyb[at]chwa[dot]com">randyb@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -317,7 +317,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:ronhurn@pahardwood.com">ronhurn@pahardwood.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:ronhurn[at]pahardwood[dot]com">ronhurn@pahardwood.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -378,7 +378,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:darrella@chwa.com">darrella@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:darrella[at]chwa[dot]com">darrella@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -439,7 +439,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:kenj@chwa.com">kenj@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:kenj[at]chwa[dot]com">kenj@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
