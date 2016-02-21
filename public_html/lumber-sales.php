@@ -305,7 +305,7 @@
 </div>
 			    </div>
 </div>  </div>
-  <div class="views-row views-row-6 views-row-even views-row-last">
+  <div class="views-row views-row-6 views-row-even">
     
 <div class="node node node-teaser clearfix node-type-profile" id="node-50">
     <div class="content">
@@ -341,6 +341,60 @@
 </div>
 </div>
 			    </div>
+</div>  </div>
+
+  <div class="views-row views-row-7 views-row-odd views-row-last">
+    
+<div class="node node node-teaser clearfix node-type-profile" id="node-50">
+    <div class="content">
+      <div class="field field-type-filefield field-field-picture">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img src="/sites/default/files/imagecache/profile/profiles/place-holder-left.gif" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+        </div>
+</div>
+              <h4 class="title">Darrin Myers</h4>
+        <div class="field field-type-text field-field-job-title">
+    <div class="field-items">
+            <div class="field-item odd">
+                    California Sales        </div>
+        </div>
+</div>
+            <div class="fieldgroup group-cascade-contact">
+    <div class="field field-type-phone-number field-field-toll-free">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Toll Free:&nbsp;</div>
+                    (877) 345 1404        </div>
+        </div>
+</div>
+<div class="field field-type-phone-number field-field-direct">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Direct:&nbsp;</div>
+                    (360) 345 1318       </div>
+        </div>
+</div>
+<div class="field field-type-phone-number field-field-cell">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Cell:&nbsp;</div>
+                    (360) 269 8750        </div>
+        </div>
+</div>
+<div class="field field-type-email field-field-email">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Email:&nbsp;</div>
+                    <span class="spamspan"><span class="u">Darrin</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+        </div>
+</div>
+</div>
+          </div>
 </div>  </div>
     </div>
   
