@@ -101,7 +101,8 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Ron</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:ron[at]chgsales[dot]com">Ron@CHGSales.com</a></span>        
+                    </div>
         </div>
 </div>
 </div>
@@ -154,7 +155,8 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Jeff</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:jeff[at]chwa[dot]com">Jeff@CHGSales.com</a></span>        
+                    </div>
         </div>
 </div>
 </div>
@@ -207,7 +209,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Marlin</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:marlin[at]chgsales[dot]com">Marlin@CHGSales.com</a></span></div>
         </div>
 </div>
 </div>
@@ -260,7 +262,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Anthony</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:anthony[at]chgsales[dot]com">Anthony@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -297,7 +299,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Lisa</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:lisa[at]chgsales[dot]com">Lisa@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -334,7 +336,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Liz</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:liz[at]chgsales[dot]com">Liz@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
