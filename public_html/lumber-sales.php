@@ -390,7 +390,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Darrin</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+              <span class="spamspan"><a href="mailto:darrin[at]chgsales[dot]com">Darrin@CHGSales.com</a></span></div>
         </div>
 </div>
 </div>

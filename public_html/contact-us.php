@@ -457,24 +457,6 @@
         </div>
 </div>
 </div>
-			<div class="fieldgroup group-pa-contact">
-  	<div class="field field-type-phone-number field-field-pa-phone">
-    <div class="field-items">
-            <div class="field-item odd">
-                      <div class="field-label-inline-first">
-              Phone:&nbsp;</div>
-                    (360) 452 6041        </div>
-        </div>
-</div>
-<div class="field field-type-phone-number field-field-pa-fax">
-    <div class="field-items">
-            <div class="field-item odd">
-                      <div class="field-label-inline-first">
-              Fax:&nbsp;</div>
-                    (360) 417 6805        </div>
-        </div>
-</div>
-</div>
     </div>
 </div>  </div>
   <div class="views-row views-row-2 views-row-even">
