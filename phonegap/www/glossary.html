@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="google" content="notranslate" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Cascade Hardwood Group | Alder and Maple Hardwood from the Pacific Northwest</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Alder Lumber - Made Easy. At Cascade Hardwood Group, our innovative processes, online tools, and unmatched personal service make it easy to get the lumber you need - on grade and on time." />
+
+    <meta name="revisit-after" content="1 day" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/content-module.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/filefield.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/views.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/tablefield.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/default.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/layout.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/entities.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/menu.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/pages.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="css/print.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/grade_selector.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/grade_selector_mobile.css" />
+
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jq-ui.js"></script>
+    <script type="text/javascript" src="js/cascadegroup.js"></script>
+    <script src="js/handlebars-v4.0.2.js"></script>
+    <script>
+        $.getJSON( 'js/terms.json', function( terms ) {
+            $(function() {
+                var template = Handlebars.compile( $( "#glossary-template" ).html() );
+                $( '#glossary-content' ).html( template(terms) );
+            });
+        } );
+    </script>
+
+    <style>
+        /* no idea why whitespace keeps showing up below the body */
+        html {
+            background: #000;
+        }
+    </style>
+  </head>
+  <body class="not-front not-logged-in page-products no-sidebars with-navigation page-products section-products">
+    <div id="content" class="clearfix">
+      <div id="content-area">
+        <div class="page-header">
+          <div id="line"></div>
+          <div class="wrap">
+            <div id="contact">
+              <a href="http://cascadehardwood.com">
+                CascadeHardwood.com
+              </a>
+              |
+              <a href="http://cascade.mossyrock.us/contact">
+                Contact Us
+              </a>
+            </div>
+            <h1 class="title">Glossary</h1>
+            <a href="index.html" id="logo">
+              home
+            </a>
+          </div>
+        </div>
+        <!-- end header -->
+        <div class="page-content">
+          <div class="wrap clearfix">
+
+            <script id="glossary-template" type="template/handlebars">
+                <div class="glossary glossary--list">
+                {{#.}}
+                    <div class="glossary__entry">
+                        <div class="glossary__image-wrapper">
+                            <img class="glossary__image glossary__image--stand-alone" src="{{{image}}}" alt="{{{term}}} image">
+                        </div>
+                        <div class="glossary__content">
+                            <h6 class="glossary__term">{{{term}}}</h6>
+                            <p  class="glossary__definition">{{{definition}}}</p>
+                        </div>
+                    </div>
+                {{/.}}
+                </div>
+            </script>
+
+            <div id="glossary-content"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

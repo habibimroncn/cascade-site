@@ -59,8 +59,9 @@ body.section-products div#line {
 body.section-products div#contact {
 	position: absolute;
 	margin-top: 37px;
+	margin-left: 2px;
 	color: #008aeb;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 body.section-products div#contact a {
@@ -97,7 +98,7 @@ body.section-products div.page-header a#logo {
 body.section-products div#content div.page-header h1.title {
   font-size: 20px;
   position: relative;
-  top: 92px;
+  top: 98px;
   color: #ccc;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
