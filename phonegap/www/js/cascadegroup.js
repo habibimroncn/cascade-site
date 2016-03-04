@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
     	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr("target","_blank");
 	}
 
-	if ($('div.homepage').length == 0) {
+	if ($('div.homepage').length == 0  && $('div.glossary').length == 0) {
 		// Change url homepage icon for all product page.
 		if ($('a#logo').length != 0) {
 	    	$('a#logo').attr("href", "../index.html");
