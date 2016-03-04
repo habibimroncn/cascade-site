@@ -25,6 +25,13 @@ jQuery(document).ready(function($) {
     	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr("target","_blank");
 	}
 
+	if ($('div.homepage').length == 0) {
+		// Change url homepage icon for all product page.
+		if ($('a#logo').length != 0) {
+	    	$('a#logo').attr("href", "../index.html");
+		}
+	}
+
 	function add_emailto(){
 		// Adding mailto
 		if ($('div.side-cta p a').length != 0) {
@@ -33,13 +40,7 @@ jQuery(document).ready(function($) {
 	}
 	setTimeout(add_emailto, 3000);
     // Hide back button on index and show on sub page
-    var dom = document.domain;
-	var attributed1 = location.pathname.split('/')[1]; 
-	var attributed2 = location.pathname.split('/')[2];
-	console.log("atribute 1 : "+ attributed1);
-	console.log("atribute 2 : "+ attributed2);
-
-	if (attributed1 === 'products' && attributed2 === '') {
+	if ($('div.homepage').length > 0) {
 		$('#back').css('display','none');
 	};
 	// End Hide back button on index and show on sub page
@@ -51,22 +52,22 @@ jQuery(document).ready(function($) {
 			// Adding margin on last tile
 			$($("li.views-row.views-row-last.show")[i]).last().css('margin-bottom','50px');
 		} else {
-			$($("li.views-row.views-row-first.show")[i]).last().css('margin-bottom','50px');
+			$("li:last-child.views-row.views-row-first.show").css('margin-bottom','50px');
 		};
 	};
-
-    // Run line to bottom on product homepage
-
-	var length_row_last  = $("li.views-row.views-row-last.show").last().position();
-	var length_row_first = $("li.views-row.views-row-first.show").last().position();
-	if(jQuery.type(length_row_last) !== 'undefined' && jQuery.type(length_row_first) !== 'undefined') {
-		if (length_row_last.top > length_row_first.top ) {
-			$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_last.top+200+'px');
-		} else {
-			$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_first.top+200+'px');
-		};
+	function add_line() {
+	    // Run line to bottom on product homepage
+		var length_row_last  = $("li.views-row.views-row-last.show").last().position();
+		var length_row_first = $("li.views-row.views-row-first.show").last().position();
+		if(jQuery.type(length_row_last) !== 'undefined' && jQuery.type(length_row_first) !== 'undefined') {
+			if (length_row_last.top > length_row_first.top ) {
+				$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_last.top+150+'px');
+			} else {
+				$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_first.top+150+'px');
+			};
+		}
 	}
-    
+    setTimeout(add_line, 3000);
 
 	// Remove all category on page product
 	$(".category").remove();
@@ -230,23 +231,22 @@ if ($('ul#primary li.active')[0]) {
 		$( "a img.imagecache" ).load(function() {
 			// Only enable zoom if the native image width is larger than the screen image width
 			var $screenImage = $( this );
-			var nativeImage  = new Image();
-			nativeImage.src  = $screenImage.attr( "src" );
-			if ( nativeImage.width < $screenImage.width() ) {
-				return;
-			}
-			$screenImage.mlens({
-				lensShape: "circle",
-				lensSize:["150px","150px"],
-				borderSize: 4,
-				borderColor: "#fff",
-				borderRadius: 0,
-				zoomLevel: 1,
-				responsive: true,
-			});
-			
-		});
+				$screenImage.mlens({
+					lensShape: "circle",
+					lensSize:["150px","150px"],
+					borderSize: 4,
+					borderColor: "#fff",
+					borderRadius: 0,
+					zoomLevel: 1,
+					responsive: true,
+				});
 
+			$screenImage.on("touchend", function(e){
+		       $('[id^=mlens_target]').css('display','block');
+			});
+			});
+
+		
 			
 		}
 
