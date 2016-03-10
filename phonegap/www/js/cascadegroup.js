@@ -22,7 +22,11 @@ jQuery(document).ready(function($) {
     });
 	// Change url about contact us for all product page.
 	if ($($('div#contact a').last()).length != 0) {
-    	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr("target","_blank");
+    	$($('div#contact a').last()).attr("href", "#").attr("onclick","window.open('http://cascadehardwood.com/contact-us', '_system', 'location=no');");
+	}
+	// Change url cascadeharwood.com.
+	if ($($('div#contact a').first()).length != 0) {
+    	$($('div#contact a').first()).attr("href", "#").attr("onclick","window.open('http://cascadehardwood.com', '_system', 'location=no');");
 	}
 
 	// if ($('div.homepage').length == 0  && $('div.glossary').length == 0) {
