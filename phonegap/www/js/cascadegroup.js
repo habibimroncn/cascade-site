@@ -20,21 +20,31 @@ jQuery(document).ready(function($) {
         parent.history.back();
         return false;
     });
+    window.open = cordova.InAppBrowser.open;
 	// Change url about contact us for all product page.
 	if ($($('div#contact a').last()).length != 0) {
-    	$($('div#contact a').last()).attr("href", "#").attr("onclick","window.open('http://cascadehardwood.com/contact-us', '_system', 'location=no');");
+    	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr('target','_blank');
 	}
 	// Change url cascadeharwood.com.
 	if ($($('div#contact a').first()).length != 0) {
-    	$($('div#contact a').first()).attr("href", "#").attr("onclick","window.open('http://cascadehardwood.com', '_system', 'location=no');");
+    	$($('div#contact a').first()).attr("href", "http://cascadehardwood.com").attr('target','_blank');
 	}
 
 	// if ($('div.homepage').length == 0  && $('div.glossary').length == 0) {
 		// Change url homepage icon for all product page.
 		if ($('a#logo').length != 0) {
-	    	$('a#logo').attr("href", "#").attr("onclick","window.open('http://cascadehardwood.com', '_system', 'location=no');");
+	    	$('a#logo').attr("href", "http://cascadehardwood.com").attr('target','_blank');
 		}
 	// }
+
+	window.addEventListener('load', function () {    
+    $(document).on('click', 'div#contact a[target="_blank"],a#logo[target="_blank"]', function (e) {
+            e.preventDefault();
+            var url = this.href;
+            window.open(url,"_system");           
+    });
+    //}
+	}, false);
 
 	function add_emailto(){
 		// Adding mailto
