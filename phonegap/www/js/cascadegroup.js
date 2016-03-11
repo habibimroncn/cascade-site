@@ -20,7 +20,6 @@ jQuery(document).ready(function($) {
         parent.history.back();
         return false;
     });
-    window.open = cordova.InAppBrowser.open;
 	// Change url about contact us for all product page.
 	if ($($('div#contact a').last()).length != 0) {
     	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr('target','_blank');
