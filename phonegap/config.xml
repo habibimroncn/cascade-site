@@ -1,7 +1,11 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android   = "http://schemas.android.com/apk/res/android" id="com.phonegap.cascadegradeselector" version="1.1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" 
+  xmlns:gap="http://phonegap.com/ns/1.0" 
+  xmlns:android= "http://schemas.android.com/apk/res/android" 
+  id="com.phonegap.cascadegradeselector" 
+  version="1.1.1">
   <name>Cascade Grade Selector</name>
   <description>Cascade Hardwood Grade Selector</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+  <author href="http://cascadehardwood.com" email="support@cascadehardwood.com">Cascade Hardwood</author>
   
   <content src="index.html"/>
   
@@ -20,28 +24,38 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
-  <preference name="phonegap-version" value="3.5.0" />
+  <preference name="phonegap-version" value="cli-5.2.0" />
   
-  <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.camera"/>
-  <gap:plugin name="org.apache.cordova.media-capture"/>
-  <gap:plugin name="org.apache.cordova.console"/>
-  <gap:plugin name="org.apache.cordova.contacts"/>
-  <gap:plugin name="org.apache.cordova.device"/>
-  <gap:plugin name="org.apache.cordova.device-motion"/>
-  <gap:plugin name="org.apache.cordova.device-orientation"/>
+
+  <gap:plugin name="org.apache.cordova.battery-status" source="npm"/>
+  <gap:plugin name="org.apache.cordova.camera" source="npm"/>
+  <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
+  <gap:plugin name="org.apache.cordova.console" source="npm"/>
+  <gap:plugin name="org.apache.cordova.contacts" source="npm"/>
+  <gap:plugin name="org.apache.cordova.device" source="npm"/>
+  <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
+  <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
   <gap:plugin name="org.apache.cordova.dialogs"/>
-  <gap:plugin name="org.apache.cordova.file"/>
-  <gap:plugin name="org.apache.cordova.file-transfer"/>
-  <gap:plugin name="org.apache.cordova.geolocation"/>
-  <gap:plugin name="org.apache.cordova.globalization"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="org.apache.cordova.media"/>
-  <gap:plugin name="org.apache.cordova.network-information"/>
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
-  <gap:plugin name="org.apache.cordova.vibration"/>
+  <gap:plugin name="org.apache.cordova.file" source="npm"/>
+  <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
+  <gap:plugin name="org.apache.cordova.geolocation" source="npm"/>
+  <gap:plugin name="org.apache.cordova.globalization" source="npm"/>
+  <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+  <gap:plugin name="org.apache.cordova.media" source="npm"/>
+  <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+  <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
+  <gap:plugin name="org.apache.cordova.vibration" source="npm"/>
+  <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
+
+  <feature name="InAppBrowser"> 
+    <param name="ios-package" value="CDVInAppBrowser" /> 
+  </feature> 
+
+  <feature name="InAppBrowser"> 
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
+  </feature>
   
-  <icon src="icon.png"/>
+  <icon src="www/icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
@@ -75,6 +89,10 @@
       android:normalScreens="true" 
       android:largeScreens="true" 
       android:xlargeScreens="true" />
+  </gap:config-file>
+
+  <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+    <false/>
   </gap:config-file>
   
   <plugin name="cordova-plugin-whitelist" version="1"/>
