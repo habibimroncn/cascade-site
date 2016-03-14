@@ -1,0 +1,340 @@
+/* Font styles. */
+@font-face {
+    font-family: 'Captureit';
+    src: url('../fonts/capture_it-webfont.eot');
+    src: url('../fonts/capture_it-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/capture_it-webfont.woff') format('woff'),
+         url('../fonts/capture_it-webfont.ttf') format('truetype'),
+         url('../fonts/capture_it-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('../fonts/rokkittbold-webfont.eot');
+    src: url('../fonts/rokkittbold-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/rokkittbold-webfont.woff') format('woff'),
+         url('../fonts/rokkittbold-webfont.ttf') format('truetype'),
+         url('../fonts/rokkittbold-webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('../fonts/rokkitt-webfont.eot');
+    src: url('../fonts/rokkitt-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/rokkitt-webfont.woff') format('woff'),
+         url('../fonts/rokkitt-webfont.ttf') format('truetype'),
+         url('../fonts/rokkitt-webfont.svg') format('svg');
+    font-weight: normal;    font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  margin: 0;
+  font: 14px/1.6 Arial, sans-serif;
+}
+
+/* Links */
+a:link, a:visited {
+	color:#06c;
+  text-decoration: none;
+	outline:none;
+}
+
+a:hover, a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+a img {
+	outline:none;
+	border:none;
+}
+
+/* Titles. */
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	margin:0;
+}
+
+h1, h2 {
+	line-height: 1;
+	margin-bottom:.2em;
+}
+
+h1,
+div.field-field-headline p,
+div.field-field-headline h1.big {
+	font-family:'Captureit',arial,sans-serif;
+	text-transform:uppercase;
+  font-size: 70px;
+  font-weight: 300;
+}
+
+h2,h3,h4, div.field-field-intro, ul#primary, ul#secondary,
+div.node-type-grade div.content div.field-field-species,
+div.node-type-grade div.field-field-cuttings div.field-label {
+	font-family:'Rokkitt',arial,sans-serif;
+}
+
+div.field-field-headline h1 {
+	font-family: 'Rokkitt', arial, sans-serif;
+	font-size: 18px;
+	text-transform: none;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+h2 span {
+	color:#888;
+}
+
+h3 {
+  font-size: 1.4em;
+	line-height: 1;
+	margin-bottom:.3em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Paragraph styles. */
+strong, p strong {
+	color:#000;
+}
+
+p, li {
+	font-size:1em;
+  margin: 0 0 1em 0;
+}
+
+/* List styles. */
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+/* Table styles. */
+table {
+  width: 99%;
+}
+
+tr.even td,
+tr.odd td {
+  padding: 10px 5px;
+}
+
+tr.odd {
+  background-color: white;
+}
+
+/* Code. */
+pre, code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+
+/* List styles. */
+ul {
+  list-style-type: disc;
+	margin-bottom:1em;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul {
+  list-style-type: square;
+}
+
+ul ul ul ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
+}
+ol ol {
+  list-style-type: lower-alpha;
+}
+ol ol ol {
+  list-style-type: decimal;
+}
+
+/* Abbreviation. */
+abbr {
+  border-bottom: 1px dotted #666666;
+  cursor: help;
+  white-space: nowrap;
+}
+
+/* UI improvments. */
+#edit-title {
+  font-size: 24px;
+  width: 98%;
+}
+
+#system-themes-form img {
+  width: 100px;
+}
+
+.form-item .description {
+  font-style: italic;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #777777;
+}
+
+#edit-delete {
+  color: #cc0000;
+}
+
+/* badge */
+a#badge  {
+	padding: 29px 0 0 30px;
+	display: block;
+	width: 200px;
+	line-height:1.3;
+	height: 55px;
+	background: url(../images/orange-badge-bg.png) no-repeat;
+	position: absolute;
+	top: -12px;
+	left:-15px;
+	font-size: .9em;
+}
+
+a#badge:hover {
+	text-decoration:none;
+	top:-10px;
+}
+
+a#badge span.badge-white {
+	color: #fff;
+}
+a#badge span.badge-black {
+	font-family: 'Rokkitt',arial,sans-serif;
+	color: #000;
+	display:block;
+	font-weight: bold;
+	text-shadow:0px 1px 0px rgba(255,255,255,.5);
+}
+
+/* logo */
+
+div#header a#logo {
+	background: url(../images/logo-background.png) no-repeat;
+	height: 222px;
+	width: 221px;
+	top: 0px;
+}
+
+div#header a#logo img {
+	margin-top: 30px;
+	margin-left: 45px;
+}
+
+/* content */
+div#content-area div.content {
+	background: url(../images/content-background.png) 0 0 no-repeat;
+}
+
+div#content-area div.content div.content {
+	background:none;
+}
+
+
+
+/* buttons */
+a.button,
+div#content-bottom a.button {
+	background: url(../images/blue-button-bg.png) repeat-x;
+	border-radius: 5px;
+	padding: 7px 12px;
+	margin-right: 10px;
+	height: 25px;
+	max-width: 230px;
+	font-family: arial,sans-serif;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 0px 1px 1px #000;
+}
+
+div#content-bottom a.button:hover,
+a.button:hover {
+	text-decoration: none;
+	background:#1180ee;
+}
+
+div.node-type-page div.content a.button {
+	background: url(../images/gray-button-bg.png) repeat-x;
+	color: #008AEB;
+	font-weight: normal;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+div.node-type-page div.content a.button:hover {
+	color:#0068C9;
+	opacity:1;
+	background:#ddd;
+}
+
+div.node-type-page div.content a.button span {
+	background: url(../images/grade-selector-icon.png) right no-repeat;
+	padding-right:30px;
+}
+
+div#content-bottom h3 {
+	margin-bottom:1em;
+	font-size:2em;
+}
+
+div#content-bottom p {
+	color:#666;
+	margin-bottom:25px;
+}
+
+p.additional-description {
+	font-family: 'Source Sans Pro';
+    font-size: 18px;
+    line-height: 20px;
+}
+
+div#content-area div.page-content div.wrap.clearfix div.view div.attachment{
+	min-height: 1892px;
+}
+
+div#content-area div.page-content div.wrap.clearfix div.node div.content {
+	min-height: 2502px;
+}
+
+ul.list-item-product {
+    margin-left: -10px;
+}
+
+ul.list-item-product li {
+	margin-bottom: 0px;
+	color: white !important;
+}

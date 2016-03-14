@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+        <meta name="google" content="notranslate" />
+		<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<title>Cascade Hardwood Group | Alder and Maple Hardwood from the Pacific Northwest</title>
+
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<meta name="description" content="Alder Lumber - Made Easy. At Cascade Hardwood Group, our innovative processes, online tools, and unmatched personal service make it easy to get the lumber you need - on grade and on time." />
+
+		<meta name="revisit-after" content="1 day" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/content-module.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/filefield.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/views.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/tablefield.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/default.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/layout.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/style.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/entities.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/menu.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/pages.css" />
+		<link type="text/css" rel="stylesheet" media="print" href="../css/print.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/grade_selector.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="../css/grade_selector_mobile.css" />
+
+
+		<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.mlens-1.6.min.js"></script>
+		<script type="text/javascript" src="../js/drupal.js"></script>
+		<script type="text/javascript" src="../js/jq-ui.js"></script>
+		<script src="../js/okzoom.min.js"></script>
+    <script src="../js/jquery.zglossary.min.js"></script>
+		<script type="text/javascript" src="../js/cascadegroup.js"></script>
+		<script>
+		jQuery(document).ready(function($) {
+		// duct tape header to top to avoid having to do a bunch of tedious html fixing
+
+		var type = $('div.field-field-species div.field-item').text().trim();
+		var name = $('h2.title').clone().children().remove().end().text();
+
+		$('h1.title').replaceWith('<h1 class="title">' + type + ": " + name + '</h1>');
+
+		// add view controls
+		var viewer = '<div class="view-controls"><div id="front"><a class="front selected" href="chop.html#"><span>front</span></a></div><div id="back"><a class="back" href="chop.html#"><span>back</span></a></div><div id="cuts"><a href="chop.html#"><span>cuts</span></a></div><div id="zoomer"><a href="chop.html#"><span>zoom</span></a></div></div>';
+
+		$('div.node-type-grade').append(viewer);
+  if ( 0 === $( '.photo-cuts' ).length ) {
+    $( '#cuts' ).remove();
+  }
+
+
+		// add product info cta
+
+		var cta = '<div class="side-cta"><img src="../img/call-us.png"><p>For more info, <a href="mailto:">email us</a> or give us a call at</p><p class="side-cta-phone">800-228-3065</p></div><img class="side-footer-logo" src="../img/side-footer-logo.png"></div>'
+
+		$('div.field-field-grade-notes').append(cta);
+
+		// initialize js for grade page
+		_initGradePage();
+
+		// create glossary autolinks
+		$('body').glossary('../js/terms.json', { ignorecase: true });
+
+		});
+		</script>
+		<style>
+		/* no idea why whitespace keeps showing up below the body */
+		html {
+			background: #000;
+		}
+		</style>
+	</head>
+	<body class="not-front not-logged-in page-products no-sidebars with-navigation page-products section-products">
+		<div id="content" class="clearfix">
+			<div id="content-area">
+				<div class="page-header">
+					<div id="line"></div>
+					<div class="wrap">
+						<div id="contact">
+							<a href="http://cascadehardwood.com">
+								CascadeHardwood.com
+							</a>
+							|
+							<a href="http://cascade.mossyrock.us/contact">
+								Contact Us
+							</a>
+						</div>
+						<a href="superior.html#" id="back">
+							<img src="../img/back.png">
+						</a>
+						<h1 class="title">Cascade Grade Selector™</h1>
+						<a href="/" id="logo">
+							home
+						</a>
+					</div>
+				</div>
+				<!-- end header -->
+				<div class="page-content">
+					<div class="wrap clearfix">
+						<div class="node node clearfix node-type-grade" id="node-1">
+							<div class="content species-Cottonwood open">
+								<div class="field field-type-text field-field-species">
+									<div class="field-items">
+										<div class="field-item odd">
+											Cottonwood
+										</div>
+									</div>
+								</div>
+								<h2 class="title">Chop <span>Grade Alder Cottonwood Lumber</span></h2><div class="grade-meta"><div class="category"><div class="field field-type-text field-field-rons-category">
+								<div class="field-items">
+									<div class="field-item odd">
+									Clear Appearance        </div>
+									<div class="field-item even">
+									Clear Cutting Boards        </div>
+									<div class="field-item odd">Crafting</div>
+									<div class="field-item even">Sound Cutting</div>
+								</div>
+							</div>
+						</div><div class="field field-type-filefield field-field-grade-mark">
+						<div class="field-items">
+							<div class="field-item odd">
+							<img  class="imagefield imagefield-field_grade_mark" width="50" height="50" alt="" src="../img/_0003__.png?1315863854" />        </div>
+						</div>
+					</div>
+					</div><div class="node-body">
+						<p class="additional-description">Cottonwood Chop grade boards provide structural grade boards for upholstery frame construction and Crating.</p>
+						<p>Cottonwood Chop grade, if selectively ripped, will yield a balanced number of long rails and shorter parts to construct a normal mix of sofa and chair frames.</p>
+					</div><p><a class="button" href="../../contact-us.html">Contact Sales For More Info</a></p><div class="print-contact" style="display: none;"><h4>Contact Sales For More Info</h4><br/><strong>Phone:</strong> 800-228-3065 <br/> <strong>Email:</strong> info@CHGsales.com</div><div class="field field-type-matrix field-field-cuttings">
+					<div class="field-items">
+						<div class="field-item odd">
+							<table class="sticky-enabled">
+								<thead class="tableHeader-processed"><tr><th></th><th>6'1"
+							</th><th>7'1"
+						</th><th>8'1"
+					</th><th>8'3"
+				</th><th>8'3" solid pack
+			</th><th>10'1"
+			</th><th>12'1"</th> </tr></thead>
+			<tbody>
+				<tr class="even">
+					<td><b>4/4</b></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><span class="bullet">&bull;</span></td>
+					<td></td>
+					<td><span class="bullet">&bull;</span></td>
+					<td></td>
+				</tr>
+			</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<h4>Widths, Lengths &amp; Cuttings</h4>
+					<div class="info">
+						<div class="field field-type-text field-field-width-specs">
+							<div class="field-label">Width Specs:&nbsp;</div>
+							<div class="field-items">
+								<div class="field-item odd">
+									<ul class="list-item-product">
+										<li>4 inch admitting (by volume) </li>
+										<li>5 percent narrows (85.73 mm) minimum.</li> 
+							</ul>
+								</div>
+							</div>
+						</div>
+						<div class="field field-type-text field-field-length-specs">
+							<div class="field-label">Length Specs:&nbsp;</div>
+							<div class="field-items">
+								<div class="field-item odd">
+<ul class="list-item-product">
+	<li>72 inch (182.88cm) minimum.</li> 
+							</ul>
+								</div>
+							</div>
+						</div>
+						<div class="field field-type-text field-field-cutting-specs">
+							<div class="field-label">Cutting Specs:&nbsp;</div>
+							<div class="field-items">
+								<div class="field-item odd">
+<ul class="list-item-product">
+	<li>3 inch (76.20 mm) wide by 24 inch (60.96 cm)</li>
+	<li>Longer structurally sound cuttings</li> 
+							</ul></div>
+							</div>
+						</div>
+					</div>
+					<div class="notes-header">
+						<h4 class="notes-header__title">Notes</h4>
+						<a class="notes-header__link" href="../glossary.html" target="_blank">Glossary</a>
+					</div>
+					<div class="info info-notes">
+						<div class="field field-type-text field-field-grade-notes">
+							<div class="field-items">
+								<div class="field-item odd">
+									<p>Overall Minimum Yield: 50 percent</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="photo-box">
+					<div class="photo photo-front embiggen ">
+						<div class="field field-type-filefield field-field-front-picture">
+							<div class="field-items">
+								<div class="field-item odd">
+									<a href="images/Chop-F.jpg" class="imagecache imagecache-grade-photo imagecache-imagelink imagecache-grade-photo_imagelink"><img src="images/Chop-F.jpg" alt="" title=""  class="imagecache imagecache-grade-photo" width="500" height="1139" /></a>        </div>
+								</div>
+							</div>
+						</div>
+
+						<div class="photo photo-back hide embiggen">
+							<div class="field field-type-filefield field-field-back-picture">
+								<div class="field-items">
+									<div class="field-item odd">
+										<a href="images/Chop-B.jpg" class="imagecache imagecache-grade-photo imagecache-imagelink imagecache-grade-photo_imagelink"><img src="images/Chop-B.jpg" alt="" title=""  class="imagecache imagecache-grade-photo" width="500" height="1139" /></a>        </div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+
+						</div> <!-- /node-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<!--
+	<div id="footer">
+			<div class="wrap">
+
+			</div>
+
+	</div>
+	-->
+	<!-- Insert PG script -->
+</body>
+</html>
