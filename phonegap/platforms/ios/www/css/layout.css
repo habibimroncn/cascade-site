@@ -1,0 +1,203 @@
+body {
+	position:relative;
+	min-width:1000px;
+}
+
+.wrap {
+  width: 940px;
+  margin: 0 auto;
+	position:relative;
+}
+
+div#header {
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:50;
+	background:#CF6300;
+}
+
+div#header div.wrap {
+	z-index:1;
+	height:106px;
+}
+
+div#grade-selector-link {
+	position:absolute;
+	z-index:49;
+	top:106px;
+	width:100%;
+}
+
+div#header a#logo {
+	position:absolute;
+	right:10px;
+	bottom:10px;
+}
+
+div#content {
+	padding-top:106px;
+	width:100%;
+	overflow:hidden;
+}
+
+div#content-area {
+	position:relative;
+	padding-bottom:60px;
+}
+
+#footer {
+	width:100%;
+	height:350px;
+	background: #050605 url(../images/footer-bg.jpg) center right no-repeat;
+	padding-top: 60px;
+	color: #666;
+}
+
+#footer .wrap {
+	width:920px;
+}
+
+#footer-left {
+	float: left;
+	width: 200px;
+}
+
+#footer ul {
+	border-top: 1px solid #333;
+	width: 200px;
+	margin: 10px 0;
+	padding: 5px 0;
+}
+
+#footer ul:last-child {
+	border-bottom: 1px solid #333;
+}
+
+#footer li {
+	margin: 0 15px;
+	padding: 0;
+	font-size: 12px;
+}
+
+#footer li.first {
+	margin: 0; 
+	list-style: none;
+	font-weight: bold;
+}
+
+#footer li.first a {
+	color: #eee;
+}
+
+#footer ul li a {
+	color: #666;
+}
+
+#footer-right {
+	width: 380px;
+	float: right;
+	height: 300px;
+	text-align: right;
+}
+
+div#questions {
+	margin-bottom: 20px;
+}
+
+div#questions span {
+	color: #eee;
+}
+
+div#made-in-the-usa {
+	background: #000 url(../images/footer-logo-made-in-usa.png) center center no-repeat;
+	width: 188px;
+	height: 23px;
+	float: right;
+	margin-bottom: 140px;
+}
+
+div#footer-logos {
+	height: 53px;
+	width: 312px;
+	float: right;
+}
+
+div#footer-logos div {
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+div#footer-logo-cascade {
+	background: transparent url(../images/footer-logo-cascade.png) center center no-repeat;
+	width: 96px;
+	height: 60px;
+	display: block;
+	float: left;
+}
+
+div#footer-logo-fsc {
+	background: transparent url(../images/footer-logo-fsc.png) center center no-repeat;
+	width: 91px;
+	height: 60px;
+	display: block;
+	float: left;
+}
+
+div#footer-logo-nhla {
+	background: transparent url(../images/footer-logo-nhla.png) center center no-repeat;
+	width: 95px;
+	height: 60px;
+	display: block;
+	float: left;
+}
+
+div#copyright {
+	font-size: 9px;
+	float: left;
+}
+
+div#content div.page-content {
+	width:900px;
+	margin:0 auto;
+	position:relative;
+	padding:20px 20px 100px;
+}
+
+div#content div.page-header {
+	height:486px;
+	position:relative;
+	margin-bottom:-330px;
+}
+
+div#content div.page-content {
+	background:#fff;
+}
+
+div#content-bottom {
+	background:#EDEDED;
+}
+
+div#content-bottom div.wrap {
+	padding:80px 0;	
+}
+
+
+
+div#header div.shadow div {
+	background:url(../images/header-shadow.png) no-repeat left bottom;
+	width:539px;
+	height:106px;
+	position:absolute;
+	top:0;
+}
+
+div#header div.shadow div.s1 {
+	left:0;
+}
+
+div#header div.shadow div.s2 {
+	right:0;
+	background-position:left top;
+}
+

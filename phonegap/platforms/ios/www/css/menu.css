@@ -1,0 +1,210 @@
+div.tabs {
+	position:absolute;
+	top:140px;
+	width:100%;
+	z-index:1;
+}
+
+body.node-type-page div.tabs {
+	top:300px;
+}
+
+body.section-admin div.tabs {
+	position:static;
+	margin:20px 0;
+}
+
+div.tabs ul {
+	border:none;
+	width:940px;
+	margin:0 auto;
+}
+
+ul.primary li a,
+ul.primary li a.active {
+	background:#000;
+	color:#999;
+	border-bottom:none;
+	border-left-color:#fff;
+	padding:4px 6px;
+}
+
+ul.primary li a.active {
+	background:#666;
+	color:#fff;
+}
+
+
+/*main nav*/
+ul#primary {
+	position:absolute;
+	top:70px;
+}
+
+ul#primary a {
+	color:#fff;
+	text-shadow:0px -1px 0px rgba(0,0,0,.2);
+	font-size:14px;
+	padding:0;
+	line-height:1;
+}
+
+ul#primary a:hover {
+	border-bottom:2px solid rgb(255,255,255);
+	border-bottom:2px solid rgba(255,255,255,.5);
+	text-decoration:none;
+}
+
+ul#primary li.active-trail a:hover {
+	border-color:#FAB200;
+}
+
+ul#primary li.active-trail a {
+	color:#FAB200;
+}
+
+ul#primary li {
+	margin-right:15px;
+}
+
+/* secondary nav */
+div.nav-wrap,
+div.product-tabs {
+	position: absolute;
+	top: 515px;
+	width: 100%;
+	z-index:1;
+	font-family:'Rokkitt',arial,sans-serif;
+	font-size: 1.2em;
+}
+
+div.product-tabs {
+	font-size:1em;
+	top:570px;
+}
+
+ul#secondary {
+	width: 940px;
+	margin: 0 auto;
+	padding-left: 100px;
+}
+
+div.product-tabs li,
+ul#secondary li {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 200px;
+	height: 205px;
+	padding:0;
+	overflow: hidden;
+}
+
+div.product-tabs li.active,
+ul#secondary li.active {
+	padding-right:32px;
+	position:relative;
+	margin-right:-32px;
+	background: url(../images/tab-shadow.png) no-repeat right 22px;
+}
+
+div.product-tabs a,
+ul#secondary a {
+	text-shadow:0px 1px 0px rgba(255,255,255,1);
+	display: block;
+	width: 200px;
+	height: 85px;
+	padding-top: 120px;
+	color: #808080;
+	text-decoration: none;
+}
+
+div.product-tabs li {
+	height:135px;
+	width:180px;
+}
+
+div.product-tabs li a {
+	height:75px;
+	width:180px;
+	padding-top:60px;
+}
+
+div.product-tabs li.active a {
+	background:#fff;
+	color:#000;
+}
+
+/* species resources */
+ul#secondary li.menu-296 a { 
+	background: transparent url(../images/tabs-alder.png) no-repeat 50px 30px;
+}
+
+ul#secondary li.menu-297 a {
+	background: transparent url(../images/tabs-maple.png) no-repeat 55px 30px;
+}
+
+ul#secondary li.menu-313 a {
+	background: transparent url(../images/tabs-ash.png) no-repeat 55px 30px;
+}
+
+/* mills */
+
+ul#secondary li.menu-310 a { 
+	background: transparent url(../images/cascade-hardwood-logo-unselected.png) center 30px no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+
+ul#secondary li.menu-310.active a {
+	background: #fff url(../images/cascade-hardwood-logo-selected.png) center 30px no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+
+ul#secondary li.menu-312 a { 
+	background: transparent url(../images/pa-logo-unselected.png) center 30px no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+
+ul#secondary li.menu-312.active a {
+	background: #fff url(../images/pa-logo-selected.png) center 30px no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+
+body.section-our-mills div.nav-wrap {
+	top:580px;
+}
+
+body.section-our-mills ul#secondary li {
+	height:138px;
+}
+
+body.section-our-mills ul#secondary li a {
+	padding-top:60px;
+}
+
+ul#secondary li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+
+/* home */
+ul#primary li.menu-304 a {
+	text-indent:-500px;
+	overflow:hidden;
+	width:15px;
+	height:15px;
+	margin-right:20px;
+	display:block;
+	float:left;
+	padding-bottom:4px;
+	background:url(../images/home-nav.png) no-repeat left top;
+}
+
+ul#primary li.menu-304 a.active {
+	background-position:left -30px;
+}
