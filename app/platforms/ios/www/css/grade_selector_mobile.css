@@ -21,7 +21,14 @@ and (max-width : 768px) {
 
 body.section-products div#contact,
 body.section-products a#back {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
+	/*display: none;*/
+	margin-left: 16px;
+	top: 35px;
+}
+
+body.section-products div#contact {
+	display: none;
 }
 
 

@@ -97,6 +97,8 @@ body.section-products div#content div.page-header h1.title {
   font-size: 20px;
   position: relative;
   top: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
   color: #ccc;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
@@ -607,10 +609,10 @@ div.view-grade-selector li.views-row div.views-field-title {
 }
 
 div.view-grade-selector li.views-row a {
-	color:#000;
+	color:#070605;
 	font-weight:bold;
 	text-decoration:none !important;
-	text-shadow:0px 1px 0px #fff;
+	/*text-shadow:0px 1px 0px #fff;*/
 }
 
 
@@ -618,8 +620,8 @@ div.view-grade-selector div.views-field-field-category-value,
 div.view-grade-selector div.views-field-field-species-value {
 	z-index:1;
 	text-transform:uppercase;
-	color:#654;
-	text-shadow:0px 1px 1px #fff;
+	color: #8F847B;
+	/*text-shadow:0px 1px 1px #fff;*/
 	font-size:11px;
 	position:absolute;
 	/*bottom:5px;*/
@@ -840,18 +842,19 @@ div.node-type-grade div.content table {
 div.node-type-grade div.content table td,
 div.node-type-grade div.content table th {
 	width:20px;
-	padding:5px;
+	/*padding:2px;*/
+	padding: 2px 3px;
 	border:none;
 }
 
 div.node-type-grade div.content table td {
-	border-right:1px solid #D9D9D9;
+	border-right:1px solid #323232;
 }
 
 div.node-type-grade div.content table tbody {
-	border-top:1px solid #D9D9D9;
-	border-bottom:1px solid #D9D9D9;
-	border-left:1px solid #D9D9D9;
+	border-top:1px solid #323232;
+	border-bottom:1px solid #323232;
+	border-left:1px solid #323232;
 }
 
 div.node-type-grade div.content table span.bullet {
@@ -859,6 +862,13 @@ div.node-type-grade div.content table span.bullet {
 	font-size:30px;
 	display: block;
 	color: #739600;
+}
+
+div.node-type-grade div.content table span.bullet-black {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    color: #000000;
 }
 
 /*
@@ -876,7 +886,17 @@ div.node-type-grade div.content table tr.odd {
 div.node-type-grade div.content table tr.even,
 div.node-type-grade div.content table tr.odd {
 	background:none;
-	border-top:1px solid #D9D9D9;
+	border-top:1px solid #323232;
+}
+
+div.node-type-grade div.content table tr.even td:first-child, 
+div.node-type-grade div.content table tr.odd td:first-child{
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+
+div.node-type-grade div.content table tr:last-child td:first-child {
+	border-bottom: none;
 }
 
 /*
@@ -1129,19 +1149,26 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 	background-color: #fff;
 	border: 0px solid #ccc;
 	border-radius: 8px;
-	width: 200px;
+	/*width: 200px;*/
+	width: 165px;
 	height: auto;
 }
 
 #glossaryContent .glossary__image--inline {
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
+	padding-bottom: 0px;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
+    width: 162px;
+    height: 163px;
+    border: 1px solid #AFA9A6;
 }
 #glossaryContent h6 {
 	margin: 0 0 0.6em;
 	font-size: 13px;
 	font-weight: bold;
+	visibility: hidden;
 }
 #glossaryContent p { margin: 0; }
 
@@ -1156,7 +1183,7 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 }
 #glossaryClose:after {
 	content: "X";
-    color: #ccc;
+    color: #1F1F1F;
     font-size: 18px;
     font-weight: 100;
 }
@@ -1164,14 +1191,16 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 
 
 #glossary-content {
-	margin-top: 50px;
+	margin-top: 20px;
+	padding-left: 35px;
+    padding-right: 35px;
 }
 .glossary__entry {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .glossary__entry + .glossary__entry {
-	border-top: 1px solid #666;
+	border-top: 1px solid #272727;
 }
 .glossary__image-wrapper,
 .glossary__content {
@@ -1180,11 +1209,13 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 }
 .glossary__image-wrapper {
 	overflow: hidden;
-	border: 1px solid #666;
-	border-radius: 50%;
+	border: 1px solid #272727;
+	/*border-radius: 50%;*/
 }
 .glossary__image--stand-alone {
 	display: block;
+	width: 162px;
+    height: 163px;
 }
 .glossary__content {
 	padding-left: 20px;
@@ -1192,4 +1223,158 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 }
 .glossary--list .glossary__image--inline {
 	display: none;
+}
+
+p.table_description {
+	color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+}
+
+/* Modal box Style */
+.modal-box {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1.25em 1.5em;
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+.modal-box .modal-body { 
+	padding: 2em 1.5em; 
+	position: relative;
+    margin: 0 auto;
+    display: table;
+    width: 480px;
+    table-layout: fixed;
+    border-spacing: 10px;
+    padding-top: .1em;
+    padding-right: 0;
+    padding-left: 0; 
+}
+
+.modal-box footer,
+.modal-box .modal-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 2.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: #161616;
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+h2.title-box {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+    font-weight: 400;
+    color: #111111;
+}
+
+.contact-phone, .contact-email, .visit-website {
+ 	display: table-cell;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;   
+    text-align: center;
+    height: 170px;
+}
+
+
+div.contact-phone a div.icon-contact-phone {
+	background: url(../img/icon-contact-phone.png) no-repeat 15px 0;
+}
+
+div.contact-email a div.icon-contact-email {
+	background: url(../img/icon-contact-email.png) no-repeat 15px 0;
+}
+
+div.visit-website a div.icon-visit-website {
+	background: url(../img/icon-visit-website.png) no-repeat 15px 0;
+}
+
+div.contact-phone a div.icon-contact-phone,
+div.contact-email a div.icon-contact-email,
+div.visit-website a div.icon-visit-website {
+	height: 62px;
+    text-align: center;
+    background-position: center top;
+    margin-top: 20px;
+}
+
+div.contact-phone a label, 
+div.contact-email a label,
+div.visit-website a label {
+	position: relative;
+	top: 10px;
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+    font-weight: 300;
+	color: #008AEB;
+}
+div.contact-phone a label {
+	color: #666666;
+}
+
+@media (min-width: 32em) {
+  .modal-box { width: 70%; }
+}
+
+/* Overlay glossary */
+#cover{
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    z-index:50;
+    width:100%;
+    height:100%;
+    display:none;
 }
