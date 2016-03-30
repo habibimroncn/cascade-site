@@ -1,5 +1,20 @@
 [
   {
+    "term":"Clear Appearance",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/clear_appearance.jpg'><br /><br /><strong>Clear Appearance</strong><br />.",
+    "image": "img/glossary/clear_appearance.jpg"
+  },{
+    "term":"Open Knot",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/open_knot.jpg'><br /><br /><strong>Open Knot</strong><br />.",
+    "image": "img/glossary/open_knot.jpg"
+  },{
+    "term":"Skip",
+    "type":"0",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/skip.jpg'><br /><br /><strong>Skip</strong><br />.",
+    "image": "img/glossary/skip.jpg"
+  },{
     "term":"Bark Pocket",
     "type":"0",
     "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/bark_pocket.jpg'><br /><br /><strong>Bark Pocket</strong><br />A bark-filled blemish in the board.",
@@ -7,7 +22,7 @@
   },{
     "term":"Decay",
     "type":"0",
-    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/decay.jpg'><br /><br /><trong>Decay</trong><br />The decomposition of wood substance by fungi.",
+    "definition":"<img class='glossary_image glossary__image--inline' src='../img/glossary/decay.jpg'><br /><br /><strong>Decay</strong><br />The decomposition of wood substance by fungi.",
     "image": "img/glossary/decay.jpg"
   },{
     "term":"Incipient Decay",
