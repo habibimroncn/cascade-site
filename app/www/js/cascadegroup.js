@@ -6,10 +6,13 @@ jQuery(document).ready(function($) {
 				console.log('glossary not active');
 			} else {
 				$('div#cover').css('display','block');
+				$('body.section-products a#back').css('z-index','9');
+				$('div.view-controls').css('z-index','10');
 			}
 
-			$('div#glossaryClose').click(function(){
+			$('div#glossaryClose, div#glossaryContent').click(function(){
 			  	$('div#cover').css('display','none');
+			  	$('div.view-controls').css('z-index','999');
 			});
 		});
 	}
@@ -81,6 +84,11 @@ jQuery(document).ready(function($) {
 		$('#back').css('display','none');
 	};
 	// End Hide back button on index and show on sub page
+
+	// Hide Contact on glossary
+	if ($('div.glossary').length > 0) {
+		$('#logo').css('display','none');
+	};
 
 	var length_div = $('.species-group ul').length;
 	for (var i = 0; i < length_div; i++) {
@@ -946,6 +954,8 @@ function _showProductContentIndex(i, fade) {
 	var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
 
 	  $('a[data-modal-id]').click(function(e) {
+	  	$('body.section-products a#back').css('z-index','9');
+	  	$('div.view-controls').css('z-index','10');
 	    e.preventDefault();
 	    $("body").append(appendthis);
 	    $(".modal-overlay").fadeTo(500, 0.7);
@@ -956,6 +966,7 @@ function _showProductContentIndex(i, fade) {
 	  
 	  
 	$(".js-modal-close, .modal-overlay").click(function() {
+		$('div.view-controls').css('z-index','999');
 	  $(".modal-box, .modal-overlay").fadeOut(500, function() {
 	    $(".modal-overlay").remove();
 	  });
