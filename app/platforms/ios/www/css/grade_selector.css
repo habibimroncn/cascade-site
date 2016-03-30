@@ -59,9 +59,8 @@ body.section-products div#line {
 body.section-products div#contact {
 	position: absolute;
 	margin-top: 37px;
-	margin-left: 2px;
 	color: #008aeb;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 body.section-products div#contact a {
@@ -77,26 +76,28 @@ body.section-products a#back {
 
 body.section-products div#content div.page-header {
 	background: #262626;
-	height: 65px;
+	height: 126px;
     position: relative;
     margin-bottom: 0px;
 	text-align: center;
 }
 
 body.section-products div.page-header a#logo {
-	margin-top: 10px;
-    height: 85px;
-    background-image: url(../img/icon-message.png);
-    background-repeat: no-repeat;
-    text-indent: -1000px;
-    overflow: hidden;
-    float: right;
+	margin-top: 0px;
+	margin-left: 42px;
+	height: 85px;
+	width: 144px;
+	display: block;
+	background-image: url(../img/selector-logo.png);
+	text-indent: -1000px;
+	overflow: hidden;
+	float: right;
 }
 
 body.section-products div#content div.page-header h1.title {
   font-size: 20px;
   position: relative;
-  top: 35px;
+  top: 92px;
   color: #ccc;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
@@ -125,15 +126,10 @@ body.section-products div#content div.page-content {
     left: 0;
     z-index: 1;
     float: left;
-    /*width: 265px;*/
-    width: 360px;
-	/*border-right: 1px solid #666;*/
-	border-right: 2px solid #262626;
+    width: 265px;
+	border-right: 1px solid #666;
 	-webkit-transition: left .3s ease;
 	transition: left .3s ease;
-} 
-.node .content {
-	width: 340px;
 }
 .node .hider,
 .view .hider {
@@ -159,33 +155,16 @@ body.section-products div#content div.page-content {
 }
 .node .content .opener,
 .view .attachment .opener-main {
-	/*position: absolute;
+	position: absolute;
 	left: 250px;
 	top: 20px;
 	z-index: 99999;
 	height: 1px;
 	cursor: pointer;
 	background-color: #fff;
-	background-image: url(../img/icon-menu.png);
-    background-repeat: no-repeat;
-     height: 85px;*/
-    position: absolute;
-    z-index: 99999;
-    /*height: 1px;*/
-    top: 5px;
-    cursor: pointer;
-    background-image: url(../img/icon-menu-open.png);
-    background-repeat: no-repeat;
-    height: 26px;
-    width: 26px;
 }
 .view .attachment .opener-main {
-	/*left: 225px;*/
-	left: 330px;
-}
-.node .content .opener {
-    /* left: 225px; */
-    left: 365px;
+	left: 218px;
 }
 .node .content .opener:before,
 .view .attachment .opener-main:before,
@@ -196,18 +175,17 @@ body.section-products div#content div.page-content {
 }
 .node .content .opener:before,
 .view .attachment .opener-main:before {
-	/*top: -5px;
+	top: -5px;
 	padding-bottom: 5px;
-	border-top: 1px solid #fff;*/
+	border-top: 1px solid #fff;
 }
 .node .content .opener:after,
 .view .attachment .opener-main:after {
-	/*padding-top: 5px;
-	border-bottom: 1px solid #fff;*/
+	padding-top: 5px;
+	border-bottom: 1px solid #fff;
 }
 .view .attachment .filters-form {
-	/*padding: 60px 26px 60px 0;*/
-	padding: 60px 15px 60px 10px;
+	padding: 60px 26px 60px 0;
 }
 .view .view-content,
 .node .photo-box {
@@ -217,13 +195,11 @@ body.section-products div#content div.page-content {
 	transition: all .3s ease;
 }
 .view .view-content {
-	/*margin-left: 295px;*/
-	margin-left: 405px;
+	margin-left: 295px;
 }
 .node .photo-box {
 	width: 625px;
-	/*margin-left: 325px;*/
-	margin-left: 395px;
+	margin-left: 325px;
 	padding: 20px 0;
 }
 .node .photo-box a {
@@ -238,12 +214,10 @@ body.section-products div#content div.page-content {
 }
 
 .view.closed .attachment {
-	left: -215px;
-	width: 265px;
+	left: -200px;
 }
 .node.closed .content {
-	/*left: -230px;*/
-	left: -335px;
+	left: -230px;
 }
 .view.closed .hider {
 	margin-right: -50px;
@@ -253,27 +227,12 @@ body.section-products div#content div.page-content {
 }
 .node.closed .content .opener,
 .view.closed .attachment .opener-main {
-	/*-ms-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);*/
-    position: absolute;
-    z-index: 99999;
-    top: 5px;
-    cursor: pointer;
-    background-image: url(../img/icon-menu.png);
-    background-repeat: no-repeat;
-    height: 26px;
-    width: 26px;
-    left: 225px;
-
-}
-.node.closed .content .opener {
-	left: 348px;
-	background-image: url(../img/icon-menu-shout.png);
+    transform: rotate(180deg);
 }
 .view.closed .view-content {
-	/*margin-left: 90px;*/
-	margin-left: 70px;
+	margin-left: 90px;
 }
 .node.closed .photo-box {
 	margin-left: 70px;
@@ -282,17 +241,11 @@ body.section-products div#content div.page-content {
 	width: calc( 100% - 70px );
 }
 
-.filter.usage .notes-header__link {
-	color: #DEDEDE !important;
-}
+
 
 body.section-products h4 {
-	color: #DEDEDE;
+	color: #fff;
 	font-size: 1em;
-}
-
-h4.board-type {
-    float: left;
 }
 
 body.section-products div.node-type-grade h4 {
@@ -333,7 +286,7 @@ body.section-products div.view-content {
 }
 
 body.page-products div.view-content {
-	padding-top:0px;
+	padding-top:50px;
 	/* set to height of window? */
 	height: 678px;
 }
@@ -376,7 +329,7 @@ div.side-cta {
 }
 
 div.side-cta p {
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0;
 	color: #fff;
 }
@@ -398,8 +351,7 @@ img.side-footer-logo-index {
 }
 
 div#content-area div.node-type-grade div.content {
-	/*padding:40px 25px 0 0px;*/
-	padding: 40px 25px 0 25px;
+	padding:40px 25px 0 0px;
 	color:#fff;
 	overflow: hidden;
 	font-family: "Source Sans Pro", sans-serif;
@@ -450,10 +402,8 @@ div.view-grade-selector li.views-row div.views-field-field-front-picture-fid img
 
 div.view-grade-selector div.view-content h2 {
 	font-size:1.3em;
-	/*margin-bottom:20px;*/
+	margin-bottom:20px;
 	color:#bbb;
-	/*display: none;*/
-	visibility: hidden;
 }
 
 
@@ -481,16 +431,11 @@ div.appearance {
 }
 
 div.length, div.thickness {
-	width: 152px;
+	width: 110px;
 	float: left;
 	padding-top: 10px;
 	border-bottom: 0;
 	margin-bottom: 0;
-}
-
-.filter.thickness h4,
-.filter.length h4 {
-    text-align: center;
 }
 
 div.thickness div label,
@@ -499,8 +444,7 @@ div.length div label {
 }
 
 div.length {
-	/*padding-left: 10px;*/
-	padding-left: 30px;
+	padding-left: 10px;
 	/* border-left: 1px solid #D9D9D9; */
 }
 
@@ -515,7 +459,6 @@ div.species {
 	height: 38px;
 	width: 53px;
 	padding: 0 3px;
-	padding-left: 0px;
 }
 
 div.species-header h4 {
@@ -534,7 +477,7 @@ div.filter label {
 
 div.filter label {
   color: #808080;
-  border: 1px solid #232323;
+  border: 1px solid #808080;
   display: block;
   padding: 6px;
   margin: 9px 0;
@@ -551,8 +494,7 @@ div.filter input {
 
 div#edit-field-species-value-many-to-one-Alder-wrapper label {
 	background: url(../img/alder_little.png) no-repeat center 0;
-	/*width: 68px;*/
-	font-size: 13px;
+	width: 38px;
 	height: 22px;
 	padding-top: 54px;
 	text-align: center;
@@ -560,8 +502,7 @@ div#edit-field-species-value-many-to-one-Alder-wrapper label {
 }
 div#edit-field-species-value-many-to-one-Maple-wrapper label {
 	background: url(../img/maple_little.png) no-repeat center 0;
-	/*width: 68px;*/
-	font-size: 13px;
+	width: 38px;
 	height: 22px;
 	padding-top: 54px;
 	text-align: center;
@@ -569,8 +510,7 @@ div#edit-field-species-value-many-to-one-Maple-wrapper label {
 }
 div#edit-field-species-value-many-to-one-Ash-wrapper label {
 	background: url(../img/ash_little.png) no-repeat 15px 0;
-	/*width: 68px;*/
-	font-size: 13px;
+	width: 38px;
 	height: 22px;
 	padding-top: 54px;
 	text-align: center;
@@ -578,19 +518,11 @@ div#edit-field-species-value-many-to-one-Ash-wrapper label {
 }
 div#edit-field-species-value-many-to-one-Cotton-wrapper label {
 	background: url(../img/cotton_little.png) no-repeat 15px 0;
-	/*width: 68px;*/
-	font-size: 13px;
+	width: 38px;
 	height: 22px;
 	padding-top: 54px;
 	text-align: center;
 	background-position: center top;
-}
-
-div#edit-field-species-value-many-to-one-Alder-wrapper,
-div#edit-field-species-value-many-to-one-Maple-wrapper,
-div#edit-field-species-value-many-to-one-Ash-wrapper,
-div#edit-field-species-value-many-to-one-Cotton-wrapper {
-    width: 80px;
 }
 
 div.view-grade-selector div.view-content div.species-group {
@@ -599,18 +531,16 @@ div.view-grade-selector div.view-content div.species-group {
 
 div.view-grade-selector li.views-row div.views-field-title {
 	line-height:1.3;
-	/*width:90px;*/
-	top: 35px;
-	font-size: 18px;
+	width:90px;
 	z-index:1;
 	position:relative;
 }
 
 div.view-grade-selector li.views-row a {
-	color:#070605;
+	color:#000;
 	font-weight:bold;
 	text-decoration:none !important;
-	/*text-shadow:0px 1px 0px #fff;*/
+	text-shadow:0px 1px 0px #fff;
 }
 
 
@@ -618,12 +548,11 @@ div.view-grade-selector div.views-field-field-category-value,
 div.view-grade-selector div.views-field-field-species-value {
 	z-index:1;
 	text-transform:uppercase;
-	color: #8F847B;
-	/*text-shadow:0px 1px 1px #fff;*/
+	color:#654;
+	text-shadow:0px 1px 1px #fff;
 	font-size:11px;
 	position:absolute;
-	/*bottom:5px;*/
-	top: 30px;
+	bottom:5px;
 	left:10px;
 }
 
@@ -668,7 +597,7 @@ div.view-grade-selector div.maple div.views-field-field-grade-mark-fid {
 }
 
 div.view-grade-selector div.alder div.views-field-field-grade-mark-fid {
-	background:url(../img/alder-leaf.png) no-repeat right bottom;
+	background:url(../img/alder_leaf_small.png) no-repeat right bottom;
 }
 div.view-grade-selector div.cottonwood div.views-field-field-grade-mark-fid {
 	background: url(../cottonwood/images/leaf.png) no-repeat right bottom;
@@ -938,8 +867,7 @@ div.node-type-grade h4.tipdown-open {
 
 div.view-controls {
 	position: fixed;
-	top: 90px;
-    right: 15px;
+	top: 180px;
 	width: 1000px;
 	max-width: 100%;
 	z-index: 999;
@@ -1164,16 +1092,14 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 
 
 #glossary-content {
-	margin-top: 20px;
-	padding-left: 35px;
-    padding-right: 35px;
+	margin-top: 50px;
 }
 .glossary__entry {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .glossary__entry + .glossary__entry {
-	border-top: 1px solid #272727;
+	border-top: 1px solid #666;
 }
 .glossary__image-wrapper,
 .glossary__content {
@@ -1182,13 +1108,11 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 }
 .glossary__image-wrapper {
 	overflow: hidden;
-	border: 1px solid #272727;
-	/*border-radius: 50%;*/
+	border: 1px solid #666;
+	border-radius: 50%;
 }
 .glossary__image--stand-alone {
 	display: block;
-	width: 162px;
-    height: 163px;
 }
 .glossary__content {
 	padding-left: 20px;
