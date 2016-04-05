@@ -1,4 +1,31 @@
 jQuery(document).ready(function($) {
+	setTimeout(glossaryOnClick,3000);
+	function glossaryOnClick() {
+		$('a.glossaryTerm').click(function(){
+			if ($('div#glossaryTip').css('display') == 'none') {
+				console.log('glossary not active');
+			} else {
+				$('div#cover').css('display','block');
+				$('body.section-products a#back').css('z-index','9');
+				$('div.view-controls').css('z-index','10');
+			}
+
+			$('div#glossaryClose, div#glossaryContent').click(function(){
+			  	$('div#cover').css('display','none');
+			  	$('div.view-controls').css('z-index','999');
+			});
+		});
+	}
+
+	// insert html code on file 
+	var html = '<div id="popup" class="modal-box">';
+	    html += '<header><a href="#" class="js-modal-close close">×</a><h2 class="title-box">Want to know more?</h2></header>';
+	    html += '<div class="modal-body">';
+	    html += '<div class="contact-phone"><a href="#" ><div class="icon-contact-phone"></div><label>Give us a ring:<br />800-228-3065</label></a></div><div class="contact-email"><a href="#"><div class="icon-contact-email"></div><label>Drop us an email</label></a></div><div class="visit-website"><a href="#"><div class="icon-visit-website"></div><label>Visit our website</label></a></div>';
+	    html += '</div></div>';
+	$('div#content').append(html);
+	var overlay_glossary = '<div id="cover"></div>';
+	$('div#content').append(overlay_glossary);
 
 	if ($('div.grade-selector-filters')[0]) {
 		_initGradeSelector();
@@ -32,7 +59,7 @@ jQuery(document).ready(function($) {
 	// if ($('div.homepage').length == 0  && $('div.glossary').length == 0) {
 		// Change url homepage icon for all product page.
 		if ($('a#logo').length != 0) {
-	    	$('a#logo').attr("href", "http://cascadehardwood.com").attr('target','_blank');
+	    	$('a#logo').attr("href", "#").attr('class','js-open-modal').attr('data-modal-id','popup');
 		}
 	// }
 
@@ -57,6 +84,11 @@ jQuery(document).ready(function($) {
 		$('#back').css('display','none');
 	};
 	// End Hide back button on index and show on sub page
+
+	// Hide Contact on glossary
+	if ($('div.glossary').length > 0) {
+		$('#logo').css('display','none');
+	};
 
 	var length_div = $('.species-group ul').length;
 	for (var i = 0; i < length_div; i++) {
@@ -914,3 +946,40 @@ function _showProductContentIndex(i, fade) {
 	$('div.product-tabs li:eq('+i+')').addClass('active');
 	//Cufon.refresh();
 }
+
+
+// Modal box script
+	$(function(){
+
+	var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
+
+	  $('a[data-modal-id]').click(function(e) {
+	  	$('body.section-products a#back').css('z-index','9');
+	  	$('div.view-controls').css('z-index','10');
+	    e.preventDefault();
+	    $("body").append(appendthis);
+	    $(".modal-overlay").fadeTo(500, 0.7);
+	    //$(".js-modalbox").fadeIn(500);
+	    var modalBox = $(this).attr('data-modal-id');
+	    $('#'+modalBox).fadeIn($(this).data());
+	  });  
+	  
+	  
+	$(".js-modal-close, .modal-overlay").click(function() {
+		$('div.view-controls').css('z-index','999');
+	  $(".modal-box, .modal-overlay").fadeOut(500, function() {
+	    $(".modal-overlay").remove();
+	  });
+	});
+	 
+	$(window).resize(function() {
+	  $(".modal-box").css({
+	    top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+	    left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+	  });
+	});
+	 
+	$(window).resize();
+	 
+	});
+	// End Modal Box script
