@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 	var html = '<div id="popup" class="modal-box">';
 	    html += '<header><a href="#" class="js-modal-close close">×</a><h2 class="title-box">Want to know more?</h2></header>';
 	    html += '<div class="modal-body">';
-	    html += '<div class="contact-phone"><a href="tel:1-800-228-3065"><div class="icon-contact-phone"></div><label>Give us a ring:<br />800-228-3065</label></a></div><div class="contact-email"><a href="mailto:info@CHGsales.com"><div class="icon-contact-email"></div><label>Drop us an email</label></a></div><div class="visit-website"><a href="http://www.cascadehardwood.com" target="_blank"><div class="icon-visit-website"></div><label>Visit our website</label></a></div>';
+	    html += '<div class="contact-phone"><a href="tel:1-800-228-3065"><div class="icon-contact-phone"></div><label>Give us a ring:<br />800-228-3065</label></a></div><div class="contact-email"><a href="mailto:info@CHGsales.com"><div class="icon-contact-email"></div><label>Drop us an email</label></a></div><div class="visit-website"><a href="http://www.cascadehardwood.com" target="_system"><div class="icon-visit-website"></div><label>Visit our website</label></a></div>';
 	    html += '</div></div>';
 	$('div#content').append(html);
 	var overlay_glossary = '<div id="cover"></div>';
@@ -983,3 +983,10 @@ function _showProductContentIndex(i, fade) {
 	 
 	});
 	// End Modal Box script
+	window.addEventListener('load', function () {    
+    $(document).on('click', 'a[target="_system"]', function (e) {
+            e.preventDefault();
+            var url = this.href;
+            window.open(url,"_system");                    
+    });
+	}, false);
