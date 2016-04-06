@@ -106,6 +106,7 @@
     </gap:config-file>
     <access origin="*" />
     <allow-intent href="http://*/*" />
+    <allow-intent href="http://cascadehardwood.com" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
