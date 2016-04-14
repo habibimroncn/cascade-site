@@ -394,11 +394,14 @@
         position: relative;
         bottom: 15px;
     }
+    .node .photo-box {
+        overflow: hidden;
+    }
 }
 /*end*/
-@media (min-width: 32em) {
+/*@media (min-width: 32em) {
         
-    }
+    }*/
 /* phone  */
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
