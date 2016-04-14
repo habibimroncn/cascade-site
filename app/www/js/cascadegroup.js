@@ -273,23 +273,23 @@ if ($('ul#primary li.active')[0]) {
 	(function() {
 		if ( $( window ).width() < 900 ) {
 			// Trigger zoom lense on touchscreen
-		$( "a img.imagecache" ).load(function() {
-			// Only enable zoom if the native image width is larger than the screen image width
-			var $screenImage = $( this );
-				$screenImage.mlens({
-					lensShape: "circle",
-					lensSize:["150px","150px"],
-					borderSize: 4,
-					borderColor: "#fff",
-					borderRadius: 0,
-					zoomLevel: 1,
-					responsive: true,
-				});
+		// $( "a img.imagecache" ).load(function() {
+		// 	// Only enable zoom if the native image width is larger than the screen image width
+		// 	var $screenImage = $( this );
+		// 		$screenImage.mlens({
+		// 			lensShape: "circle",
+		// 			lensSize:["150px","150px"],
+		// 			borderSize: 4,
+		// 			borderColor: "#fff",
+		// 			borderRadius: 0,
+		// 			zoomLevel: 1,
+		// 			responsive: true,
+		// 		});
 
-			$screenImage.on("touchend", function(e){
-		       $('[id^=mlens_target]').css('display','block');
-			});
-			});
+		// 	$screenImage.on("touchend", function(e){
+		//        $('[id^=mlens_target]').css('display','block');
+		// 	});
+		// 	});
 
 		
 			
@@ -854,6 +854,14 @@ function _initGradePage() {
     $('div.photo a').click(function () {
         return false;
     });
+    $('div.photo-front div.field-items div.field-item.odd').addClass('pinch');
+    $('div.photo-back div.field-items div.field-item.odd').addClass('pinch');
+    $('div.photo-cuts div.field-items div.field-item.odd').addClass('pinch');
+    $('meta[name=viewport]').remove();
+    $('head').append( '<meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=3.0, width=device-width, height=device-height" />' );
+    $( '<script type="text/javascript" src="../js/hammer.min.js"></script>' ).appendTo( "body" );
+    $( '<script type="text/javascript" src="../js/cascade-pinch.js"></script>' ).appendTo( "body" );
+    // $( '<script type="text/javascript" src="../js/touch-emulator.js"></script>' ).appendTo( "body" );
     $('div#front a').click(function () {
     	console.log('front');
         $('div#front a').addClass('selected');
