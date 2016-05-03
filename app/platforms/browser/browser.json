@@ -36,6 +36,6 @@
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.1",
-        "cordova-plugin-inappbrowser": "1.2.1"
+        "cordova-plugin-inappbrowser": "1.4.0"
     }
 }
