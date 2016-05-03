@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.cascadegradeselector" version="1.2.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.cascadegradeselector" version="1.2.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -76,7 +76,7 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
-    <icon src="icon.png" />
+    <icon src="www/icon.png" />
     <gap:config-file overwrite="true" parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
         <false />
     </gap:config-file>
@@ -85,7 +85,7 @@
     </gap:config-file>
     <access origin="*" />
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://cascadehardwood.com" />
+    <allow-intent href="http://www.cascadehardwood.com" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
