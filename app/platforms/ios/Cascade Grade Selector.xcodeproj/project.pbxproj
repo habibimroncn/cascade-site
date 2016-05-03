@@ -202,6 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 730;
+				ORGANIZATIONNAME = "Cascade Hardwood LLC";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cascade Grade Selector" */;
 			compatibilityVersion = "Xcode 3.2";
