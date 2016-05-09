@@ -1045,7 +1045,7 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	z-index: 99999;
+	z-index: 1500;
 	cursor: default;
 }
 
