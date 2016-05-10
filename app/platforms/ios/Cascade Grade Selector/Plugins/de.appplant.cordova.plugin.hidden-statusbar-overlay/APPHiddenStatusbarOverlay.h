@@ -1,4 +1,6 @@
 /*
+ Copyright 2013-2014 appPlant UG
+
  Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements.  See the NOTICE file
  distributed with this work for additional information
@@ -17,27 +19,17 @@
  under the License.
  */
 
-//
-//  AppDelegate.m
-//  Cascade Grade Selector
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
-//
+#import <Foundation/Foundation.h>
+#import <Cordova/CDVPlugin.h>
+#import <CoreLocation/CoreLocation.h>
 
-#import "AppDelegate.h"
-#import "MainViewController.h"
+@interface APPHiddenStatusbarOverlay : CDVPlugin
 
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
-{
-    self.viewController = [[MainViewController alloc] init];
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7) 
-	{
-    	[application setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
-	}
-    return [super application:application didFinishLaunchingWithOptions:launchOptions];
-}
+// Hides the application status bar
+- (void) hide:(CDVInvokedUrlCommand*)command;
+// Shows the application status bar
+- (void) show:(CDVInvokedUrlCommand*)command;
+// Determines if the status bar is hidden
+- (void) isHidden:(CDVInvokedUrlCommand*)command;
 
 @end
