@@ -11,7 +11,7 @@
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
+    <preference name="Fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
@@ -42,7 +42,8 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
+    <!-- <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" /> -->
+    <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" spec="1.2.0" />
     <icon src="icon.png" />
     <gap:config-file overwrite="true" parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
         <false />
