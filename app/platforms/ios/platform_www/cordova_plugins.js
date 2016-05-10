@@ -8,6 +8,14 @@ module.exports = [
             "cordova.InAppBrowser.open",
             "window.open"
         ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.hidden-statusbar-overlay/www/hidden-statusbar-overlay.js",
+        "id": "de.appplant.cordova.plugin.hidden-statusbar-overlay.HiddenStatusbarOverlay",
+        "pluginId": "de.appplant.cordova.plugin.hidden-statusbar-overlay",
+        "clobbers": [
+            "plugin.statusbarOverlay"
+        ]
     }
 ];
 module.exports.metadata = 

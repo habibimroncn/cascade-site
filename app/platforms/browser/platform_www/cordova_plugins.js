@@ -22,7 +22,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.1",
-    "cordova-plugin-inappbrowser": "1.4.0"
+    "cordova-plugin-inappbrowser": "1.4.0",
+    "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0"
 }
 // BOTTOM OF METADATA
 });

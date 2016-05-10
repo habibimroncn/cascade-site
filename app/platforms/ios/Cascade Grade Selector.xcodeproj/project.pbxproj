@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -14,6 +13,7 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		91AB60717E0E432A93FE2432 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E5F956229C4C04B784CEC9 /* CDVInAppBrowser.m */; };
+		8AAAE8B331A74B45A36E953C /* APPHiddenStatusbarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E2E9BD7A034035948FC2A8 /* APPHiddenStatusbarOverlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,8 @@
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Cascade Grade Selector/config.xml"; sourceTree = "<group>"; };
 		FF5FD1C185B7402CBF072475 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; };
+		A6E2E9BD7A034035948FC2A8 /* APPHiddenStatusbarOverlay.m */ = {isa = PBXFileReference; name = "APPHiddenStatusbarOverlay.m"; path = "de.appplant.cordova.plugin.hidden-statusbar-overlay/APPHiddenStatusbarOverlay.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		CA72A2CE4514444294FCB616 /* APPHiddenStatusbarOverlay.h */ = {isa = PBXFileReference; name = "APPHiddenStatusbarOverlay.h"; path = "de.appplant.cordova.plugin.hidden-statusbar-overlay/APPHiddenStatusbarOverlay.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,8 @@
 			children = (
 				C1E5F956229C4C04B784CEC9 /* CDVInAppBrowser.m */,
 				FF5FD1C185B7402CBF072475 /* CDVInAppBrowser.h */,
+				A6E2E9BD7A034035948FC2A8 /* APPHiddenStatusbarOverlay.m */,
+				CA72A2CE4514444294FCB616 /* APPHiddenStatusbarOverlay.h */,
 			);
 			name = Plugins;
 			path = "Cascade Grade Selector/Plugins";
@@ -288,6 +292,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				91AB60717E0E432A93FE2432 /* CDVInAppBrowser.m in Sources */,
+				8AAAE8B331A74B45A36E953C /* APPHiddenStatusbarOverlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cascadehardwood.cascadegradeselector;
 				PRODUCT_NAME = "Cascade Grade Selector";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -347,7 +352,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cascadehardwood.cascadegradeselector;
 				PRODUCT_NAME = "Cascade Grade Selector";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
