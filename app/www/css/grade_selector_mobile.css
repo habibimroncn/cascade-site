@@ -396,6 +396,10 @@
     .node .photo-box {
         overflow: hidden;
     }
+
+    div.view-controls {
+        width: 40px;
+    }
 }
 /*end*/
 /*@media (min-width: 32em) {
