@@ -1,0 +1,1181 @@
+/* shared */
+.flag-object {
+	display: table;
+}
+.flag-object__cell {
+	display: table-cell;
+}
+.flag-object__cell--content {
+	width: 100%;
+}
+.flag-object__cell--top {
+	vertical-align: top;
+}
+.flag-object__cell--vcenter {
+	vertical-align: middle;
+}
+.flag-object__cell--bottom {
+	vertical-align: bottom;
+}
+
+/* temp */
+
+div#node-98,
+div#node-99 {
+	/* display: none; */
+}
+
+body.page-log-buying div#node-98,
+body.page-log-buying div#node-99 {
+	/* display: block; */
+}
+
+
+/* use this css file for one off customizations on pages */
+/* headers and colors*/
+div#node-56 div.header,
+body.node-type-page div.node div.header {
+	background:#000 url(../images/alder-stack-bg.jpg) no-repeat center top;
+}
+
+div#content div.page-header {
+	background:#000 url(../images/alder-pallettes-bg.jpg) no-repeat center top;
+}
+
+body.section-our-resources div.node div.header,
+div#node-54 div.header {
+	background-image:url(../images/trees-bg.jpg);
+}
+
+div#node-94 div.header,
+body.section-our-mills div.node div.header {
+	background-image:url(../images/log-belt.jpg);
+}
+
+div#node-58 div.header,
+body.page-log-buying div.node div.header {
+	background-image:url(../images/log-sales-bg.jpg);
+}
+
+div#node-57 div.header,
+body.page-lumber-sales div.node div.header,
+body.section-products div.node div.header {
+	background-image:url(../images/alder-pallettes-bg.jpg);
+}
+
+div#node-93 div.header,
+body.section-contact-us div.node div.header {
+	background-image:url(../images/contact-bg.jpg);	
+}
+
+body.section-products div#header,
+body.page-lumber-sales div#header {
+background:#AB3600;
+}
+
+body.section-log-buying div#header {
+	background:#956900;
+}
+
+body.section-our-mills div#header {
+	background:#726653
+}
+
+body.section-our-resources div#header {
+	background:#739600;
+}
+
+body.section-contact-us div#header {
+	background:#53799A;
+}
+
+div#node-56 div.header div.field-field-intro {
+	color:#CF6300;	
+}
+
+div#node-57 div.header div.field-field-intro {
+	color:#AB3600;
+	background:url(../images/grader-bg.gif) no-repeat left top;
+	padding-top: 171px;
+}
+
+div#node-57 div.header div.field-field-intro div.field-items {
+	padding-left:320px;
+	padding-right:40px;
+}
+
+div#node-57 div.field-field-headline div.field-items {
+	padding-left:300px;
+}
+
+div#node-58 div.header div.field-field-intro {
+	color:#956900;	
+}
+
+div#node-59 div.header div.field-field-intro {
+	color:#726653;	
+}
+
+div#node-54 div.header div.field-field-intro {
+	color:#739600;	
+}
+
+div#node-93 div.header div.field-field-intro {
+	color:#53799A;
+}
+
+/* front page */
+div#node-56 div.header div.field-field-intro {
+	background: url(../images/home/intro-bg.jpg) no-repeat center center #FFF;
+}
+div#node-56 div.header div.field-field-intro div.field-items {
+	padding-right:390px;	
+}
+
+div#node-56 div.content {
+	padding-left:40px !important;
+	padding-right:100px !important;
+	width:800px !important;
+}
+
+div#node-56 div.content ol {
+	background:#fff url(../images/home-content-bg.jpg) no-repeat left top;
+	padding:40px 0 100px 330px;
+	list-style:none;
+}
+
+div#node-56 div.content ol li {
+	margin-bottom:60px;
+}
+
+/*sales */
+div#node-57 div.content {
+	width:430px !important;	
+	padding:80px 420px 200px 40px !important;
+	background:#fff url(../images/ipad-bg-padded.png) no-repeat center top;
+}
+
+div#node-57 div.content h2 {
+	margin:1em 0 2em;
+}
+
+/* procurement 
+procurement-bg.jpg
+*/
+div#node-58 div.content {
+	padding-left:400px !important;
+	width:520px !important;
+	min-height:800px;
+}
+
+div#node-58 div.content h3 {
+	margin-top:20px;
+}
+
+div#node-58 div.content p.side {
+	background:#ededed url(../images/procurement-bg.jpg) no-repeat left top;
+	position:absolute;
+	top:75px;
+	left:0;
+	color:#666;
+	width:280px;
+	padding:570px 40px 40px;
+	font-size:.9em;
+}
+
+div#node-58 div.header img.snapshot {
+	position:absolute;
+	right:10px;
+	top:-40px;
+}
+
+div#node-58 div.header div.field-field-intro div.field-items {
+	padding-right:420px;
+}
+
+body.page-user a#badge,
+body.section-admin a#badge {
+	display: none;
+}
+
+/* resources */
+body.section-our-resources div.node-type-page div.content,
+body.section-our-mills div.node-type-page div.content {
+	padding:60px 60px;
+	width:820px;
+	margin:0 auto;
+	position:relative;	
+}
+
+body.section-our-resources div.node div.content h3 {
+	margin-top:20px;
+}
+
+body.section-our-resources div.node div.content h2 {
+	margin-bottom:.5em;
+}
+
+div#node-54 div.header div.field-field-intro-side,
+body.section-our-resources div.node div.header div.field-field-intro-side {
+	padding-top:160px;
+	height:220px;
+	background:#f2f2f2 url(../images/fsc-staple-bg.gif) no-repeat right top;
+	font-size:.8em;
+}
+
+div#node-54 div.header div.field-field-intro div.field-items,
+body.section-our-resources div.node div.header div.field-field-intro div.field-items {
+	padding-right:320px;
+}
+
+
+/* contact us */
+div#node-93 div.content h2 {
+	clear:both;
+}
+
+div#node-93 div.header div.field-field-intro div.field-items {
+	padding-right:260px;
+}
+
+div#node-93 div.header div.field-field-intro-side {
+	width:200px;
+	background:rgb(240,240,240);
+	background:rgba(200,200,200, .2);
+}
+
+div#node-93 div.header div.field-field-intro-side h4,
+div#node-93 div.header div.field-field-intro-side h3 {
+	font-size:12px;
+	color:#000;
+}
+
+div#node-93 div.header div.field-field-intro-side b {
+	color:#000;
+	font-size:20px;
+}
+
+div#node-93 div.content div.tab {
+	clear:both;
+}
+
+div#node-93 div.content div.map {
+	width:50%;
+	float:left;
+	background:url(../images/map-bg.jpg) no-repeat left top;
+}
+
+div#node-93 div.content div.map p {
+	margin-left:220px;
+}
+
+div#node-93 div.content div.map iframe {
+	margin-top:40px;
+}
+
+div#node-93 div.content div.pa-map {
+	background-position:-480px top;
+}
+
+/* our process */
+div#node-94 div.video-clips {
+	position:absolute;
+	top:0;
+	left:430px;
+}
+
+div#node-94 div.content div.right div.video-clips {
+	left:-50px;
+}
+
+div#node-94 div.content div.left {
+	position:relative;
+	margin:80px 0;
+	padding-right:440px;
+}
+
+div#node-94 div.content div.right {
+	position:relative;
+	margin:80px 0;
+	padding-left:440px;
+}
+
+div#node-59 div.header div.field-field-intro div.field-items,
+div#node-60 div.header div.field-field-intro div.field-items, 
+div#node-94 div.header div.field-field-intro div.field-items {
+	position:relative;
+	margin-top:-20px;
+	margin-right:-20px;
+	padding:20px 340px 80px 0;
+}
+
+div#node-59 div.header div.field-field-intro a.video,
+div#node-60 div.header div.field-field-intro a.video, 
+div#node-94 div.header div.field-field-intro a.video {
+	position:absolute;
+	top:10px;
+	right:0px;
+}
+
+/* resources > alder > table */
+
+
+table#alder-comp {
+	width: 100%;
+	border-collapse: collapse;
+	background: transparent;
+	font-size: 11px;	
+}
+
+table#alder-comp tr {
+	border-bottom: 1px solid #ccc;
+	white-space: nowrap;
+}
+	
+table#alder-comp tr {
+	border-bottom: 1px solid #ccc;
+	white-space: nowrap;
+}
+	
+table#alder-comp td {
+	padding: 6px;
+	width: 100px;
+	vertical-align: bottom;
+	text-align: center;
+}
+	
+table#alder-comp tr.use-type {
+	background-color: #EDEDED;
+	height: 100px;
+	text-transform: uppercase;
+}
+	
+table#alder-comp tr.primary-species {
+	font-weight: bold;
+}
+	
+table#alder-comp tr.primary-species td.last {
+	background-color: #739600;
+	color: #fff;
+	font-weight: bold;
+}
+	
+table#alder-comp td.first {
+	border-right: 1px solid #ccc;
+	text-align: left;
+}
+	
+table#alder-comp td.last {
+	border-left: 1px solid #ccc;
+	text-align: left;
+}
+	
+table#alder-comp tr.primary-species td.first,
+table#alder-comp tr.primary-species td.last {
+	border-right: 0px;
+	border-left: 0px;
+}
+	
+table#alder-comp tr.primary-species {
+	background-color: #9CB300;
+}
+
+table#alder-comp tr.use-type span {
+	float: left;
+}
+
+table#alder-comp tr.use-type {
+}
+
+table#alder-comp tr.use-type span.icon {
+	vertical-align: bottom;
+	height: 45px;
+	width: 80px;
+	overflow: hidden;
+	text-indent: -100px;
+}
+
+table#alder-comp tr.use-type div.text-cell {
+	width: 80px;
+	height: 30px;
+	clear: left;
+	text-align: center;
+	vertical-align: bottom;
+	position: relative;
+}
+
+table#alder-comp tr.use-type div.text-cell span {
+	vertical-align: bottom;
+	text-align: center;
+	line-height: 1.1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	position: absolute;
+	margin-left: 10px;
+	bottom: 0;
+}
+
+table#alder-comp td.image-cell {
+	vertical-align: bottom;
+	width: 80px;
+	white-space: normal;
+}
+
+table#alder-comp span.alder-table-icon-1 {
+	background: url(../img/alder-table-icon-1.png) no-repeat top center;
+}
+table#alder-comp span.alder-table-icon-2 {
+	background: url(../img/alder-table-icon-2.png) no-repeat top center;
+}
+table#alder-comp span.alder-table-icon-3 {
+	background: url(../img/alder-table-icon-3.png) no-repeat top center;
+}
+table#alder-comp span.alder-table-icon-4 {
+	background: url(../img/alder-table-icon-4.png) no-repeat top center;
+}
+table#alder-comp span.alder-table-icon-5 {
+	background: url(../img/alder-table-icon-5.png) no-repeat top center;
+}
+table#alder-comp span.alder-table-icon-6 {
+	background: url(../img/alder-table-icon-6.png) no-repeat top center;
+}
+table#alder-comp span.alder-table-icon-7 {
+	background: url(../img/alder-table-icon-7.png) no-repeat top center;
+}
+
+div.table-bottom-image {
+	background: url(../img/content-background.png) -10px -7px no-repeat;
+}
+
+/* resources > alder > table */
+
+
+
+
+/* grade guide */
+
+div#grade-guide {
+	width: 960px;
+	margin: 20px auto;
+}
+
+div#grade-guide div.view-grade-selector div.view-content {
+	width: 960px;
+	min-height:inherit;
+	float:none;
+	padding-bottom:40px;
+}
+
+div#grade-guide div.view-grade-selector {
+}
+
+div#grade-guide div.info {
+	color:#666;
+	float:right;
+	padding-left:36px;
+	margin-left:16px;
+	border-left:1px solid #ccc;
+	font-size:12px;
+}
+
+div#grade-guide div.info p {
+	width:220px;
+}
+
+div#grade-guide div.info img {
+	float:right;
+}
+
+div#grade-guide div.logos img.logo {
+	float:left;
+	margin-right:10px;
+}
+
+div.grade-guide-mark {
+	border: 1px solid #CCC;
+	background-color: #666;
+	background-repeat:no-repeat;
+	text-align: center;
+	vertical-align: middle;
+	width:20px;
+	height:20px;
+}
+
+div#grade-guide tr.species-Alder div.grade-guide-mark {
+	background-color:#8eb800;
+}
+
+div#grade-guide tr.species-Maple div.grade-guide-mark {
+	background-color:#ff4600;
+}
+
+div#grade-guide tr.species-Ash div.grade-guide-mark {
+	background-color:#9c9183;
+}
+
+div.grade-guide-mark img {
+	display:block;
+	margin:0;
+}
+
+
+div#grade-guide td.views-field-title {
+	white-space:nowrap;
+}
+
+div#grade-guide td.views-field-field-defects-value div.field-item {
+	display:inline;
+	margin-right:4px;
+}
+
+div#grade-guide div.view-display-id-page_4 table .views-field-field-species-value {
+	display:none;
+}
+
+
+div#grade-guide h1 {
+	font-size: 40px;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-bottom: 0px;
+	color: #000;	
+	float: left;
+}
+
+div#grade-guide div.view {
+	clear:both;
+	padding-top:30px;
+}
+
+div#grade-guide tr.even td, div#grade-guide tr.odd td {
+	padding: 3px 6px;
+	border-bottom:1px solid #eee;
+	color:#666;
+	font-size:12px;
+}
+
+div#grade-guide tr.even {
+	background-color:#f7f7f7;
+}
+
+div#grade-guide th {
+	padding-left:6px;
+}
+
+div#grade-guide th a {
+	position:relative;
+	display:block;
+	min-width:70px;
+}
+
+div#grade-guide th a img {
+
+}
+
+div#grade-guide td {
+	/* white-space:nowrap; */
+}
+
+
+div#grade-guide td.active {
+	background:none;
+}
+
+div#grade-guide img#logo {
+	/* background: url(../images/logo.png) no-repeat; */
+/*
+	height: 100px;
+	width: 200px;
+*/
+	float: left;
+}
+
+div#grade-guide div.view-content {
+	padding-top: 0px;
+}
+
+div#grade-guide td a {
+	color: #000;	
+}
+
+div#grade-guide td table td {
+	border: 1px solid #ccc;	
+}
+
+div#grade-guide div.view div.views-admin-links {
+	z-index: 999;
+	position: absolute;
+	top: 100px;
+}
+
+div#grade-guide img#fsc-print {
+}
+
+div#grade-guide img#nhla-print {
+	padding-top: 6px;
+}
+
+/* new log procurement page */
+
+div#node-97 a:hover {
+	text-decoration: none;
+	color: #06c;
+}
+ 
+div#node-97 div.field-field-intro strong {
+	font-size: 17px;
+}
+
+div#node-97 div.header,
+body.page-log-buying div.node div.header {
+	background-image:url(../images/log-sales-bg.jpg);
+}
+
+div#node-97 div.header div.field-field-intro {
+	color:#956900;	
+}
+
+div#node-97 div.header div.field-field-intro div.field-items {
+	padding-right:420px;
+}
+
+div#node-97 div.header img.snapshot {
+	position:absolute;
+	right:10px;
+	top:-40px;
+}
+
+div#node-97 div.content {
+	/*
+padding-left:400px !important;
+	width:520px !important;
+*/
+	min-height:800px;
+}
+
+div#node-97 div.content h3 {
+	margin-top:20px;
+}
+
+div#node-97 div.content p.side {
+	background:#ededed url(../images/procurement-bg.jpg) no-repeat left top;
+	position:absolute;
+	top:75px;
+	left:0;
+	color:#666;
+	width:280px;
+	padding:570px 40px 40px;
+	font-size:.9em;
+}
+
+div#node-97 img#log-video {
+	position: absolute;
+	top: 62px;
+	right: 37px;
+}
+
+div#node-97 div#pro-survey ul {
+	margin-bottom: 0;
+}
+
+div#node-97 div#pro-survey ul li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 25px;
+	width: 81px;
+	font-size: 11px;
+	vertical-align: top;
+	line-height: 1.1em;
+}
+
+div#node-97 div#pro-survey ul li a {
+	background: transparent url(../images/inactive.png) no-repeat center center;
+	display: block;
+	width: 38px;
+	height: 38px;
+	/* background: #9cb300; */
+	/* border-radius: 20px; */
+	margin: 0 auto;
+	/*
+transition: .3s;
+	-webkit-transition: .3s;
+*/
+}
+
+div#node-97 div#pro-survey ul li.inactive a {
+	background: transparent url(../images/inactive.png) no-repeat center center !important;
+	width: 38px;
+	height: 38px;
+	transition: .3s;
+	-webkit-transition: .3s;
+}
+
+div#node-97 div#pro-survey ul li#a1 a {
+	background: transparent url(../images/a1.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#a2 a {
+	background: transparent url(../images/a2.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#a3 a {
+	background: transparent url(../images/a3.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#a4 a {
+	background: transparent url(../images/a4.png) no-repeat center center;
+}
+
+div#node-97 div#pro-survey ul li#b1 a {
+	background: transparent url(../images/b1.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#b2 a {
+	background: transparent url(../images/b2.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#b3 a {
+	background: transparent url(../images/b3.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#b4 a {
+	background: transparent url(../images/b4.png) no-repeat center center;
+}
+
+div#node-97 div#pro-survey ul li#c1 a {
+	background: transparent url(../images/c1.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#c2 a {
+	background: transparent url(../images/c2.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#c3 a {
+	background: transparent url(../images/c3.png) no-repeat center center;
+}
+div#node-97 div#pro-survey ul li#c4 a {
+	background: transparent url(../images/c4.png) no-repeat center center;
+}
+
+div#log-procurement-info ol li {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+div#node-97 div#pro-banner {
+	background: url(../images/banner.jpg) no-repeat center center;
+	height: 310px;
+	width: 943px;
+	margin-bottom: 0px;
+}
+
+div#node-97 div#pro-banner p {
+	width: 415px;
+	margin: 0 auto;
+	padding-top: 176px;
+	font-size: 18px;
+	text-align: center;
+	color: #999999;
+	font-family: 'Rokkitt',arial,sans-serif;
+}
+
+div#node-97 div#pro-questions {
+	width: 580px;
+	float: left;
+	text-align: center;
+}
+
+div#node-97 div.content li p {
+	margin: 0;
+	padding: 0;
+	color: #999;
+	height: 32px;
+	padding-top: 6px;
+}
+
+div#node-97 div#pro-questions div.sec {
+	border-top: 1px dashed #999;
+}
+
+div#node-97 div#pro-questions div.first-sec {
+	border-top: 0px;
+}
+
+div#node-97 div#pro-questions div.last-sec {
+	border-bottom: 1px dashed #999;
+}
+
+div#node-97 div#pro-side {
+	background: url(../images/side-bg.png) no-repeat center center;
+	float: right;
+	height: 592px;
+	width: 435px;
+	margin-right: -103px;
+	text-align: center;
+}
+
+div#node-97 div#pro-side h3 {
+	text-transform: uppercase;
+	color: #999;
+	margin-left: -20px;
+	padding-top: 20px;
+}
+
+div#node-97 div#pro-side p#value-message {
+	position: absolute;
+	bottom: 39px;
+	margin-left: 57px;
+	font-family: 'Rokkitt',arial,sans-serif;
+	color: #9cb300;
+	padding: 2%;
+	width: 260px;
+}
+
+div#node-97 img#see {
+	position: absolute;
+	left: 49px;
+	bottom: 9px;
+}
+
+div#node-97 div#value {
+	position: absolute;
+	width: 300px;
+	height: 238px;
+	background: #9cb300;
+	z-index: -1;
+	bottom: 0;
+	transition: height 1s ease-in-out;
+	transform: translate3d(0,0,0);
+	-webkit-transition: height 1s ease-in-out;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+div#cash-money {
+	background: url(../images/cash-money.png) no-repeat center center;
+	height: 296px;
+	width: 252px;
+	position: absolute;
+	z-index: 10001;
+	right: 18px;
+	top: 444px;
+	
+	display: none;
+}
+
+div#node-97 p#talk-to-buyer {
+	position: absolute;
+	bottom: -11px;
+	right: 84px;
+	color: #008aeb;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+a#alder-popup-link {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	z-index: 9999;
+}
+
+div#node-97 div#alder-or-maple {
+	background: url(../images/alder-popup.png) no-repeat center center;	
+	width: 698px;
+	height: 329px;
+	z-index: 9999;
+	position: absolute;
+	top: 310px;
+	margin-left: 105px;
+	
+	display: none;
+}
+
+div#node-97 div#alder-and-maple,
+div#node-97 div#maybe-cedar {
+	width: 122px;
+	color: #739600;
+	font-size: 13px;
+	position: absolute;
+	top: 54px;
+	left: 50px;
+	text-align: center;
+}
+
+div#node-97 div#alder-and-maple p,
+div#node-97 div#maybe-cedar p {
+	color: #739600;	
+	line-height: 1.2em;
+}
+
+div#node-97 div#maybe-cedar {
+	left: 221px;
+	width: 130px;
+}
+
+
+div#node-97 div#mixed {
+	color: #739600;
+	font-size: 14px;
+	position: absolute;
+	left: 386px;
+	top: 47px;
+	width: 250px;
+}
+
+div#log-procurement-info {
+	height: 400px;
+	width: 100%;
+	background: #EDEDED;
+	padding-top: 60px;
+	margin-bottom: -60px;
+	margin-top: -300px;
+}
+
+div.lpi {
+	width: 200px;
+	float: left;
+	height: 363px;
+}
+
+div#lpi-1 {
+	padding-right: 25px;
+	padding-top: 25px;
+	border-right: 2px solid #fff;
+	/* border-bottom: 2px solid #fff; */
+	border-top: 2px solid #fff;
+}
+
+div#lpi-2 {
+	width: 172px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-left: 25px;
+	border-right: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+div#lpi-3 {
+	width: 438px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-left: 25px;
+	border-top: 2px solid #fff;
+	background: url(../images/lpi-chainsaw-bg.jpg) no-repeat -20px center;
+}
+
+div#lpi-3 h3 {
+	width: 235px;
+	padding-bottom: 136px;
+}
+
+div#lpi-3 p {
+	
+}
+
+div#lpi-3 div {
+	width: 180px;
+	padding-right: 20px;
+	float: left;
+}
+
+a.pdf {
+	background: url(../images/pdf-icon.png) no-repeat left center; 
+	text-indent: 23px;
+	display: block;
+	font-size: 12px;
+	line-height: 2.2em;
+}
+
+p#phone {
+	font-size: 28px;
+	/* font-weight: bold; */
+}
+
+/* log buyers block */
+
+div#buyers-go-here {
+	background: #EDEDED;
+	margin-top: 60px;
+}
+
+div#buyers-header {
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+div#buyers-header h3 {
+	font-size: 1.2em;
+	margin-top: .8em;
+}
+
+body.page-log-buying div#block-views-staff-block_2 {
+	background: url(../images/buyer-map.jpg) no-repeat 439px 19px; 
+	width: 980px;
+	margin: 0px auto;
+	padding-top: 60px;
+}
+
+div#block-views-staff-block_2 div.node-type-profile {
+	width: 50%;
+}
+
+div#block-views-staff-block_2 h3.block-title {
+	display: none;
+}
+
+div#block-views-staff-block_2 h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+/* randy div.view-rows-1 div.field-field-picture img */
+
+div#block-views-staff-block_2 div#node-53 div.content div.field-field-picture img  {
+	display: none;
+}
+
+div#block-views-staff-block_2 div#node-53 div.content div.field-field-picture {
+	background: url(../images/randy-color.jpg) no-repeat center center;
+	height: 137px;
+	width: 141px;
+}
+
+
+/* hide randy pa contact info */
+
+div#block-views-staff-block_2 div#node-53 div.group-pa-contact {
+	display: none;
+}
+
+/* tom */
+div#block-views-staff-block_2 div#node-51 div.content div.field-field-picture img  {
+	display: none;
+}
+div#block-views-staff-block_2 div#node-51 div.content div.field-field-picture {
+	background: url(../images/tom-color.jpg) no-repeat center center;
+	height: 137px;
+	width: 141px;
+}
+
+
+/* darrel alvord */
+div#block-views-staff-block_2 div#node-98 div.content div.field-field-picture img  {
+	display: none;
+}
+div#block-views-staff-block_2 div#node-98 div.content div.field-field-picture {
+	background: url(../images/darrel-color.jpg) no-repeat center center;
+	height: 137px;
+	width: 141px;
+}
+
+/* ken jones */
+div#block-views-staff-block_2 div#node-99 div.content div.field-field-picture img  {
+	display: none;
+}
+div#block-views-staff-block_2 div#node-99 div.content div.field-field-picture {
+	background: url(../images/ken-color.jpg) no-repeat center center;
+	height: 137px;
+	width: 141px;
+	/*margin-top: 50px;*/
+}
+
+div#block-views-staff-block_2 div.field-field-picture,
+div#block-views-staff-block_2 div.group-cascade-contact,
+div#block-views-staff-block_2 div.group-pa-contact,
+div#block-views-staff-block_2 div.field-field-job-title {
+	width: 225px;
+}
+
+div#block-views-staff-block_2 div.content div.field-field-picture img,
+div#block-views-staff-block_2 div.content h4,
+div#block-views-staff-block_2 div.content div.field {
+	float: left;
+	margin-left: 19px;
+	margin-right: 0;
+	white-space: nowrap;
+}
+
+div#block-views-staff-block_2 div.content div.fieldgroup {
+	position: relative;
+	left: 160px;
+	top: -94px;
+	
+}
+
+body.page-log-buying div#block-views-staff-block_2 div.field-field-job-title {
+	font-size: 11px;
+}
+
+
+div.node-type-profile div.fieldgroup div.field {
+	width: 276px;
+}
+
+body.page-log-buying  div.fieldgroup div.field {
+	width: 225px;
+}
+
+div#block-views-staff-block_2 div.node-type-profile div.fieldgroup div.field-label-inline-first {
+	width: 60px;
+}
+
+body.page-log-buying div#content-area div.content {
+	background: none;
+}
+
+body.page-log-buying div.views-row {
+	height: 100px;
+}
+
+body.page-log-buying div.views-row div#node-98 {
+	position: relative;
+	top: -72px;
+}
+
+body.page-log-buying div.views-row div#node-98 div.field-field-fax,
+body.page-log-buying div.views-row div#node-99 div.field-field-fax {
+	display: none;
+}
+
+body.page-log-buying div.views-row div#node-99 {
+	position: relative;
+	top: -142px;
+}
+
+body.page-log-buying div.views-row div#node-51 {
+	position: relative;
+	top: -207px;
+}
+
+body.page-log-buying div.node-type-profile {
+	clear:both;
+	float: none;
+	min-height: 0;
+	width: 33.33%;
+	margin-bottom: 0px;
+}
+
+body.page-log-buying div#content-bottom div.wrap {
+	padding-bottom: 40px;
+}
+
+
+.grade-selector-cta {
+	background-color: #FAB200;
+}
+.grade-selector-cta--fw-footer {
+	position: relative;
+	padding-top: 12px;
+}
+.grade-selector-cta--fw-footer .grade-selector-cta__content {
+	width: 100%;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grade-selector-cta--fw-footer:before {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	display: block;
+	width: 100%;
+	height: 6px;
+	margin-top: -6px;
+	background: url(../images/shared/border-jagged-yellow.png) repeat-x left top;
+}
