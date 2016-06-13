@@ -1,0 +1,16 @@
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\debug\anycpu\win10\AppxManifest.xml
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\debug\anycpu\win10\CordovaApp.Windows10.build.appxrecipe
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\ResourceHandlingTask.state
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\priconfig.xml
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\layout.resfiles
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\resources.resfiles
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\pri.resfiles
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\build\windows\Debug\AnyCPU\win10\ReverseMap\resources.pri

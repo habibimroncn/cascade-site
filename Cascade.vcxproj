@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C603F12C-650C-4CF4-8254-B51B4D84B114}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="app\platforms\ios\cordova\node_modules\xcode\node_modules\node-uuid\benchmark\benchmark-native.c" />
+    <ClCompile Include="app\plugins\cordova-plugin-inappbrowser\src\ubuntu\inappbrowser.cpp" />
+    <ClCompile Include="phonegap\platforms\ios\cordova\node_modules\xcode\node_modules\node-uuid\benchmark\benchmark-native.c" />
+    <ClCompile Include="phonegap\plugins\cordova-plugin-inappbrowser\src\ubuntu\inappbrowser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\platforms\ios\cascade grade selector\Bridging-Header.h" />
+    <ClInclude Include="app\platforms\ios\cascade grade selector\classes\AppDelegate.h" />
+    <ClInclude Include="app\platforms\ios\cascade grade selector\classes\MainViewController.h" />
+    <ClInclude Include="app\platforms\ios\cascade grade selector\plugins\cordova-plugin-inappbrowser\CDVInAppBrowser.h" />
+    <ClInclude Include="app\platforms\ios\cascade grade selector\plugins\de.appplant.cordova.plugin.hidden-statusbar-overlay\APPHiddenStatusbarOverlay.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\CDVDebug.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\CDVJSON_private.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\CDVPlugin+Private.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvgesturehandler\CDVGestureHandler.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvhandleopenurl\CDVHandleOpenURL.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvintentandnavigationfilter\CDVIntentAndNavigationFilter.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvlocalstorage\CDVLocalStorage.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvuiwebviewengine\CDVUIWebViewDelegate.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvuiwebviewengine\CDVUIWebViewEngine.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\private\plugins\cdvuiwebviewengine\CDVUIWebViewNavigationDelegate.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDV.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVAppDelegate.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVAvailability.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVAvailabilityDeprecated.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVCommandDelegate.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVCommandDelegateImpl.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVCommandQueue.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVConfigParser.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVInvokedUrlCommand.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVPlugin+Resources.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVPlugin.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVPluginResult.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVScreenOrientationDelegate.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVTimer.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVURLProtocol.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVUserAgentUtil.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVViewController.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVWebViewEngineProtocol.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\CDVWhitelist.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\NSDictionary+CordovaPreferences.h" />
+    <ClInclude Include="app\platforms\ios\cordovalib\classes\public\NSMutableArray+QueueAdditions.h" />
+    <ClInclude Include="app\plugins\cordova-plugin-inappbrowser\src\ios\CDVInAppBrowser.h" />
+    <ClInclude Include="app\plugins\cordova-plugin-inappbrowser\src\ubuntu\inappbrowser.h" />
+    <ClInclude Include="app\plugins\de.appplant.cordova.plugin.hidden-statusbar-overlay\src\ios\APPHiddenStatusbarOverlay.h" />
+    <ClInclude Include="phonegap\platforms\ios\cascade grade selector\Bridging-Header.h" />
+    <ClInclude Include="phonegap\platforms\ios\cascade grade selector\classes\AppDelegate.h" />
+    <ClInclude Include="phonegap\platforms\ios\cascade grade selector\classes\MainViewController.h" />
+    <ClInclude Include="phonegap\platforms\ios\cascade grade selector\plugins\cordova-plugin-inappbrowser\CDVInAppBrowser.h" />
+    <ClInclude Include="phonegap\platforms\ios\cascade grade selector\plugins\de.appplant.cordova.plugin.hidden-statusbar-overlay\APPHiddenStatusbarOverlay.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\CDVDebug.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\CDVJSON_private.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\CDVPlugin+Private.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvgesturehandler\CDVGestureHandler.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvhandleopenurl\CDVHandleOpenURL.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvintentandnavigationfilter\CDVIntentAndNavigationFilter.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvlocalstorage\CDVLocalStorage.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvuiwebviewengine\CDVUIWebViewDelegate.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvuiwebviewengine\CDVUIWebViewEngine.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\private\plugins\cdvuiwebviewengine\CDVUIWebViewNavigationDelegate.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDV.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVAppDelegate.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVAvailability.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVAvailabilityDeprecated.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVCommandDelegate.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVCommandDelegateImpl.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVCommandQueue.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVConfigParser.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVInvokedUrlCommand.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVPlugin+Resources.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVPlugin.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVPluginResult.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVScreenOrientationDelegate.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVTimer.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVURLProtocol.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVUserAgentUtil.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVViewController.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVWebViewEngineProtocol.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\CDVWhitelist.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\NSDictionary+CordovaPreferences.h" />
+    <ClInclude Include="phonegap\platforms\ios\cordovalib\classes\public\NSMutableArray+QueueAdditions.h" />
+    <ClInclude Include="phonegap\plugins\cordova-plugin-inappbrowser\src\ios\CDVInAppBrowser.h" />
+    <ClInclude Include="phonegap\plugins\cordova-plugin-inappbrowser\src\ubuntu\inappbrowser.h" />
+    <ClInclude Include="phonegap\plugins\de.appplant.cordova.plugin.hidden-statusbar-overlay\src\ios\APPHiddenStatusbarOverlay.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app\platforms\android\.gradle\2.2.1\taskartifacts\fileHashes.bin" />
+    <None Include="app\platforms\android\.gradle\2.2.1\taskartifacts\fileSnapshots.bin" />
+    <None Include="app\platforms\android\.gradle\2.2.1\taskartifacts\outputFileStates.bin" />
+    <None Include="app\platforms\android\.gradle\2.2.1\taskartifacts\taskArtifacts.bin" />
+    <None Include="app\platforms\android\assets\www\alder\104-124-1-shop.html" />
+    <None Include="app\platforms\android\assets\www\alder\104-124-2-shop.html" />
+    <None Include="app\platforms\android\assets\www\alder\104-124-superior.html" />
+    <None Include="app\platforms\android\assets\www\alder\3-shop.html" />
+    <None Include="app\platforms\android\assets\www\alder\cabinet-color.html" />
+    <None Include="app\platforms\android\assets\www\alder\cabinet-skip.html" />
+    <None Include="app\platforms\android\assets\www\alder\cabinet.html" />
+    <None Include="app\platforms\android\assets\www\alder\common-shop.html" />
+    <None Include="app\platforms\android\assets\www\alder\custom-jacket-board.html" />
+    <None Include="app\platforms\android\assets\www\alder\custom-shop-color.html" />
+    <None Include="app\platforms\android\assets\www\alder\custom-shop-skip.html" />
+    <None Include="app\platforms\android\assets\www\alder\custom-shop.html" />
+    <None Include="app\platforms\android\assets\www\alder\jacket-board-1.html" />
+    <None Include="app\platforms\android\assets\www\alder\jacket-board.html" />
+    <None Include="app\platforms\android\assets\www\alder\k-strip.html" />
+    <None Include="app\platforms\android\assets\www\alder\premium.html" />
+    <None Include="app\platforms\android\assets\www\alder\rustic.html" />
+    <None Include="app\platforms\android\assets\www\alder\standard-frame.html" />
+    <None Include="app\platforms\android\assets\www\alder\superior-1-face.html" />
+    <None Include="app\platforms\android\assets\www\alder\superior-color.html" />
+    <None Include="app\platforms\android\assets\www\alder\superior-skip.html" />
+    <None Include="app\platforms\android\assets\www\alder\superior.html" />
+    <None Include="app\platforms\android\assets\www\alder\utility.html" />
+    <None Include="app\platforms\android\assets\www\ash\1-shop.html" />
+    <None Include="app\platforms\android\assets\www\ash\2-shop.html" />
+    <None Include="app\platforms\android\assets\www\ash\3-shop.html" />
+    <None Include="app\platforms\android\assets\www\ash\frame.html" />
+    <None Include="app\platforms\android\assets\www\ash\select-and-better.html" />
+    <None Include="app\platforms\android\assets\www\cottonwood\1-shop.html" />
+    <None Include="app\platforms\android\assets\www\cottonwood\chop.html" />
+    <None Include="app\platforms\android\assets\www\cottonwood\select-and-better.html" />
+    <None Include="app\platforms\android\assets\www\glossary.html" />
+    <None Include="app\platforms\android\assets\www\index.html" />
+    <None Include="app\platforms\android\assets\www\maple\1-and-better-skip.html" />
+    <None Include="app\platforms\android\assets\www\maple\1-shop-color.html" />
+    <None Include="app\platforms\android\assets\www\maple\1-shop.html" />
+    <None Include="app\platforms\android\assets\www\maple\2-shop.html" />
+    <None Include="app\platforms\android\assets\www\maple\3-shop.html" />
+    <None Include="app\platforms\android\assets\www\maple\select-and-better-color.html" />
+    <None Include="app\platforms\android\assets\www\maple\select-and-better.html" />
+    <None Include="app\platforms\android\assets\www\maple\standard-frame.html" />
+    <None Include="app\platforms\android\assets\www\maple\utility.html" />
+    <None Include="app\platforms\android\assets\www\spec.html" />
+    <None Include="app\platforms\android\cordova\node_modules\plist\examples\browser\index.html" />
+    <None Include="app\platforms\android\cordova\node_modules\sax\examples\test.html" />
+    <None Include="app\platforms\browser\index.html" />
+    <None Include="app\platforms\browser\www\alder\104-124-1-shop.html" />
+    <None Include="app\platforms\browser\www\alder\104-124-2-shop.html" />
+    <None Include="app\platforms\browser\www\alder\104-124-superior.html" />
+    <None Include="app\platforms\browser\www\alder\3-shop.html" />
+    <None Include="app\platforms\browser\www\alder\cabinet-color.html" />
+    <None Include="app\platforms\browser\www\alder\cabinet-skip.html" />
+    <None Include="app\platforms\browser\www\alder\cabinet.html" />
+    <None Include="app\platforms\browser\www\alder\common-shop.html" />
+    <None Include="app\platforms\browser\www\alder\custom-jacket-board.html" />
+    <None Include="app\platforms\browser\www\alder\custom-shop-color.html" />
+    <None Include="app\platforms\browser\www\alder\custom-shop-skip.html" />
+    <None Include="app\platforms\browser\www\alder\custom-shop.html" />
+    <None Include="app\platforms\browser\www\alder\jacket-board-1.html" />
+    <None Include="app\platforms\browser\www\alder\jacket-board.html" />
+    <None Include="app\platforms\browser\www\alder\k-strip.html" />
+    <None Include="app\platforms\browser\www\alder\premium.html" />
+    <None Include="app\platforms\browser\www\alder\rustic.html" />
+    <None Include="app\platforms\browser\www\alder\standard-frame.html" />
+    <None Include="app\platforms\browser\www\alder\superior-1-face.html" />
+    <None Include="app\platforms\browser\www\alder\superior-color.html" />
+    <None Include="app\platforms\browser\www\alder\superior-skip.html" />
+    <None Include="app\platforms\browser\www\alder\superior.html" />
+    <None Include="app\platforms\browser\www\alder\utility.html" />
+    <None Include="app\platforms\browser\www\ash\1-shop.html" />
+    <None Include="app\platforms\browser\www\ash\2-shop.html" />
+    <None Include="app\platforms\browser\www\ash\3-shop.html" />
+    <None Include="app\platforms\browser\www\ash\frame.html" />
+    <None Include="app\platforms\browser\www\ash\select-and-better.html" />
+    <None Include="app\platforms\browser\www\cottonwood\1-shop.html" />
+    <None Include="app\platforms\browser\www\cottonwood\chop.html" />
+    <None Include="app\platforms\browser\www\cottonwood\select-and-better.html" />
+    <None Include="app\platforms\browser\www\glossary.html" />
+    <None Include="app\platforms\browser\www\index.html" />
+    <None Include="app\platforms\browser\www\maple\1-and-better-skip.html" />
+    <None Include="app\platforms\browser\www\maple\1-shop-color.html" />
+    <None Include="app\platforms\browser\www\maple\1-shop.html" />
+    <None Include="app\platforms\browser\www\maple\2-shop.html" />
+    <None Include="app\platforms\browser\www\maple\3-shop.html" />
+    <None Include="app\platforms\browser\www\maple\select-and-better-color.html" />
+    <None Include="app\platforms\browser\www\maple\select-and-better.html" />
+    <None Include="app\platforms\browser\www\maple\standard-frame.html" />
+    <None Include="app\platforms\browser\www\maple\utility.html" />
+    <None Include="app\platforms\browser\www\spec.html" />
+    <None Include="app\platforms\ios\cordova\node_modules\cordova-common\node_modules\cordova-registry-mapper\node_modules\tape\example\static\index.html" />
+    <None Include="app\platforms\ios\cordova\node_modules\cordova-common\node_modules\elementtree\node_modules\sax\examples\test.html" />
+    <None Include="app\platforms\ios\cordova\node_modules\plist\examples\browser\index.html" />
+    <None Include="app\platforms\ios\cordova\node_modules\xcode\node_modules\node-uuid\test\test.html" />
+    <None Include="app\platforms\ios\www\alder\104-124-1-shop.html" />
+    <None Include="app\platforms\ios\www\alder\104-124-2-shop.html" />
+    <None Include="app\platforms\ios\www\alder\104-124-superior.html" />
+    <None Include="app\platforms\ios\www\alder\3-shop.html" />
+    <None Include="app\platforms\ios\www\alder\cabinet-color.html" />
+    <None Include="app\platforms\ios\www\alder\cabinet-skip.html" />
+    <None Include="app\platforms\ios\www\alder\cabinet.html" />
+    <None Include="app\platforms\ios\www\alder\common-shop.html" />
+    <None Include="app\platforms\ios\www\alder\custom-jacket-board.html" />
+    <None Include="app\platforms\ios\www\alder\custom-shop-color.html" />
+    <None Include="app\platforms\ios\www\alder\custom-shop-skip.html" />
+    <None Include="app\platforms\ios\www\alder\custom-shop.html" />
+    <None Include="app\platforms\ios\www\alder\jacket-board-1.html" />
+    <None Include="app\platforms\ios\www\alder\jacket-board.html" />
+    <None Include="app\platforms\ios\www\alder\k-strip.html" />
+    <None Include="app\platforms\ios\www\alder\premium.html" />
+    <None Include="app\platforms\ios\www\alder\rustic.html" />
+    <None Include="app\platforms\ios\www\alder\standard-frame.html" />
+    <None Include="app\platforms\ios\www\alder\superior-1-face.html" />
+    <None Include="app\platforms\ios\www\alder\superior-color.html" />
+    <None Include="app\platforms\ios\www\alder\superior-skip.html" />
+    <None Include="app\platforms\ios\www\alder\superior.html" />
+    <None Include="app\platforms\ios\www\alder\utility.html" />
+    <None Include="app\platforms\ios\www\ash\1-shop.html" />
+    <None Include="app\platforms\ios\www\ash\2-shop.html" />
+    <None Include="app\platforms\ios\www\ash\3-shop.html" />
+    <None Include="app\platforms\ios\www\ash\frame.html" />
+    <None Include="app\platforms\ios\www\ash\select-and-better.html" />
+    <None Include="app\platforms\ios\www\cottonwood\1-shop.html" />
+    <None Include="app\platforms\ios\www\cottonwood\chop.html" />
+    <None Include="app\platforms\ios\www\cottonwood\select-and-better.html" />
+    <None Include="app\platforms\ios\www\glossary.html" />
+    <None Include="app\platforms\ios\www\index.html" />
+    <None Include="app\platforms\ios\www\maple\1-and-better-skip.html" />
+    <None Include="app\platforms\ios\www\maple\1-shop-color.html" />
+    <None Include="app\platforms\ios\www\maple\1-shop.html" />
+    <None Include="app\platforms\ios\www\maple\2-shop.html" />
+    <None Include="app\platforms\ios\www\maple\3-shop.html" />
+    <None Include="app\platforms\ios\www\maple\select-and-better-color.html" />
+    <None Include="app\platforms\ios\www\maple\select-and-better.html" />
+    <None Include="app\platforms\ios\www\maple\standard-frame.html" />
+    <None Include="app\platforms\ios\www\maple\utility.html" />
+    <None Include="app\platforms\ios\www\spec.html" />
+    <None Include="app\platforms\windows\cordova\node_modules\cordova-common\node_modules\cordova-registry-mapper\node_modules\tape\example\static\index.html" />
+    <None Include="app\platforms\windows\www\alder\104-124-1-shop.html" />
+    <None Include="app\platforms\windows\www\alder\104-124-2-shop.html" />
+    <None Include="app\platforms\windows\www\alder\104-124-superior.html" />
+    <None Include="app\platforms\windows\www\alder\3-shop.html" />
+    <None Include="app\platforms\windows\www\alder\cabinet-color.html" />
+    <None Include="app\platforms\windows\www\alder\cabinet-skip.html" />
+    <None Include="app\platforms\windows\www\alder\cabinet.html" />
+    <None Include="app\platforms\windows\www\alder\common-shop.html" />
+    <None Include="app\platforms\windows\www\alder\custom-jacket-board.html" />
+    <None Include="app\platforms\windows\www\alder\custom-shop-color.html" />
+    <None Include="app\platforms\windows\www\alder\custom-shop-skip.html" />
+    <None Include="app\platforms\windows\www\alder\custom-shop.html" />
+    <None Include="app\platforms\windows\www\alder\jacket-board-1.html" />
+    <None Include="app\platforms\windows\www\alder\jacket-board.html" />
+    <None Include="app\platforms\windows\www\alder\k-strip.html" />
+    <None Include="app\platforms\windows\www\alder\premium.html" />
+    <None Include="app\platforms\windows\www\alder\rustic.html" />
+    <None Include="app\platforms\windows\www\alder\standard-frame.html" />
+    <None Include="app\platforms\windows\www\alder\superior-1-face.html" />
+    <None Include="app\platforms\windows\www\alder\superior-color.html" />
+    <None Include="app\platforms\windows\www\alder\superior-skip.html" />
+    <None Include="app\platforms\windows\www\alder\superior.html" />
+    <None Include="app\platforms\windows\www\alder\utility.html" />
+    <None Include="app\platforms\windows\www\ash\1-shop.html" />
+    <None Include="app\platforms\windows\www\ash\2-shop.html" />
+    <None Include="app\platforms\windows\www\ash\3-shop.html" />
+    <None Include="app\platforms\windows\www\ash\frame.html" />
+    <None Include="app\platforms\windows\www\ash\select-and-better.html" />
+    <None Include="app\platforms\windows\www\cottonwood\1-shop.html" />
+    <None Include="app\platforms\windows\www\cottonwood\chop.html" />
+    <None Include="app\platforms\windows\www\cottonwood\select-and-better.html" />
+    <None Include="app\platforms\windows\www\glossary.html" />
+    <None Include="app\platforms\windows\www\index.html" />
+    <None Include="app\platforms\windows\www\maple\1-and-better-skip.html" />
+    <None Include="app\platforms\windows\www\maple\1-shop-color.html" />
+    <None Include="app\platforms\windows\www\maple\1-shop.html" />
+    <None Include="app\platforms\windows\www\maple\2-shop.html" />
+    <None Include="app\platforms\windows\www\maple\3-shop.html" />
+    <None Include="app\platforms\windows\www\maple\select-and-better-color.html" />
+    <None Include="app\platforms\windows\www\maple\select-and-better.html" />
+    <None Include="app\platforms\windows\www\maple\standard-frame.html" />
+    <None Include="app\platforms\windows\www\maple\utility.html" />
+    <None Include="app\platforms\windows\www\spec.html" />
+    <None Include="app\plugins\cordova-plugin-inappbrowser\tests\resources\inject.html" />
+    <None Include="app\plugins\cordova-plugin-inappbrowser\tests\resources\local.html" />
+    <None Include="app\plugins\cordova-plugin-inappbrowser\tests\resources\video.html" />
+    <None Include="app\www\alder\104-124-1-shop.html" />
+    <None Include="app\www\alder\104-124-2-shop.html" />
+    <None Include="app\www\alder\104-124-superior.html" />
+    <None Include="app\www\alder\3-shop.html" />
+    <None Include="app\www\alder\cabinet-color.html" />
+    <None Include="app\www\alder\cabinet-skip.html" />
+    <None Include="app\www\alder\cabinet.html" />
+    <None Include="app\www\alder\common-shop.html" />
+    <None Include="app\www\alder\custom-jacket-board.html" />
+    <None Include="app\www\alder\custom-shop-color.html" />
+    <None Include="app\www\alder\custom-shop-skip.html" />
+    <None Include="app\www\alder\custom-shop.html" />
+    <None Include="app\www\alder\jacket-board-1.html" />
+    <None Include="app\www\alder\jacket-board.html" />
+    <None Include="app\www\alder\k-strip.html" />
+    <None Include="app\www\alder\premium.html" />
+    <None Include="app\www\alder\rustic.html" />
+    <None Include="app\www\alder\standard-frame.html" />
+    <None Include="app\www\alder\superior-1-face.html" />
+    <None Include="app\www\alder\superior-color.html" />
+    <None Include="app\www\alder\superior-skip.html" />
+    <None Include="app\www\alder\superior.html" />
+    <None Include="app\www\alder\utility.html" />
+    <None Include="app\www\ash\1-shop.html" />
+    <None Include="app\www\ash\2-shop.html" />
+    <None Include="app\www\ash\3-shop.html" />
+    <None Include="app\www\ash\frame.html" />
+    <None Include="app\www\ash\select-and-better.html" />
+    <None Include="app\www\cottonwood\1-shop.html" />
+    <None Include="app\www\cottonwood\chop.html" />
+    <None Include="app\www\cottonwood\select-and-better.html" />
+    <None Include="app\www\glossary.html" />
+    <None Include="app\www\index.html" />
+    <None Include="app\www\maple\1-and-better-skip.html" />
+    <None Include="app\www\maple\1-shop-color.html" />
+    <None Include="app\www\maple\1-shop.html" />
+    <None Include="app\www\maple\2-shop.html" />
+    <None Include="app\www\maple\3-shop.html" />
+    <None Include="app\www\maple\select-and-better-color.html" />
+    <None Include="app\www\maple\select-and-better.html" />
+    <None Include="app\www\maple\standard-frame.html" />
+    <None Include="app\www\maple\utility.html" />
+    <None Include="app\www\spec.html" />
+    <None Include="phonegap\platforms\ios\cordova\node_modules\cordova-common\node_modules\cordova-registry-mapper\node_modules\tape\example\static\index.html" />
+    <None Include="phonegap\platforms\ios\cordova\node_modules\cordova-common\node_modules\elementtree\node_modules\sax\examples\test.html" />
+    <None Include="phonegap\platforms\ios\cordova\node_modules\plist\examples\browser\index.html" />
+    <None Include="phonegap\platforms\ios\cordova\node_modules\xcode\node_modules\node-uuid\test\test.html" />
+    <None Include="phonegap\platforms\ios\www\alder\104-124-1-shop.html" />
+    <None Include="phonegap\platforms\ios\www\alder\104-124-2-shop.html" />
+    <None Include="phonegap\platforms\ios\www\alder\104-124-superior.html" />
+    <None Include="phonegap\platforms\ios\www\alder\3-shop.html" />
+    <None Include="phonegap\platforms\ios\www\alder\cabinet-color.html" />
+    <None Include="phonegap\platforms\ios\www\alder\cabinet-skip.html" />
+    <None Include="phonegap\platforms\ios\www\alder\cabinet.html" />
+    <None Include="phonegap\platforms\ios\www\alder\common-shop.html" />
+    <None Include="phonegap\platforms\ios\www\alder\custom-jacket-board.html" />
+    <None Include="phonegap\platforms\ios\www\alder\custom-shop-color.html" />
+    <None Include="phonegap\platforms\ios\www\alder\custom-shop-skip.html" />
+    <None Include="phonegap\platforms\ios\www\alder\custom-shop.html" />
+    <None Include="phonegap\platforms\ios\www\alder\jacket-board-1.html" />
+    <None Include="phonegap\platforms\ios\www\alder\jacket-board.html" />
+    <None Include="phonegap\platforms\ios\www\alder\k-strip.html" />
+    <None Include="phonegap\platforms\ios\www\alder\premium.html" />
+    <None Include="phonegap\platforms\ios\www\alder\rustic.html" />
+    <None Include="phonegap\platforms\ios\www\alder\standard-frame.html" />
+    <None Include="phonegap\platforms\ios\www\alder\superior-1-face.html" />
+    <None Include="phonegap\platforms\ios\www\alder\superior-color.html" />
+    <None Include="phonegap\platforms\ios\www\alder\superior-skip.html" />
+    <None Include="phonegap\platforms\ios\www\alder\superior.html" />
+    <None Include="phonegap\platforms\ios\www\alder\utility.html" />
+    <None Include="phonegap\platforms\ios\www\ash\1-shop.html" />
+    <None Include="phonegap\platforms\ios\www\ash\2-shop.html" />
+    <None Include="phonegap\platforms\ios\www\ash\3-shop.html" />
+    <None Include="phonegap\platforms\ios\www\ash\frame.html" />
+    <None Include="phonegap\platforms\ios\www\ash\select-and-better.html" />
+    <None Include="phonegap\platforms\ios\www\cottonwood\1-shop.html" />
+    <None Include="phonegap\platforms\ios\www\cottonwood\chop.html" />
+    <None Include="phonegap\platforms\ios\www\cottonwood\select-and-better.html" />
+    <None Include="phonegap\platforms\ios\www\glossary.html" />
+    <None Include="phonegap\platforms\ios\www\index.html" />
+    <None Include="phonegap\platforms\ios\www\maple\1-and-better-skip.html" />
+    <None Include="phonegap\platforms\ios\www\maple\1-shop-color.html" />
+    <None Include="phonegap\platforms\ios\www\maple\1-shop.html" />
+    <None Include="phonegap\platforms\ios\www\maple\2-shop.html" />
+    <None Include="phonegap\platforms\ios\www\maple\3-shop.html" />
+    <None Include="phonegap\platforms\ios\www\maple\select-and-better-color.html" />
+    <None Include="phonegap\platforms\ios\www\maple\select-and-better.html" />
+    <None Include="phonegap\platforms\ios\www\maple\standard-frame.html" />
+    <None Include="phonegap\platforms\ios\www\maple\utility.html" />
+    <None Include="phonegap\plugins\cordova-plugin-inappbrowser\tests\resources\inject.html" />
+    <None Include="phonegap\plugins\cordova-plugin-inappbrowser\tests\resources\local.html" />
+    <None Include="phonegap\plugins\cordova-plugin-inappbrowser\tests\resources\video.html" />
+    <None Include="phonegap\www\alder\104-124-1-shop.html" />
+    <None Include="phonegap\www\alder\104-124-2-shop.html" />
+    <None Include="phonegap\www\alder\104-124-superior.html" />
+    <None Include="phonegap\www\alder\3-shop.html" />
+    <None Include="phonegap\www\alder\cabinet-color.html" />
+    <None Include="phonegap\www\alder\cabinet-skip.html" />
+    <None Include="phonegap\www\alder\cabinet.html" />
+    <None Include="phonegap\www\alder\common-shop.html" />
+    <None Include="phonegap\www\alder\custom-jacket-board.html" />
+    <None Include="phonegap\www\alder\custom-shop-color.html" />
+    <None Include="phonegap\www\alder\custom-shop-skip.html" />
+    <None Include="phonegap\www\alder\custom-shop.html" />
+    <None Include="phonegap\www\alder\jacket-board-1.html" />
+    <None Include="phonegap\www\alder\jacket-board.html" />
+    <None Include="phonegap\www\alder\k-strip.html" />
+    <None Include="phonegap\www\alder\premium.html" />
+    <None Include="phonegap\www\alder\rustic.html" />
+    <None Include="phonegap\www\alder\standard-frame.html" />
+    <None Include="phonegap\www\alder\superior-1-face.html" />
+    <None Include="phonegap\www\alder\superior-color.html" />
+    <None Include="phonegap\www\alder\superior-skip.html" />
+    <None Include="phonegap\www\alder\superior.html" />
+    <None Include="phonegap\www\alder\utility.html" />
+    <None Include="phonegap\www\ash\1-shop.html" />
+    <None Include="phonegap\www\ash\2-shop.html" />
+    <None Include="phonegap\www\ash\3-shop.html" />
+    <None Include="phonegap\www\ash\frame.html" />
+    <None Include="phonegap\www\ash\select-and-better.html" />
+    <None Include="phonegap\www\cottonwood\1-shop.html" />
+    <None Include="phonegap\www\cottonwood\chop.html" />
+    <None Include="phonegap\www\cottonwood\select-and-better.html" />
+    <None Include="phonegap\www\glossary.html" />
+    <None Include="phonegap\www\index.html" />
+    <None Include="phonegap\www\maple\1-and-better-skip.html" />
+    <None Include="phonegap\www\maple\1-shop-color.html" />
+    <None Include="phonegap\www\maple\1-shop.html" />
+    <None Include="phonegap\www\maple\2-shop.html" />
+    <None Include="phonegap\www\maple\3-shop.html" />
+    <None Include="phonegap\www\maple\select-and-better-color.html" />
+    <None Include="phonegap\www\maple\select-and-better.html" />
+    <None Include="phonegap\www\maple\standard-frame.html" />
+    <None Include="phonegap\www\maple\utility.html" />
+    <None Include="public_html\products\alder\104-124-1-shop.html" />
+    <None Include="public_html\products\alder\104-124-2-shop.html" />
+    <None Include="public_html\products\alder\104-124-superior.html" />
+    <None Include="public_html\products\alder\3-shop.html" />
+    <None Include="public_html\products\alder\cabinet-color.html" />
+    <None Include="public_html\products\alder\cabinet-skip.html" />
+    <None Include="public_html\products\alder\cabinet.html" />
+    <None Include="public_html\products\alder\common-shop.html" />
+    <None Include="public_html\products\alder\custom-jacket-board.html" />
+    <None Include="public_html\products\alder\custom-shop-color.html" />
+    <None Include="public_html\products\alder\custom-shop-skip.html" />
+    <None Include="public_html\products\alder\custom-shop.html" />
+    <None Include="public_html\products\alder\jacket-board-1.html" />
+    <None Include="public_html\products\alder\jacket-board.html" />
+    <None Include="public_html\products\alder\k-strip.html" />
+    <None Include="public_html\products\alder\premium.html" />
+    <None Include="public_html\products\alder\rustic.html" />
+    <None Include="public_html\products\alder\standard-frame.html" />
+    <None Include="public_html\products\alder\superior-1-face.html" />
+    <None Include="public_html\products\alder\superior-color.html" />
+    <None Include="public_html\products\alder\superior-skip.html" />
+    <None Include="public_html\products\alder\superior.html" />
+    <None Include="public_html\products\alder\utility.html" />
+    <None Include="public_html\products\ash\1-shop.html" />
+    <None Include="public_html\products\ash\2-shop.html" />
+    <None Include="public_html\products\ash\3-shop.html" />
+    <None Include="public_html\products\ash\frame.html" />
+    <None Include="public_html\products\ash\select-and-better.html" />
+    <None Include="public_html\products\cottonwood\1-shop.html" />
+    <None Include="public_html\products\cottonwood\chop.html" />
+    <None Include="public_html\products\cottonwood\select-and-better.html" />
+    <None Include="public_html\products\glossary.html" />
+    <None Include="public_html\products\index.html" />
+    <None Include="public_html\products\maple\1-and-better-skip.html" />
+    <None Include="public_html\products\maple\1-shop-color.html" />
+    <None Include="public_html\products\maple\1-shop.html" />
+    <None Include="public_html\products\maple\2-shop.html" />
+    <None Include="public_html\products\maple\3-shop.html" />
+    <None Include="public_html\products\maple\select-and-better-color.html" />
+    <None Include="public_html\products\maple\select-and-better.html" />
+    <None Include="public_html\products\maple\standard-frame.html" />
+    <None Include="public_html\products\maple\utility.html" />
+    <None Include="public_html\wp\default.html" />
+    <None Include="public_html\wp\readme.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
