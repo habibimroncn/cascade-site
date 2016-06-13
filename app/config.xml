@@ -1,4 +1,5 @@
-<widget id="com.cascadehardwood.cascadegradeselector" version="1.2.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cascadehardwood.cascadegradeselector" version="1.2.8" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Cascade Grade Selector</name>
     <description>
         Cascade Hardwood Grade Selector
@@ -10,6 +11,7 @@
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
+    <preference name="windows-target-version" value="10.0" />
     <preference name="Fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
@@ -41,9 +43,8 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" spec="1.2.0" source="pgb" />
+    <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" source="pgb" spec="1.2.0" />
     <icon src="icon.png" />
-
     <gap:config-file overwrite="true" parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
         <false />
     </gap:config-file>
@@ -66,4 +67,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="ios" spec="~4.0.1" />
+    <engine name="windows" spec="~4.3.2" />
 </widget>
