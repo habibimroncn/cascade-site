@@ -1,4 +1,4 @@
-﻿jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
 	setTimeout(glossaryOnClick,3000);
 	function glossaryOnClick() {
 		$('a.glossaryTerm').click(function(){
@@ -23,9 +23,18 @@
 	    html += '<div class="modal-body">';
 	    html += '<div class="contact-phone"><a href="tel:1-800-228-3065"><div class="icon-contact-phone"></div><label>Give us a ring:<br />800-228-3065</label></a></div><div class="contact-email"><a href="mailto:info@CHGsales.com"><div class="icon-contact-email"></div><label>Drop us an email</label></a></div><div class="visit-website"><a href="http://www.cascadehardwood.com" target="_system"><div class="icon-visit-website"></div><label>Visit our website</label></a></div>';
 	    html += '</div></div>';
-	$('div#content').append(html);
+	    if (typeof WinJS !== "undefined") {
+	    		$('div#content').append(window.toStaticHTML(html));
+			} else {
+			    $('div#content').append(html);
+			}
+	
 	var overlay_glossary = '<div id="cover"></div>';
-	$('div#content').append(overlay_glossary);
+	if (typeof WinJS !== "undefined") {
+    	$('div#content').append(window.toStaticHTML(overlay_glossary));
+	} else {
+	    $('div#content').append(overlay_glossary);
+	}
 
 	if ($('div.grade-selector-filters')[0]) {
 		_initGradeSelector();
@@ -55,12 +64,22 @@
 	if ($($('div#contact a').first()).length != 0) {
     	$($('div#contact a').first()).attr("href", "http://cascadehardwood.com").attr('target','_blank');
 	}
+	// Change url if WinJs loaded
+	if (typeof WinJS !== "undefined") {
+		if ($($('a.notes-header__link').first()).length != 0) {
+    		$($('a.notes-header__link').first()).attr('target','_self');
+		}
+	} else {
+		if ($($('a.notes-header__link').first()).length != 0) {
+    		$($('a.notes-header__link').first()).attr('target','_blank');
+		}
+	}
 
 	// if ($('div.homepage').length == 0  && $('div.glossary').length == 0) {
 		// Change url homepage icon for all product page.
 		if ($('a#logo').length != 0) {
 	    	$('a#logo').attr("href", "#").attr('class','js-open-modal').attr('data-modal-id','popup');
-		}
+		} 
 	// }
 
 	window.addEventListener('load', function () {    
@@ -267,8 +286,12 @@ if ($('ul#primary li.active')[0]) {
 
 	// create cash money div
 	cashMoney = $('<div id="cash-money"></div>');
-	$('div#pro-side').append(cashMoney);
-
+	if (typeof WinJS !== "undefined") {
+    	$('div#pro-side').append(window.toStaticHTML(cashMoney));
+	} else {
+	    $('div#pro-side').append(cashMoney);
+	}
+	
 	// Desktop only
 	(function() {
 		if ( $( window ).width() < 900 ) {
@@ -858,9 +881,16 @@ function _initGradePage() {
     $('div.photo-back div.field-items div.field-item.odd').addClass('pinch');
     $('div.photo-cuts div.field-items div.field-item.odd').addClass('pinch');
     $('meta[name=viewport]').remove();
-    $('head').append( '<meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=3.0, width=device-width, height=device-height" />' );
-    $( '<script type="text/javascript" src="../js/hammer.min.js"></script>' ).appendTo( "body" );
-    $( '<script type="text/javascript" src="../js/cascade-pinch.js"></script>' ).appendTo( "body" );
+    if (typeof WinJS !== "undefined") {
+    	$('head').append( window.toStaticHTML('<meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=3.0, width=device-width, height=device-height" />' ));
+	    $( window.toStaticHTML('<script type="text/javascript" src="../js/hammer.min.js"></script>' )).appendTo( "body" );
+	    $( window.toStaticHTML('<script type="text/javascript" src="../js/cascade-pinch.js"></script>' )).appendTo( "body" );
+	} else {
+	    $('head').append( '<meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=3.0, width=device-width, height=device-height" />' );
+	    $( '<script type="text/javascript" src="../js/hammer.min.js"></script>' ).appendTo( "body" );
+	    $( '<script type="text/javascript" src="../js/cascade-pinch.js"></script>' ).appendTo( "body" );
+	}
+    
     // $( '<script type="text/javascript" src="../js/touch-emulator.js"></script>' ).appendTo( "body" );
     $('div#front a').click(function () {
     	console.log('front');
@@ -918,15 +948,36 @@ function _buildProductContentTabs() {
 		// loop through siblings and add content until we hit an h2
 		$(this).nextAll().each(function() {
 			if ($(this).tagName == 'h2') return;
-			$div.append($(this));
+			if (typeof WinJS !== "undefined") {
+	    	MSApp.execUnsafeLocalFunction(function() {
+	    		$div.append($(this));
+	    	});
+			} else {
+			    $div.append($(this));
+			}
+			
 		});
-		$newcontent.append($div);
+		if (typeof WinJS !== "undefined") {
+	    	MSApp.execUnsafeLocalFunction(function() {
+	    		$newcontent.append($div);
+	    	});
+			} else {
+			    $newcontent.append($div);
+			}
+		
 
 		// remove h2 from text
 		$(this).remove();
 
 		// add tab link and setup click action
-		$menu.find('ul').append($link);
+		if (typeof WinJS !== "undefined") {
+	    	MSApp.execUnsafeLocalFunction(function() {
+	    		$menu.find('ul').append($link);
+	    	});
+			} else {
+			    $menu.find('ul').append($link);
+			}
+		
 		$link.click(function() {
 			var index = $(this).parent().find('li').index($(this));
 			$(this).addClass('active');
@@ -965,7 +1016,12 @@ function _showProductContentIndex(i, fade) {
 	  	$('body.section-products a#back').css('z-index','9');
 	  	$('div.view-controls').css('z-index','10');
 	    e.preventDefault();
-	    $("body").append(appendthis);
+		    if (typeof WinJS !== "undefined") {
+	    		$("body").append(window.toStaticHTML(appendthis));
+			} else {
+			    $("body").append(appendthis);
+			}
+	    
 	    $(".modal-overlay").fadeTo(500, 0.7);
 	    //$(".js-modalbox").fadeIn(500);
 	    var modalBox = $(this).attr('data-modal-id');

@@ -1,4 +1,4 @@
-﻿(function(window, document, exportName, undefined) {
+(function(window, document, exportName, undefined) {
     "use strict";
 
     var isMultiTouch = false;

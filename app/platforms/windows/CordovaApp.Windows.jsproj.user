@@ -4,6 +4,9 @@
     <DebuggerFlavor>AppHostSimulatorDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ReferenceCachePath>C:\Users\sheldon\AppData\Local\Temp\dwiotqw4_CordovaApp.Windows_refcache</ReferenceCachePath>
+    <ReferenceCachePath>C:\Users\hnugroho\AppData\Local\Temp\5bxeqhcz_CordovaApp.Windows_refcache</ReferenceCachePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

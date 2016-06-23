@@ -16,6 +16,22 @@ module.exports = [
         "merges": [
             ""
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "pluginId": "cordova-plugin-splashscreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js",
+        "id": "cordova-plugin-splashscreen.SplashScreenProxy",
+        "pluginId": "cordova-plugin-splashscreen",
+        "merges": [
+            ""
+        ]
     }
 ];
 module.exports.metadata = 
@@ -23,7 +39,8 @@ module.exports.metadata =
 {
     "cordova-plugin-inappbrowser": "1.4.0",
     "cordova-plugin-whitelist": "1.2.1",
-    "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0"
+    "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0",
+    "cordova-plugin-splashscreen": "3.2.2"
 };
 // BOTTOM OF METADATA
 });

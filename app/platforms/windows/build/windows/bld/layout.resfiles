@@ -288,6 +288,7 @@ www\img\intro-bg.jpg
 www\img\ipad-bg-padded.png
 www\img\ken-color.jpg
 www\img\log-belt.jpg
+www\img\logo.png
 www\img\logo-background.png
 www\img\log-sales-bg.jpg
 www\img\lpi-chainsaw-bg.jpg
@@ -374,6 +375,8 @@ www\maple\standard-frame.html
 www\maple\utility.html
 www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js
 www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js
+www\plugins\cordova-plugin-splashscreen\www\splashscreen.js
+www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js
 www\res\.pgbomit
 www\res\icon\android\mipmap-hdpi\ic_launcher.png
 www\res\icon\android\mipmap-ldpi\ic_launcher.png
@@ -417,6 +420,18 @@ www\res\icon\ios\iTunesArtwork.png
 www\res\icon\ios\iTunesArtwork@2x.png
 www\res\icon\tizen\icon-128.png
 www\res\icon\webos\icon-64.png
+www\res\icon\windows\logo.png
+www\res\icon\windows\smalllogo.png
+www\res\icon\windows\Square150x150Logo.scale-240.png
+www\res\icon\windows\Square310x310Logo.scale-100.png
+www\res\icon\windows\Square44x44Logo.scale-100.png
+www\res\icon\windows\Square44x44Logo.scale-240.png
+www\res\icon\windows\Square70x70Logo.scale-100.png
+www\res\icon\windows\Square71x71Logo.scale-100.png
+www\res\icon\windows\Square71x71Logo.scale-240.png
+www\res\icon\windows\storelogo.png
+www\res\icon\windows\Wide310x150Logo.scale-100.png
+www\res\icon\windows\Wide310x150Logo.scale-240.png.png
 www\res\icon\windows-phone\icon-173-tile.png
 www\res\icon\windows-phone\icon-48.png
 www\res\icon\windows-phone\icon-62-tile.png
@@ -452,6 +467,8 @@ www\res\screen\ios\Default-Portrait@2x~ipad_1536x2048.png
 www\res\screen\ios\Default-Portrait~ipad_768x1024.png
 www\res\screen\tizen\README.md
 www\res\screen\webos\screen-64.png
+www\res\screen\windows\splashscreen.png
+www\res\screen\windows\splashscreenphone.png
 www\res\screen\windows-phone\screen-portrait.jpg
 www\spec.html
 www\spec\helper.js
