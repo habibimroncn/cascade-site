@@ -12,6 +12,9 @@
         },
         "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
             "PACKAGE_NAME": "com.phonegap.cascadegradeselector"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.cascadehardwood.cascadegradeselector"
         }
     },
     "dependent_plugins": {}

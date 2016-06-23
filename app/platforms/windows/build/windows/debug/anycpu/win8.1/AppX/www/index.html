@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
         <meta charset="utf-8" />
@@ -27,39 +27,42 @@
 		<link type="text/css" rel="stylesheet" media="print" href="css/print.css" />
 		<link type="text/css" rel="stylesheet" media="all" href="css/grade_selector.css" />
 		<link type="text/css" rel="stylesheet" media="all" href="css/grade_selector_mobile.css" />
-
-
+		<!-- Insert PG script -->
+		<script src="cordova.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">app.initialize();</script>
+		
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/drupal.js"></script>
 		<script type="text/javascript" src="js/jq-ui.js"></script>
 		<script type="text/javascript" src="js/cascadegroup-data.js"></script>
 		<script src="js/okzoom.min.js"></script>
 		<script type="text/javascript" src="js/cascadegroup.js"></script>
+		<script>
+
+			$( document ).ready(function() {
+
+
+				$('input').click(function () {
+			        $('input:not(:checked)').parent('label').removeClass("checked");
+			        $('input:checked').parent('label').addClass("checked");
+			    });
+
+
+
+			});
+
+		</script>
+
+		<style>
+			html {
+				background: #000;
+			}
+		</style>
+
+
 
 </head>
-<script>
-
-$( document ).ready(function() {
-
-
-	$('input').click(function () {
-        $('input:not(:checked)').parent('label').removeClass("checked");
-        $('input:checked').parent('label').addClass("checked");
-    });
-
-
-
-});
-
-</script>
-
-<style>
-html {
-	background: #000;
-}
-</style>
-
-
   <body class="not-front not-logged-in page-products no-sidebars with-navigation page-products section-products">
   <div class="homepage"></div>
     <div id="content" class="clearfix">
@@ -750,7 +753,7 @@ html {
 </div>
 </div>
 </div>
-</div>
+<!-- </div> -->
 
 
 
@@ -764,9 +767,6 @@ html {
 </div>
 -->
 
-<!-- Insert PG script -->
-<script src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript">app.initialize();</script>
+
 </body>
 </html>

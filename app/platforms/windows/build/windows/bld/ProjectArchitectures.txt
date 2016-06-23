@@ -1,1 +1,1 @@
-C:\Users\sheldon\Sites\cascade-site\app\platforms\windows\CordovaApp.Windows10.jsproj;neutral
+D:\projects\cascade-site\app\platforms\windows\CordovaApp.Windows.jsproj;neutral

@@ -1,6 +1,9 @@
 /* tablet  */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 4000px) {
+    body.section-products div#contact {
+        display: none;
+    }
     body.section-products div#contact,
     body.section-products a#back {
         margin-left: 16px;
@@ -15,13 +18,10 @@
     }
     body.section-products div.page-header a#logo {
         margin-top: 10px;
-        width: inherit;
+        width: 40px;
         height: 85px;
         background-image: url(../img/icon-message.png);
         background-repeat: no-repeat;
-        text-indent: -1000px;
-        overflow: hidden;
-        float: right;
     }
     body.section-products div#content div.page-header h1.title {
         top: 35px;
@@ -69,7 +69,7 @@
         margin-left: 405px;
     }
     .node .photo-box {
-        margin-left: 395px;
+        margin-left: 492px;
     }
     .view.closed .attachment {
         left: -215px;
@@ -138,19 +138,19 @@
     }
     div#edit-field-species-value-many-to-one-Alder-wrapper label {
         font-size: 13px;
-        width: initial;
+        width: auto;
     }
     div#edit-field-species-value-many-to-one-Maple-wrapper label {
         font-size: 13px;
-        width: initial;
+        width: auto;
     }
     div#edit-field-species-value-many-to-one-Ash-wrapper label {
         font-size: 13px;
-        width: initial;
+        width: auto;
     }
     div#edit-field-species-value-many-to-one-Cotton-wrapper label {
         font-size: 13px;
-        width: initial;
+        width: auto;
     }
     div#edit-field-species-value-many-to-one-Alder-wrapper,
     div#edit-field-species-value-many-to-one-Maple-wrapper,
@@ -297,7 +297,7 @@
     }
     .modal-overlay {
         opacity: 0;
-        filter: alpha(opacity=0);
+        -webkit-filter: alpha(opacity=0);
         position: fixed;
         top: 0;
         left: 0;
@@ -400,6 +400,27 @@
     div.view-controls {
         width: 40px;
     }
+
+    body.section-products div#line {
+        margin-top: 0;
+    }
+
+    body.section-products div#content div.page-content {
+        max-width : none;
+    }
+
+    body.section-products .wrap,
+    body.section-products div#content div.page-content .wrap {
+        max-width: none !important;
+    } 
+
+    .view, .node {
+        max-width: none;
+    }
+
+    .modal-box {
+        width: 480px;
+    }
 }
 /*end*/
 /*@media (min-width: 32em) {
@@ -407,7 +428,7 @@
     }*/
 /* phone  */
 
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 600px) {
 
     body.section-products div#contact,
     body.section-products a#back {
@@ -417,6 +438,6 @@
         display: none;
     }
     .modal-box {
-            width: 70%;
+        width: 480px;
     }
 }

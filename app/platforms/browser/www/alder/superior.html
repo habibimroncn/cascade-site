@@ -24,6 +24,8 @@
       <link type="text/css" rel="stylesheet" media="print" href="../css/print.css" />
       <link type="text/css" rel="stylesheet" media="all" href="../css/grade_selector.css" />
       <link type="text/css" rel="stylesheet" media="all" href="../css/grade_selector_mobile.css" />
+            <!-- Insert PG script -->
+      <script src="../cordova.js"></script>
       <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
       <!-- <script type="text/javascript" src="../js/hammer.min.js"></script> -->
       <script type="text/javascript" src="../js/drupal.js"></script>
@@ -44,8 +46,14 @@
                
            // add view controls
            var viewer = '<div class="view-controls"><div id="front"><a class="front selected" href="superior.html#"><span>front</span></a></div><div id="back"><a class="back" href="superior.html#"><span>back</span></a></div><div id="cuts"><a href="superior.html#"><span>cuts</span></a></div><div id="zoomer"><a href="superior.html#"><span>zoom</span></a></div></div>';
+           if (typeof WinJS !== "undefined") {
+            MSApp.execUnsafeLocalFunction(function() {
+               $('div.node-type-grade').append(viewer);
+            });
+            } else {
+               $('div.node-type-grade').append(viewer);
+            }
            
-           $('div.node-type-grade').append(viewer);
            if ( 0 === $( '.photo-cuts' ).length ) {
              $( '#cuts' ).remove();
            }
@@ -54,8 +62,14 @@
            // add product info cta 
            
            var cta = '<div class="side-cta"><img src="../img/call-us.png"><p>For more info, <a href="mailto:">email us</a> or give us a call at</p><p class="side-cta-phone">800-228-3065</p></div><img class="side-footer-logo" src="../img/side-footer-logo.png"></div>'
+           if (typeof WinJS !== "undefined") {
+            MSApp.execUnsafeLocalFunction(function() {
+              $('div.field-field-grade-notes').append(cta);
+            });
+            } else {
+               $('div.field-field-grade-notes').append(cta);
+            }
            
-           $('div.field-field-grade-notes').append(cta);
           
            // initialize js for grade page
            _initGradePage();
@@ -388,7 +402,6 @@
          	
          </div>
          -->
-      <!-- Insert PG script -->
-      <script src="../cordova.js"></script>
+
    </body>
 </html>

@@ -1,4 +1,4 @@
-﻿jQuery.extend(Drupal.settings, {
+jQuery.extend(Drupal.settings, {
     "basePath": "\/",
     "googleanalytics": {
         "trackOutgoing": 1,

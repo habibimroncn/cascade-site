@@ -15,6 +15,9 @@
         },
         "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
             "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.cascadehardwood.cascadegradeselector"
         }
     },
     "dependent_plugins": {}
