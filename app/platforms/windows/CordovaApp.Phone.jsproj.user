@@ -2,5 +2,10 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>WindowsPhoneEmulatorDebugger</DebuggerFlavor>
+    <WindowsPhoneEmulatorID>D0D3D928-49A9-48E9-96FD-B8D20CAA922B;Emulator 8.1 U1 720P 4.7 inch</WindowsPhoneEmulatorID>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>WindowsPhoneEmulatorDebugger</DebuggerFlavor>
+    <WindowsPhoneEmulatorID>D0D3D928-49A9-48E9-96FD-B8D20CAA922B;Emulator 8.1 U1 720P 4.7 inch</WindowsPhoneEmulatorID>
   </PropertyGroup>
 </Project>
