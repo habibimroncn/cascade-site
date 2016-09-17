@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+﻿jQuery(document).ready(function($) {
 	setTimeout(glossaryOnClick,3000);
 	function glossaryOnClick() {
 		$('a.glossaryTerm').click(function(){
