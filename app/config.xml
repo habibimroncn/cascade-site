@@ -63,6 +63,10 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <splash qualifier="ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+        <splash qualifier="mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+        <splash qualifier="hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+        <splash qualifier="xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

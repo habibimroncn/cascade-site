@@ -14,6 +14,10 @@
     </feature>
     <preference name="Fullscreen" value="true" />
     <allow-intent href="market:*" />
+    <splash qualifier="ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+    <splash qualifier="mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+    <splash qualifier="hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+    <splash qualifier="xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
     <name>Cascade Grade Selector</name>
     <description>
         Cascade Hardwood Grade Selector
