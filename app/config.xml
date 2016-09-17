@@ -45,7 +45,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" source="pgb" spec="1.2.0" />
+    <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
     <icon src="icon.png" />
     <gap:config-file overwrite="true" parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
         <false />
