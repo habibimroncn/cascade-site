@@ -1,0 +1,1969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DEV-COM-NET4</Machine>
+    <WindowsUser>hnugroho</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>com.cascadehardwood.cascadegradeselector</PackageIdentityName>
+    <IntermediateOutputPath>D:\projects\cascade-site\app\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>23002542E0007B1C44433D0D321C26B15BE89EFB2D560B766099505108285E08</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.cascadehardwood.cascadegradeselector_1.2.8.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.cascadehardwood.cascadegradeselector_h35559jr9hy9m!com.cascadehardwood.cascadegradeselector</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.cascadehardwood.cascadegradeselector</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.2.8.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\projects\cascade-site\app\platforms\windows\build\windows\Debug\AnyCPU\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-11T07:39:54.790</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-11T07:34:29.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-23T01:19:30.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-23T01:19:30.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-23T01:19:30.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-06-23T01:19:30.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-23T01:19:30.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-06-23T01:19:30.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-23T01:19:30.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-23T01:19:30.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\leaf.png">
+      <PackagePath>www\cottonwood\images\leaf.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\thumb.png">
+      <PackagePath>www\cottonwood\images\thumb.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\icon.png">
+      <PackagePath>www\icon.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\1faceicon.png">
+      <PackagePath>www\img\1faceicon.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\a1.png">
+      <PackagePath>www\img\a1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\a2.png">
+      <PackagePath>www\img\a2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\a3.png">
+      <PackagePath>www\img\a3.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\a4.png">
+      <PackagePath>www\img\a4.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-leaf.png">
+      <PackagePath>www\img\alder-leaf.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-popup.png">
+      <PackagePath>www\img\alder-popup.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-1.png">
+      <PackagePath>www\img\alder-table-icon-1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-2.png">
+      <PackagePath>www\img\alder-table-icon-2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-3.png">
+      <PackagePath>www\img\alder-table-icon-3.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-4.png">
+      <PackagePath>www\img\alder-table-icon-4.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-5.png">
+      <PackagePath>www\img\alder-table-icon-5.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-6.png">
+      <PackagePath>www\img\alder-table-icon-6.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-table-icon-7.png">
+      <PackagePath>www\img\alder-table-icon-7.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_leaf_big.png">
+      <PackagePath>www\img\alder_leaf_big.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_leaf_big_old.png">
+      <PackagePath>www\img\alder_leaf_big_old.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_leaf_small.png">
+      <PackagePath>www\img\alder_leaf_small.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_little.png">
+      <PackagePath>www\img\alder_little.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_little_old.png">
+      <PackagePath>www\img\alder_little_old.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash_leaf_big.png">
+      <PackagePath>www\img\ash_leaf_big.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash_leaf_small.png">
+      <PackagePath>www\img\ash_leaf_small.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash_little.png">
+      <PackagePath>www\img\ash_little.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash_little_old.png">
+      <PackagePath>www\img\ash_little_old.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\a_0.png">
+      <PackagePath>www\img\a_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\b1.png">
+      <PackagePath>www\img\b1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\b2.png">
+      <PackagePath>www\img\b2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\b3.png">
+      <PackagePath>www\img\b3.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\b4.png">
+      <PackagePath>www\img\b4.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\back.png">
+      <PackagePath>www\img\back.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\bg-switch-short.png">
+      <PackagePath>www\img\bg-switch-short.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\blue-button-bg.png">
+      <PackagePath>www\img\blue-button-bg.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\c1.png">
+      <PackagePath>www\img\c1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\c2.png">
+      <PackagePath>www\img\c2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\c3.png">
+      <PackagePath>www\img\c3.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\c4.png">
+      <PackagePath>www\img\c4.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\call-us.png">
+      <PackagePath>www\img\call-us.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cascade-hardwood-logo-selected.png">
+      <PackagePath>www\img\cascade-hardwood-logo-selected.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cascade-hardwood-logo-unselected.png">
+      <PackagePath>www\img\cascade-hardwood-logo-unselected.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cash-money.png">
+      <PackagePath>www\img\cash-money.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\close.png">
+      <PackagePath>www\img\close.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\content-background.png">
+      <PackagePath>www\img\content-background.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cotton_little.png">
+      <PackagePath>www\img\cotton_little.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cotton_little_old.png">
+      <PackagePath>www\img\cotton_little_old.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\footer-logo-cascade.png">
+      <PackagePath>www\img\footer-logo-cascade.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\footer-logo-fsc.png">
+      <PackagePath>www\img\footer-logo-fsc.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\footer-logo-made-in-usa.png">
+      <PackagePath>www\img\footer-logo-made-in-usa.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\footer-logo-nhla.png">
+      <PackagePath>www\img\footer-logo-nhla.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\glossary-icon.png">
+      <PackagePath>www\img\glossary\glossary-icon.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\grade-selector-icon.png">
+      <PackagePath>www\img\grade-selector-icon.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\gray-button-bg.png">
+      <PackagePath>www\img\gray-button-bg.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\header-shadow.png">
+      <PackagePath>www\img\header-shadow.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\home-nav.png">
+      <PackagePath>www\img\home-nav.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\home\grade-selector-cta-image.png">
+      <PackagePath>www\img\home\grade-selector-cta-image.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-contact-email.png">
+      <PackagePath>www\img\icon-contact-email.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-contact-phone.png">
+      <PackagePath>www\img\icon-contact-phone.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-menu-open.png">
+      <PackagePath>www\img\icon-menu-open.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-menu-shout.png">
+      <PackagePath>www\img\icon-menu-shout.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-menu.png">
+      <PackagePath>www\img\icon-menu.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-message.png">
+      <PackagePath>www\img\icon-message.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\icon-visit-website.png">
+      <PackagePath>www\img\icon-visit-website.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\inactive.png">
+      <PackagePath>www\img\inactive.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ipad-bg-padded.png">
+      <PackagePath>www\img\ipad-bg-padded.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\logo-background.png">
+      <PackagePath>www\img\logo-background.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\magnifying-glass.png">
+      <PackagePath>www\img\magnifying-glass.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\maple_leaf_big.png">
+      <PackagePath>www\img\maple_leaf_big.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\maple_leaf_small.png">
+      <PackagePath>www\img\maple_leaf_small.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\maple_little.png">
+      <PackagePath>www\img\maple_little.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\maple_little_old.png">
+      <PackagePath>www\img\maple_little_old.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\orange-badge-bg.png">
+      <PackagePath>www\img\orange-badge-bg.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\pa-logo-selected.png">
+      <PackagePath>www\img\pa-logo-selected.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\pa-logo-unselected.png">
+      <PackagePath>www\img\pa-logo-unselected.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\pdf-icon.png">
+      <PackagePath>www\img\pdf-icon.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\selector-logo.png">
+      <PackagePath>www\img\selector-logo.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\shared\arrow-double-black.png">
+      <PackagePath>www\img\shared\arrow-double-black.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\shared\border-jagged-yellow.png">
+      <PackagePath>www\img\shared\border-jagged-yellow.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\side-bg.png">
+      <PackagePath>www\img\side-bg.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\side-footer-logo.png">
+      <PackagePath>www\img\side-footer-logo.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\switch.png">
+      <PackagePath>www\img\switch.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\tab-shadow.png">
+      <PackagePath>www\img\tab-shadow.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\tabs-alder.png">
+      <PackagePath>www\img\tabs-alder.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\tabs-ash.png">
+      <PackagePath>www\img\tabs-ash.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\tabs-maple.png">
+      <PackagePath>www\img\tabs-maple.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\video-small-bg.png">
+      <PackagePath>www\img\video-small-bg.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\video-staple.png">
+      <PackagePath>www\img\video-staple.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0000_check_circle.png">
+      <PackagePath>www\img\_0000_check_circle.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0001_1_circle_0.png">
+      <PackagePath>www\img\_0001_1_circle_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0001_1_circle_1.png">
+      <PackagePath>www\img\_0001_1_circle_1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0002_s_circle.png">
+      <PackagePath>www\img\_0002_s_circle.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0002_s_circle_0.png">
+      <PackagePath>www\img\_0002_s_circle_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0003__.png">
+      <PackagePath>www\img\_0003__.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0003___0.png">
+      <PackagePath>www\img\_0003___0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0003___1.png">
+      <PackagePath>www\img\_0003___1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0004_O.png">
+      <PackagePath>www\img\_0004_O.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0005_upsidedown_V.png">
+      <PackagePath>www\img\_0005_upsidedown_V.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0006_-_0.png">
+      <PackagePath>www\img\_0006_-_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0006_-_1.png">
+      <PackagePath>www\img\_0006_-_1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0006_-_2.png">
+      <PackagePath>www\img\_0006_-_2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0007_2.png">
+      <PackagePath>www\img\_0007_2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0007_2_0.png">
+      <PackagePath>www\img\_0007_2_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0007_2_1.png">
+      <PackagePath>www\img\_0007_2_1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0007_2_2.png">
+      <PackagePath>www\img\_0007_2_2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0008_1.png">
+      <PackagePath>www\img\_0008_1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0008_1_0.png">
+      <PackagePath>www\img\_0008_1_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0008_1_1.png">
+      <PackagePath>www\img\_0008_1_1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0008_1_2.png">
+      <PackagePath>www\img\_0008_1_2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0009_U.png">
+      <PackagePath>www\img\_0009_U.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0009_U_0.png">
+      <PackagePath>www\img\_0009_U_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0011_check_x.png">
+      <PackagePath>www\img\_0011_check_x.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0012_IX.png">
+      <PackagePath>www\img\_0012_IX.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0012_IX_0.png">
+      <PackagePath>www\img\_0012_IX_0.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0013_SX.png">
+      <PackagePath>www\img\_0013_SX.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0014_O_crossthrough.png">
+      <PackagePath>www\img\_0014_O_crossthrough.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0015_C.png">
+      <PackagePath>www\img\_0015_C.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0016_B.png">
+      <PackagePath>www\img\_0016_B.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0018_check.png">
+      <PackagePath>www\img\_0018_check.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0020_S.png">
+      <PackagePath>www\img\_0020_S.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0020_S_1.png">
+      <PackagePath>www\img\_0020_S_1.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0020_S_2.png">
+      <PackagePath>www\img\_0020_S_2.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\_0020_S_3.png">
+      <PackagePath>www\img\_0020_S_3.png</PackagePath>
+      <Modified>2016-07-11T07:34:28.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\mipmap-hdpi\ic_launcher.png">
+      <PackagePath>www\res\icon\android\mipmap-hdpi\ic_launcher.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\mipmap-ldpi\ic_launcher.png">
+      <PackagePath>www\res\icon\android\mipmap-ldpi\ic_launcher.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\mipmap-mdpi\ic_launcher.png">
+      <PackagePath>www\res\icon\android\mipmap-mdpi\ic_launcher.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\mipmap-xhdpi\ic_launcher.png">
+      <PackagePath>www\res\icon\android\mipmap-xhdpi\ic_launcher.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\mipmap-xxhdpi\ic_launcher.png">
+      <PackagePath>www\res\icon\android\mipmap-xxhdpi\ic_launcher.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\mipmap-xxxhdpi\ic_launcher.png">
+      <PackagePath>www\res\icon\android\mipmap-xxxhdpi\ic_launcher.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\android\playstore-icon.png">
+      <PackagePath>www\res\icon\android\playstore-icon.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\bada-wac\icon-48-type5.png">
+      <PackagePath>www\res\icon\bada-wac\icon-48-type5.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\bada-wac\icon-50-type3.png">
+      <PackagePath>www\res\icon\bada-wac\icon-50-type3.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\bada-wac\icon-80-type4.png">
+      <PackagePath>www\res\icon\bada-wac\icon-80-type4.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\bada\icon-128.png">
+      <PackagePath>www\res\icon\bada\icon-128.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\blackberry\icon-80.png">
+      <PackagePath>www\res\icon\blackberry\icon-80.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-100.png">
+      <PackagePath>www\res\icon\ios\Icon-100.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-120.png">
+      <PackagePath>www\res\icon\ios\Icon-120.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-152.png">
+      <PackagePath>www\res\icon\ios\Icon-152.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-180%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-180%403x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-29.png">
+      <PackagePath>www\res\icon\ios\Icon-29.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-40.png">
+      <PackagePath>www\res\icon\ios\Icon-40.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-40%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-40%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-40%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-40%403x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-50.png">
+      <PackagePath>www\res\icon\ios\Icon-50.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-58.png">
+      <PackagePath>www\res\icon\ios\Icon-58.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-60.png">
+      <PackagePath>www\res\icon\ios\Icon-60.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-60%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-60%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-60%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-60%403x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\icon-72.png">
+      <PackagePath>www\res\icon\ios\icon-72.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-72%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-72%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-76.png">
+      <PackagePath>www\res\icon\ios\Icon-76.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-76%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-76%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-80.png">
+      <PackagePath>www\res\icon\ios\Icon-80.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-83.5%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-83.5%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-Small-50.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-50.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-Small-50%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small-50%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-Small.png">
+      <PackagePath>www\res\icon\ios\Icon-Small.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-Small%402x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon-Small%403x.png">
+      <PackagePath>www\res\icon\ios\Icon-Small%403x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon.png">
+      <PackagePath>www\res\icon\ios\Icon.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\Icon%402x.png">
+      <PackagePath>www\res\icon\ios\Icon%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\iTunesArtwork.png">
+      <PackagePath>www\res\icon\ios\iTunesArtwork.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\ios\iTunesArtwork%402x.png">
+      <PackagePath>www\res\icon\ios\iTunesArtwork%402x.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\tizen\icon-128.png">
+      <PackagePath>www\res\icon\tizen\icon-128.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\webos\icon-64.png">
+      <PackagePath>www\res\icon\webos\icon-64.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows-phone\icon-173-tile.png">
+      <PackagePath>www\res\icon\windows-phone\icon-173-tile.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows-phone\icon-48.png">
+      <PackagePath>www\res\icon\windows-phone\icon-48.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows-phone\icon-62-tile.png">
+      <PackagePath>www\res\icon\windows-phone\icon-62-tile.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\logo.png">
+      <PackagePath>www\res\icon\windows\logo.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\smalllogo.png">
+      <PackagePath>www\res\icon\windows\smalllogo.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square150x150Logo.scale-240.png">
+      <PackagePath>www\res\icon\windows\Square150x150Logo.scale-240.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square310x310Logo.scale-100.png">
+      <PackagePath>www\res\icon\windows\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square44x44Logo.scale-100.png">
+      <PackagePath>www\res\icon\windows\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square44x44Logo.scale-240.png">
+      <PackagePath>www\res\icon\windows\Square44x44Logo.scale-240.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square70x70Logo.scale-100.png">
+      <PackagePath>www\res\icon\windows\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square71x71Logo.scale-100.png">
+      <PackagePath>www\res\icon\windows\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Square71x71Logo.scale-240.png">
+      <PackagePath>www\res\icon\windows\Square71x71Logo.scale-240.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\storelogo.png">
+      <PackagePath>www\res\icon\windows\storelogo.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Wide310x150Logo.scale-100.png">
+      <PackagePath>www\res\icon\windows\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\icon\windows\Wide310x150Logo.scale-240.png.png">
+      <PackagePath>www\res\icon\windows\Wide310x150Logo.scale-240.png.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-hdpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-hdpi-landscape.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-hdpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-hdpi-portrait.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-ldpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-ldpi-landscape.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-ldpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-ldpi-portrait.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-mdpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-mdpi-landscape.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-mdpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-mdpi-portrait.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-xhdpi-landscape.png">
+      <PackagePath>www\res\screen\android\screen-xhdpi-landscape.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\android\screen-xhdpi-portrait.png">
+      <PackagePath>www\res\screen\android\screen-xhdpi-portrait.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\bada-wac\screen-type3.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type3.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\bada-wac\screen-type4.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type4.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\bada-wac\screen-type5.png">
+      <PackagePath>www\res\screen\bada-wac\screen-type5.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\bada\screen-portrait.png">
+      <PackagePath>www\res\screen\bada\screen-portrait.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\blackberry\screen-225.png">
+      <PackagePath>www\res\screen\blackberry\screen-225.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-1242%403x~iphone6s-landscape_2048x1242.png">
+      <PackagePath>www\res\screen\ios\Default-1242%403x~iphone6s-landscape_2048x1242.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-1242%403x~iphone6s-landscape_2208x1242.png">
+      <PackagePath>www\res\screen\ios\Default-1242%403x~iphone6s-landscape_2208x1242.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-1242%403x~iphone6s-portrait_1242x2208.png">
+      <PackagePath>www\res\screen\ios\Default-1242%403x~iphone6s-portrait_1242x2208.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-568h%402x~iphone_640x1136.png">
+      <PackagePath>www\res\screen\ios\Default-568h%402x~iphone_640x1136.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-750%402x~iphone6-landscape_1334x750.png">
+      <PackagePath>www\res\screen\ios\Default-750%402x~iphone6-landscape_1334x750.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-750%402x~iphone6-portrait_750x1334.png">
+      <PackagePath>www\res\screen\ios\Default-750%402x~iphone6-portrait_750x1334.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Landscape%402x~ipad_2048x1496.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape%402x~ipad_2048x1496.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Landscape%402x~ipad_2048x1536.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape%402x~ipad_2048x1536.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Landscape~ipad_1024x748.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape~ipad_1024x748.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Landscape~ipad_1024x768.png">
+      <PackagePath>www\res\screen\ios\Default-Landscape~ipad_1024x768.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Portrait%402x~ipad_1536x2008.png">
+      <PackagePath>www\res\screen\ios\Default-Portrait%402x~ipad_1536x2008.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Portrait%402x~ipad_1536x2048.png">
+      <PackagePath>www\res\screen\ios\Default-Portrait%402x~ipad_1536x2048.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default-Portrait~ipad_768x1024.png">
+      <PackagePath>www\res\screen\ios\Default-Portrait~ipad_768x1024.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default.png">
+      <PackagePath>www\res\screen\ios\Default.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default%402x~iphone_640x960.png">
+      <PackagePath>www\res\screen\ios\Default%402x~iphone_640x960.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default~ipad.png">
+      <PackagePath>www\res\screen\ios\Default~ipad.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\ios\Default~iphone.png">
+      <PackagePath>www\res\screen\ios\Default~iphone.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\webos\screen-64.png">
+      <PackagePath>www\res\screen\webos\screen-64.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\windows\splashscreen.png">
+      <PackagePath>www\res\screen\windows\splashscreen.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\windows\splashscreenphone.png">
+      <PackagePath>www\res\screen\windows\splashscreenphone.png</PackagePath>
+      <Modified>2016-07-11T07:34:29.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\104-124-1-shop.html">
+      <PackagePath>www\alder\104-124-1-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\104-124-2-shop.html">
+      <PackagePath>www\alder\104-124-2-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\104-124-superior.html">
+      <PackagePath>www\alder\104-124-superior.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\3-shop.html">
+      <PackagePath>www\alder\3-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\cabinet-color.html">
+      <PackagePath>www\alder\cabinet-color.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\cabinet-skip.html">
+      <PackagePath>www\alder\cabinet-skip.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\cabinet.html">
+      <PackagePath>www\alder\cabinet.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\common-shop.html">
+      <PackagePath>www\alder\common-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\custom-jacket-board.html">
+      <PackagePath>www\alder\custom-jacket-board.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\custom-shop-color.html">
+      <PackagePath>www\alder\custom-shop-color.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\custom-shop-skip.html">
+      <PackagePath>www\alder\custom-shop-skip.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\custom-shop.html">
+      <PackagePath>www\alder\custom-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\jacket-board-1.html">
+      <PackagePath>www\alder\jacket-board-1.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\jacket-board.html">
+      <PackagePath>www\alder\jacket-board.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\k-strip.html">
+      <PackagePath>www\alder\k-strip.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\premium.html">
+      <PackagePath>www\alder\premium.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\rustic.html">
+      <PackagePath>www\alder\rustic.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\standard-frame.html">
+      <PackagePath>www\alder\standard-frame.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\superior-1-face.html">
+      <PackagePath>www\alder\superior-1-face.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\superior-color.html">
+      <PackagePath>www\alder\superior-color.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\superior-skip.html">
+      <PackagePath>www\alder\superior-skip.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\superior.html">
+      <PackagePath>www\alder\superior.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\utility.html">
+      <PackagePath>www\alder\utility.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\ash\1-shop.html">
+      <PackagePath>www\ash\1-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\ash\2-shop.html">
+      <PackagePath>www\ash\2-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\ash\3-shop.html">
+      <PackagePath>www\ash\3-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\ash\frame.html">
+      <PackagePath>www\ash\frame.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\ash\select-and-better.html">
+      <PackagePath>www\ash\select-and-better.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\1-shop.html">
+      <PackagePath>www\cottonwood\1-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\chop.html">
+      <PackagePath>www\cottonwood\chop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\select-and-better.html">
+      <PackagePath>www\cottonwood\select-and-better.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\glossary.html">
+      <PackagePath>www\glossary.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\1-and-better-skip.html">
+      <PackagePath>www\maple\1-and-better-skip.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\1-shop-color.html">
+      <PackagePath>www\maple\1-shop-color.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\1-shop.html">
+      <PackagePath>www\maple\1-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\2-shop.html">
+      <PackagePath>www\maple\2-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\3-shop.html">
+      <PackagePath>www\maple\3-shop.html</PackagePath>
+      <Modified>2016-07-11T07:34:28.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\select-and-better-color.html">
+      <PackagePath>www\maple\select-and-better-color.html</PackagePath>
+      <Modified>2016-07-11T07:34:29.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\select-and-better.html">
+      <PackagePath>www\maple\select-and-better.html</PackagePath>
+      <Modified>2016-07-11T07:34:29.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\standard-frame.html">
+      <PackagePath>www\maple\standard-frame.html</PackagePath>
+      <Modified>2016-07-11T07:34:29.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\utility.html">
+      <PackagePath>www\maple\utility.html</PackagePath>
+      <Modified>2016-07-11T07:34:29.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec.html">
+      <PackagePath>www\spec.html</PackagePath>
+      <Modified>2016-07-11T07:34:29.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\3-Shop-B.jpg">
+      <PackagePath>www\alder\images\3-Shop-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\3-Shop-F.jpg">
+      <PackagePath>www\alder\images\3-Shop-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\3-Shop-F_cutlines.jpg">
+      <PackagePath>www\alder\images\3-Shop-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Cabinet-B.jpg">
+      <PackagePath>www\alder\images\Cabinet-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Cabinet-Color-B.jpg">
+      <PackagePath>www\alder\images\Cabinet-Color-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Cabinet-Color-F.jpg">
+      <PackagePath>www\alder\images\Cabinet-Color-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Cabinet-Color-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Cabinet-Color-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Cabinet-F.jpg">
+      <PackagePath>www\alder\images\Cabinet-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Cabinet-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Cabinet-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Common-Shop-B.jpg">
+      <PackagePath>www\alder\images\Common-Shop-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Common-Shop-F.jpg">
+      <PackagePath>www\alder\images\Common-Shop-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Common-Shop-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Common-Shop-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Color-B.jpg">
+      <PackagePath>www\alder\images\Custom-Color-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Color-F.jpg">
+      <PackagePath>www\alder\images\Custom-Color-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Color-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Custom-Color-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Jacket-Board-B.jpg">
+      <PackagePath>www\alder\images\Custom-Jacket-Board-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Jacket-Board-F.jpg">
+      <PackagePath>www\alder\images\Custom-Jacket-Board-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Jacket-Board-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Custom-Jacket-Board-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Shop-B.jpg">
+      <PackagePath>www\alder\images\Custom-Shop-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Shop-F.jpg">
+      <PackagePath>www\alder\images\Custom-Shop-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Custom-Shop-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Custom-Shop-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Frame-B.jpg">
+      <PackagePath>www\alder\images\Frame-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Frame-F.jpg">
+      <PackagePath>www\alder\images\Frame-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Frame-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Frame-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Jacket-Board1_B.jpg">
+      <PackagePath>www\alder\images\Jacket-Board1_B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Jacket-Board1_F.jpg">
+      <PackagePath>www\alder\images\Jacket-Board1_F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Jacket-Board1_F_cutlines.jpg">
+      <PackagePath>www\alder\images\Jacket-Board1_F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Jacket-Board_B.jpg">
+      <PackagePath>www\alder\images\Jacket-Board_B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Jacket-Board_F.jpg">
+      <PackagePath>www\alder\images\Jacket-Board_F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Jacket-Board_F_cutlines.jpg">
+      <PackagePath>www\alder\images\Jacket-Board_F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\K-Strip-B.jpg">
+      <PackagePath>www\alder\images\K-Strip-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\K-Strip-F.jpg">
+      <PackagePath>www\alder\images\K-Strip-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\K-Strip-F_cutlines.jpg">
+      <PackagePath>www\alder\images\K-Strip-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Premium-Frame-B.jpg">
+      <PackagePath>www\alder\images\Premium-Frame-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Premium-Frame-F.jpg">
+      <PackagePath>www\alder\images\Premium-Frame-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Premium-Frame-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Premium-Frame-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Rustic-B.jpg">
+      <PackagePath>www\alder\images\Rustic-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Rustic-F.jpg">
+      <PackagePath>www\alder\images\Rustic-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Rustic-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Rustic-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-1-Face-B.jpg">
+      <PackagePath>www\alder\images\Superior-1-Face-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-1-Face-F.jpg">
+      <PackagePath>www\alder\images\Superior-1-Face-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-1-Face-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Superior-1-Face-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-B.jpg">
+      <PackagePath>www\alder\images\Superior-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-Color-B.jpg">
+      <PackagePath>www\alder\images\Superior-Color-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-Color-F.jpg">
+      <PackagePath>www\alder\images\Superior-Color-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-Color-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Superior-Color-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-F.jpg">
+      <PackagePath>www\alder\images\Superior-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Superior-F_cutlines.jpg">
+      <PackagePath>www\alder\images\Superior-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Utility-B.jpg">
+      <PackagePath>www\alder\images\Utility-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\alder\images\Utility-F.jpg">
+      <PackagePath>www\alder\images\Utility-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\1-Shop-B.jpg">
+      <PackagePath>www\cottonwood\images\1-Shop-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\1-Shop-F.jpg">
+      <PackagePath>www\cottonwood\images\1-Shop-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\1-Shop-F_cutlines.jpg">
+      <PackagePath>www\cottonwood\images\1-Shop-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Chop-B.jpg">
+      <PackagePath>www\cottonwood\images\Chop-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Chop-F.jpg">
+      <PackagePath>www\cottonwood\images\Chop-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Chop-F_cutlines.jpg">
+      <PackagePath>www\cottonwood\images\Chop-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Select-B.jpg">
+      <PackagePath>www\cottonwood\images\Select-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Select-F.jpg">
+      <PackagePath>www\cottonwood\images\Select-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Select-F_cutlines.jpg">
+      <PackagePath>www\cottonwood\images\Select-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Utility-B.jpg">
+      <PackagePath>www\cottonwood\images\Utility-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cottonwood\images\Utility-F.jpg">
+      <PackagePath>www\cottonwood\images\Utility-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-pallettes-bg.jpg">
+      <PackagePath>www\img\alder-pallettes-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder-stack-bg.jpg">
+      <PackagePath>www\img\alder-stack-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_thumb.jpg">
+      <PackagePath>www\img\alder_thumb.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\alder_thumb_old.jpg">
+      <PackagePath>www\img\alder_thumb_old.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash1back.jpg">
+      <PackagePath>www\img\ash1back.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash1front.jpg">
+      <PackagePath>www\img\ash1front.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash2back.jpg">
+      <PackagePath>www\img\ash2back.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash2front.jpg">
+      <PackagePath>www\img\ash2front.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash3back.jpg">
+      <PackagePath>www\img\ash3back.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash3front.jpg">
+      <PackagePath>www\img\ash3front.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ashframeback.jpg">
+      <PackagePath>www\img\ashframeback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ashframefront.jpg">
+      <PackagePath>www\img\ashframefront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ashselectback.jpg">
+      <PackagePath>www\img\ashselectback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ashselectfront.jpg">
+      <PackagePath>www\img\ashselectfront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ash_thumb.jpg">
+      <PackagePath>www\img\ash_thumb.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\banner.jpg">
+      <PackagePath>www\img\banner.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\buyer-map.jpg">
+      <PackagePath>www\img\buyer-map.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cabinetback10-12.jpg">
+      <PackagePath>www\img\cabinetback10-12.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cabinetfront10-12.jpg">
+      <PackagePath>www\img\cabinetfront10-12.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cabskipback.jpg">
+      <PackagePath>www\img\cabskipback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\cabskipfront.jpg">
+      <PackagePath>www\img\cabskipfront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\commonback_0.jpg">
+      <PackagePath>www\img\commonback_0.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\commonfront_0.jpg">
+      <PackagePath>www\img\commonfront_0.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\contact-bg.jpg">
+      <PackagePath>www\img\contact-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\customskipback.jpg">
+      <PackagePath>www\img\customskipback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\customskipfront.jpg">
+      <PackagePath>www\img\customskipfront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\darrel-color.jpg">
+      <PackagePath>www\img\darrel-color.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\footer-bg.jpg">
+      <PackagePath>www\img\footer-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\frameback.jpg">
+      <PackagePath>www\img\frameback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\framefront.jpg">
+      <PackagePath>www\img\framefront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\bark_pocket.jpg">
+      <PackagePath>www\img\glossary\bark_pocket.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\check.jpg">
+      <PackagePath>www\img\glossary\check.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\clear_appearance.jpg">
+      <PackagePath>www\img\glossary\clear_appearance.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\decay.jpg">
+      <PackagePath>www\img\glossary\decay.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\grub_hole.jpg">
+      <PackagePath>www\img\glossary\grub_hole.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\incipient_decay.jpg">
+      <PackagePath>www\img\glossary\incipient_decay.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\open_knot.jpg">
+      <PackagePath>www\img\glossary\open_knot.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\pin_knot.jpg">
+      <PackagePath>www\img\glossary\pin_knot.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\pith.jpg">
+      <PackagePath>www\img\glossary\pith.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\shake.jpg">
+      <PackagePath>www\img\glossary\shake.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\sidebend.jpg">
+      <PackagePath>www\img\glossary\sidebend.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\skip.jpg">
+      <PackagePath>www\img\glossary\skip.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\sound_knot_1.jpg">
+      <PackagePath>www\img\glossary\sound_knot_1.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\sound_knot_2.jpg">
+      <PackagePath>www\img\glossary\sound_knot_2.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\split.jpg">
+      <PackagePath>www\img\glossary\split.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\stain.jpg">
+      <PackagePath>www\img\glossary\stain.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\glossary\wane.jpg">
+      <PackagePath>www\img\glossary\wane.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\home-content-bg.jpg">
+      <PackagePath>www\img\home-content-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\home\intro-bg.jpg">
+      <PackagePath>www\img\home\intro-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\intro-bg.jpg">
+      <PackagePath>www\img\intro-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\ken-color.jpg">
+      <PackagePath>www\img\ken-color.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\log-belt.jpg">
+      <PackagePath>www\img\log-belt.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\log-sales-bg.jpg">
+      <PackagePath>www\img\log-sales-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\lpi-chainsaw-bg.jpg">
+      <PackagePath>www\img\lpi-chainsaw-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\map-bg.jpg">
+      <PackagePath>www\img\map-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\mapleskipback.jpg">
+      <PackagePath>www\img\mapleskipback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\mapleskipfront.jpg">
+      <PackagePath>www\img\mapleskipfront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\mapleskipfront_cut.jpg">
+      <PackagePath>www\img\mapleskipfront_cut.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\maple_thumb.jpg">
+      <PackagePath>www\img\maple_thumb.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\procurement-bg.jpg">
+      <PackagePath>www\img\procurement-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\randy-color.jpg">
+      <PackagePath>www\img\randy-color.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\superiorskipback.jpg">
+      <PackagePath>www\img\superiorskipback.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\superiorskipfront.jpg">
+      <PackagePath>www\img\superiorskipfront.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\superior_back10-12.jpg">
+      <PackagePath>www\img\superior_back10-12.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\superior_front10-12.jpg">
+      <PackagePath>www\img\superior_front10-12.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\tom-color.jpg">
+      <PackagePath>www\img\tom-color.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\trees-bg.jpg">
+      <PackagePath>www\img\trees-bg.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\1-B.jpg">
+      <PackagePath>www\maple\images\1-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\1-Color-B.jpg">
+      <PackagePath>www\maple\images\1-Color-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:28.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\1-Color-F.jpg">
+      <PackagePath>www\maple\images\1-Color-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\1-Color-F_cutlines.jpg">
+      <PackagePath>www\maple\images\1-Color-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\1-F.jpg">
+      <PackagePath>www\maple\images\1-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\1-F_cutlines.jpg">
+      <PackagePath>www\maple\images\1-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\2-B.jpg">
+      <PackagePath>www\maple\images\2-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\2-F.jpg">
+      <PackagePath>www\maple\images\2-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\2-F_cutlines.jpg">
+      <PackagePath>www\maple\images\2-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\3-B.jpg">
+      <PackagePath>www\maple\images\3-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\3-F.jpg">
+      <PackagePath>www\maple\images\3-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\3-F_cutlines.jpg">
+      <PackagePath>www\maple\images\3-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Frame-B.jpg">
+      <PackagePath>www\maple\images\Frame-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Frame-F.jpg">
+      <PackagePath>www\maple\images\Frame-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Frame-F_cutlines.jpg">
+      <PackagePath>www\maple\images\Frame-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Select-B.jpg">
+      <PackagePath>www\maple\images\Select-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Select-Color-B.jpg">
+      <PackagePath>www\maple\images\Select-Color-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Select-Color-F.jpg">
+      <PackagePath>www\maple\images\Select-Color-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Select-Color-F_cutlines.jpg">
+      <PackagePath>www\maple\images\Select-Color-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Select-F.jpg">
+      <PackagePath>www\maple\images\Select-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Select-F_cutlines.jpg">
+      <PackagePath>www\maple\images\Select-F_cutlines.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Utility-B.jpg">
+      <PackagePath>www\maple\images\Utility-B.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\maple\images\Utility-F.jpg">
+      <PackagePath>www\maple\images\Utility-F.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\windows-phone\screen-portrait.jpg">
+      <PackagePath>www\res\screen\windows-phone\screen-portrait.jpg</PackagePath>
+      <Modified>2016-07-11T07:34:29.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\cascade-pinch.js">
+      <PackagePath>www\js\cascade-pinch.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\cascadegroup-data.js">
+      <PackagePath>www\js\cascadegroup-data.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\cascadegroup.js">
+      <PackagePath>www\js\cascadegroup.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\drupal.js">
+      <PackagePath>www\js\drupal.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\hammer.min.js">
+      <PackagePath>www\js\hammer.min.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\handlebars-v4.0.2.js">
+      <PackagePath>www\js\handlebars-v4.0.2.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\jq-ui.js">
+      <PackagePath>www\js\jq-ui.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\jquery-1.11.3.min.js">
+      <PackagePath>www\js\jquery-1.11.3.min.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\jquery.mlens-1.6.min.js">
+      <PackagePath>www\js\jquery.mlens-1.6.min.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\jquery.zglossary.min.js">
+      <PackagePath>www\js\jquery.zglossary.min.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\okzoom.min.js">
+      <PackagePath>www\js\okzoom.min.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\touch-emulator.js">
+      <PackagePath>www\js\touch-emulator.js</PackagePath>
+      <Modified>2016-07-11T07:34:28.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec\helper.js">
+      <PackagePath>www\spec\helper.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec\index.js">
+      <PackagePath>www\spec\index.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec\lib\jasmine-1.2.0\jasmine-html.js">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\jasmine-html.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec\lib\jasmine-1.2.0\jasmine.js">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\jasmine.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-07-11T07:34:29.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\content-module.css">
+      <PackagePath>www\css\content-module.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\default.css">
+      <PackagePath>www\css\default.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\entities.css">
+      <PackagePath>www\css\entities.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\filefield.css">
+      <PackagePath>www\css\filefield.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\grade_selector.css">
+      <PackagePath>www\css\grade_selector.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\grade_selector_mobile.css">
+      <PackagePath>www\css\grade_selector_mobile.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+      <Modified>2016-07-11T07:34:29.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\jquery.zglossary.min.css">
+      <PackagePath>www\css\jquery.zglossary.min.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\layout.css">
+      <PackagePath>www\css\layout.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\menu.css">
+      <PackagePath>www\css\menu.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\pages.css">
+      <PackagePath>www\css\pages.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\print.css">
+      <PackagePath>www\css\print.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\tablefield.css">
+      <PackagePath>www\css\tablefield.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\css\views.css">
+      <PackagePath>www\css\views.css</PackagePath>
+      <Modified>2016-07-11T07:34:28.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec\lib\jasmine-1.2.0\jasmine.css">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\jasmine.css</PackagePath>
+      <Modified>2016-07-11T07:34:29.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\capture_it-webfont.eot">
+      <PackagePath>www\fonts\capture_it-webfont.eot</PackagePath>
+      <Modified>2016-07-11T07:34:28.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkitt-webfont.eot">
+      <PackagePath>www\fonts\rokkitt-webfont.eot</PackagePath>
+      <Modified>2016-07-11T07:34:28.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkittbold-webfont.eot">
+      <PackagePath>www\fonts\rokkittbold-webfont.eot</PackagePath>
+      <Modified>2016-07-11T07:34:28.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\capture_it-webfont.svg">
+      <PackagePath>www\fonts\capture_it-webfont.svg</PackagePath>
+      <Modified>2016-07-11T07:34:28.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkitt-webfont.svg">
+      <PackagePath>www\fonts\rokkitt-webfont.svg</PackagePath>
+      <Modified>2016-07-11T07:34:28.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkittbold-webfont.svg">
+      <PackagePath>www\fonts\rokkittbold-webfont.svg</PackagePath>
+      <Modified>2016-07-11T07:34:28.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\capture_it-webfont.ttf">
+      <PackagePath>www\fonts\capture_it-webfont.ttf</PackagePath>
+      <Modified>2016-07-11T07:34:28.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkitt-webfont.ttf">
+      <PackagePath>www\fonts\rokkitt-webfont.ttf</PackagePath>
+      <Modified>2016-07-11T07:34:28.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkittbold-webfont.ttf">
+      <PackagePath>www\fonts\rokkittbold-webfont.ttf</PackagePath>
+      <Modified>2016-07-11T07:34:28.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\capture_it-webfont.woff">
+      <PackagePath>www\fonts\capture_it-webfont.woff</PackagePath>
+      <Modified>2016-07-11T07:34:28.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkitt-webfont.woff">
+      <PackagePath>www\fonts\rokkitt-webfont.woff</PackagePath>
+      <Modified>2016-07-11T07:34:28.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\fonts\rokkittbold-webfont.woff">
+      <PackagePath>www\fonts\rokkittbold-webfont.woff</PackagePath>
+      <Modified>2016-07-11T07:34:28.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\favicon.ico">
+      <PackagePath>www\img\favicon.ico</PackagePath>
+      <Modified>2016-07-11T07:34:28.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\fsc-logo.gif">
+      <PackagePath>www\img\fsc-logo.gif</PackagePath>
+      <Modified>2016-07-11T07:34:28.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\fsc-staple-bg.gif">
+      <PackagePath>www\img\fsc-staple-bg.gif</PackagePath>
+      <Modified>2016-07-11T07:34:28.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\img\grader-bg.gif">
+      <PackagePath>www\img\grader-bg.gif</PackagePath>
+      <Modified>2016-07-11T07:34:28.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\js\terms.json">
+      <PackagePath>www\js\terms.json</PackagePath>
+      <Modified>2016-07-11T07:34:28.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\.pgbomit">
+      <PackagePath>www\res\.pgbomit</PackagePath>
+      <Modified>2016-07-11T07:34:29.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\res\screen\tizen\README.md">
+      <PackagePath>www\res\screen\tizen\README.md</PackagePath>
+      <Modified>2016-07-11T07:34:29.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\www\spec\lib\jasmine-1.2.0\MIT.LICENSE">
+      <PackagePath>www\spec\lib\jasmine-1.2.0\MIT.LICENSE</PackagePath>
+      <Modified>2016-07-11T07:34:29.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-07-11T07:34:27.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\projects\cascade-site\app\platforms\windows\build\windows\Debug\AnyCPU\win8.1\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-07-11T07:39:46.070</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

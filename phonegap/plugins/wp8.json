@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{8dc72d00-e1e1-11e5-bb34-a11713f30f70}"
+        },
+        "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
+            "PACKAGE_NAME": "{8dc72d00-e1e1-11e5-bb34-a11713f30f70}"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "{8dc72d00-e1e1-11e5-bb34-a11713f30f70}"
+        }
+    },
+    "dependent_plugins": {}
+}

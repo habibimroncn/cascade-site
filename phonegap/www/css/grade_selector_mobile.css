@@ -1,0 +1,28 @@
+/* tablet  */
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)  {
+
+
+body.section-products div#contact,
+body.section-products a#back {
+	margin-left: 20px;
+}
+
+} /*end*/
+
+/* phone  */
+
+@media only screen
+and (min-width : 375px)
+and (max-width : 768px) {
+
+
+body.section-products div#contact,
+body.section-products a#back {
+	margin-left: 20px;
+}
+
+
+}

@@ -20,8 +20,57 @@ jQuery(document).ready(function($) {
         parent.history.back();
         return false;
     });
+	// Change url about contact us for all product page.
+	if ($($('div#contact a').last()).length != 0) {
+    	$($('div#contact a').last()).attr("href", "http://cascadehardwood.com/contact-us").attr("target","_blank");
+	}
 
+	if ($('div.homepage').length == 0) {
+		// Change url homepage icon for all product page.
+		if ($('a#logo').length != 0) {
+	    	$('a#logo').attr("href", "../index.html");
+		}
+	}
 
+	function add_emailto(){
+		// Adding mailto
+		if ($('div.side-cta p a').length != 0) {
+	    	$('div.side-cta p a').attr("href", "mailto:info@chgsales.com");
+		}
+	}
+	setTimeout(add_emailto, 3000);
+    // Hide back button on index and show on sub page
+	if ($('div.homepage').length > 0) {
+		$('#back').css('display','none');
+	};
+	// End Hide back button on index and show on sub page
+
+	var length_div = $('.species-group ul').length;
+	for (var i = 0; i < length_div; i++) {
+		var t = $($('.species-group ul')[i]).find('li.views-row.views-row-last.show').length;
+		if (t !== 0) {
+			// Adding margin on last tile
+			$($("li.views-row.views-row-last.show")[i]).last().css('margin-bottom','50px');
+		} else {
+			$("li:last-child.views-row.views-row-first.show").css('margin-bottom','50px');
+		};
+	};
+	function add_line() {
+	    // Run line to bottom on product homepage
+		var length_row_last  = $("li.views-row.views-row-last.show").last().position();
+		var length_row_first = $("li.views-row.views-row-first.show").last().position();
+		if(jQuery.type(length_row_last) !== 'undefined' && jQuery.type(length_row_first) !== 'undefined') {
+			if (length_row_last.top > length_row_first.top ) {
+				$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_last.top+150+'px');
+			} else {
+				$("div#content-area div.page-content div.wrap.clearfix div.view div.attachment").css('min-height',length_row_first.top+150+'px');
+			};
+		}
+	}
+    setTimeout(add_line, 3000);
+
+	// Remove all category on page product
+	$(".category").remove();
 
 	if ($('body').hasClass('node-type-grade')) {
 		_initGradePage();
@@ -178,7 +227,27 @@ if ($('ul#primary li.active')[0]) {
 	// Desktop only
 	(function() {
 		if ( $( window ).width() < 900 ) {
-			return;
+			// Trigger zoom lense on touchscreen
+		$( "a img.imagecache" ).load(function() {
+			// Only enable zoom if the native image width is larger than the screen image width
+			var $screenImage = $( this );
+				$screenImage.mlens({
+					lensShape: "circle",
+					lensSize:["150px","150px"],
+					borderSize: 4,
+					borderColor: "#fff",
+					borderRadius: 0,
+					zoomLevel: 1,
+					responsive: true,
+				});
+
+			$screenImage.on("touchend", function(e){
+		       $('[id^=mlens_target]').css('display','block');
+			});
+			});
+
+		
+			
 		}
 
 		// Trigger zoom lense
@@ -192,17 +261,44 @@ if ($('ul#primary li.active')[0]) {
 				return;
 			}
 
+			var state_active = false;
+
 			$( '#zoomer' ).click(function() {
-				$screenImage.okzoom({
+				if (state_active == false) {
+					$screenImage.okzoom({
 					width: 200,
 					height: 200,
 					border: "5px solid #fff",
 					shadow: "0 0 5px #000"
 				});
-
+					return state_active = true;
+				} else {
+					$screenImage.okzoom().off();
+					return state_active = false;
+				}
 				return false;
 			});
+
+
+			$(document).keyup(function(e) {
+  					if (e.keyCode == 27) {
+  						if (state_active == true) {
+  							$screenImage.okzoom().off();
+							return state_active = false;
+  						} else {
+  							console.log('Zoom have disabled');
+  						}
+
+  					} 
+			});// disabled using esc
+
+			// Run line to bottom on subpage
+			var wood_length = $(".imagecache").height();
+			$("div#content-area div.page-content div.wrap.clearfix div.node div.content").css('min-height',wood_length+'px');
+
 		});
+
+
 	})();
 
 });

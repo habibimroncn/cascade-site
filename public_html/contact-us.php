@@ -101,7 +101,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Ron</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:Ron[at]CHGSales[dot]com">Ron@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -154,7 +154,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Jeff</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:Jeff[at]CHGSales[dot]com">Jeff@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -207,7 +207,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Marlin</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:Marlin[at]CHGSales[dot]com">Marlin@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -260,7 +260,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Anthony</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:Anthony[at]CHGSales[dot]com">Anthony@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -297,13 +297,13 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Lisa</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:Lisa[at]CHGSales[dot]com">Lisa@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
 			    </div>
 </div>  </div>
-  <div class="views-row views-row-6 views-row-even views-row-last">
+  <div class="views-row views-row-6 views-row-even">
     
 <div class="node node node-teaser clearfix node-type-profile" id="node-50">
     <div class="content">
@@ -334,11 +334,64 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">Liz</span> [at] <span class="d">CHGSales [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:Liz[at]CHGSales[dot]com">Liz@CHGSales.com</a></span>        </div>
         </div>
 </div>
 </div>
 			    </div>
+</div>  </div>
+  <div class="views-row views-row-7 views-row-odd views-row-last">
+    
+<div class="node node node-teaser clearfix node-type-profile" id="node-50">
+    <div class="content">
+      <div class="field field-type-filefield field-field-picture">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img src="/sites/default/files/imagecache/profile/profiles/place-holder-left.gif" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+        </div>
+</div>
+              <h4 class="title">Darrin Myers</h4>
+        <div class="field field-type-text field-field-job-title">
+    <div class="field-items">
+            <div class="field-item odd">
+                    California Sales  </div>
+        </div>
+</div>
+            <div class="fieldgroup group-cascade-contact">
+    <div class="field field-type-phone-number field-field-toll-free">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Toll Free:&nbsp;</div>
+                    (877) 345 1404        </div>
+        </div>
+</div>
+<div class="field field-type-phone-number field-field-direct">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Direct:&nbsp;</div>
+                    (360) 345 1318       </div>
+        </div>
+</div>
+<div class="field field-type-phone-number field-field-cell">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Cell:&nbsp;</div>
+                    (360) 269 8750        </div>
+        </div>
+</div>
+<div class="field field-type-email field-field-email">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Email:&nbsp;</div>
+                    <span class="spamspan"><a href="mailto:Darrin[at]CHGSales[dot]com">Darrin@CHGSales.com</a></span>        </div>
+        </div>
+</div>
+</div>
+          </div>
 </div>  </div>
     </div>
   
@@ -360,7 +413,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/randy.jpg" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/randy.jpg" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Randy Bartelt</h4>
@@ -400,25 +453,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">randyb</span> [at] <span class="d">chwa [dot] com</span></span>        </div>
-        </div>
-</div>
-</div>
-			<div class="fieldgroup group-pa-contact">
-  	<div class="field field-type-phone-number field-field-pa-phone">
-    <div class="field-items">
-            <div class="field-item odd">
-                      <div class="field-label-inline-first">
-              Phone:&nbsp;</div>
-                    (360) 452 6041        </div>
-        </div>
-</div>
-<div class="field field-type-phone-number field-field-pa-fax">
-    <div class="field-items">
-            <div class="field-item odd">
-                      <div class="field-label-inline-first">
-              Fax:&nbsp;</div>
-                    (360) 417 6805        </div>
+                    <span class="spamspan"><a href="mailto:randyb[at]chwa[dot]com">randyb@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -431,7 +466,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/olympic.png" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/place-holder-left.gif" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Ron Hurn</h4>
@@ -471,7 +506,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">ronhurn</span> [at] <span class="d">pahardwood [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:ronhurn[at]pahardwood[dot]com">ronhurn@pahardwood.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -484,7 +519,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/david-with-map.png" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/place-holder-left.gif" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Darrell Alvord</h4>
@@ -532,7 +567,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">darrella</span> [at] <span class="d">chwa [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:darrella[at]chwa[dot]com">darrella@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -545,7 +580,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/place-holder-left.gif" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/place-holder-left.gif" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Ken Jones</h4>
@@ -593,12 +628,13 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><span class="u">kenj</span> [at] <span class="d">chwa [dot] com</span></span>        </div>
+                    <span class="spamspan"><a href="mailto:kenj[at]chwa[dot]com">kenj@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
 			    </div>
 </div>  </div>
+<!--
   <div class="views-row views-row-4 views-row-even views-row-last">
     
 <div class="node node node-teaser clearfix node-type-profile" id="node-51">
@@ -649,9 +685,11 @@
                     <span class="spamspan"><span class="u">laytonte</span> [at] <span class="d">chwa [dot] com</span></span>        </div>
         </div>
 </div>
+
+
 </div>
 			    </div>
-</div>  </div>
+</div>  </div>-->
     </div>
   
   
@@ -666,7 +704,7 @@
 		Chehalis, WA 98532<br />
 		Phone: 360-748-3317<br />
 		Fax: 360-740-5117<br />
-		Email: info@CHGsales.com</p>
+		Email: <span class="spamspan"><a href="mailto:info[at]CHGsales[dot]com">info@CHGsales.com</a></span></p>
 	<iframe frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?client=safari&amp;q=158+Ribelin+Road,+Chehalis,+WA+98532&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=158+Ribelin+Rd,+Chehalis,+Washington+98532&amp;gl=us&amp;t=m&amp;vpsrc=6&amp;ll=46.649318,-122.92654&amp;spn=0.041244,0.072956&amp;z=13&amp;output=embed&amp;iwloc=0" width="425"></iframe><br />
 	<small><a href="http://maps.google.com/maps?client=safari&amp;q=158+Ribelin+Road,+Chehalis,+WA+98532&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&amp;hnear=158+Ribelin+Rd,+Chehalis,+Washington+98532&amp;gl=us&amp;t=m&amp;vpsrc=6&amp;ll=46.649318,-122.92654&amp;spn=0.041244,0.072956&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
 <div class="map pa-map">
@@ -675,7 +713,7 @@
 		Port Angeles, WA 98363<br />
 		Phone: 360-452-6041<br />
 		Fax: 360-417-6805<br />
-		Email: info@PAhardwood.com</p>
+		Email: <span class="spamspan"><a href="mailto:info[at]PAhardwood[dot]com">info@PAhardwood.com</a></span></p>
 	<iframe frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=333+Eclipse+Industrial+Parkway+Port+Angeles,+WA+98363&amp;aq=&amp;sll=46.636634,-122.931089&amp;sspn=0.015382,0.02429&amp;vpsrc=6&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=333+Eclipse+Ind+Pkwy,+Port+Angeles,+Washington+98363&amp;t=m&amp;ll=48.117288,-123.479118&amp;spn=0.040111,0.072956&amp;z=13&amp;iwloc=A&amp;output=embed&amp;iwloc=0" width="425"></iframe><br />
 	<small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=333+Eclipse+Industrial+Parkway+Port+Angeles,+WA+98363&amp;aq=&amp;sll=46.636634,-122.931089&amp;sspn=0.015382,0.02429&amp;vpsrc=6&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=333+Eclipse+Ind+Pkwy,+Port+Angeles,+Washington+98363&amp;t=m&amp;ll=48.117288,-123.479118&amp;spn=0.040111,0.072956&amp;z=13&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
     </div>

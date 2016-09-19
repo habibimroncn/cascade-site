@@ -221,7 +221,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/randy.jpg" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/randy-color.jpg" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Randy Bartelt</h4>
@@ -246,7 +246,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:randyb@chwa.com">randyb@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:randyb[at]chwa[dot]com">randyb@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -277,7 +277,7 @@
 			<div class="field field-type-filefield field-field-picture">
     <div class="field-items">
             <div class="field-item odd">
-                    <img src="http://www.cascadehardwood.com/sites/default/files/imagecache/profile/profiles/olympic.png" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
+                    <img src="/sites/default/files/imagecache/profile/profiles/ron-color.jpg" alt="" title=""  class="imagecache imagecache-profile imagecache-default imagecache-profile_default" width="276" height="194" />        </div>
         </div>
 </div>
 	    	      <h4 class="title">Ron Hurn</h4>
@@ -317,7 +317,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:ronhurn@pahardwood.com">ronhurn@pahardwood.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:ronhurn[at]pahardwood[dot]com">ronhurn@pahardwood.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -378,7 +378,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:darrella@chwa.com">darrella@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:darrella[at]chwa[dot]com">darrella@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
@@ -439,7 +439,7 @@
             <div class="field-item odd">
                       <div class="field-label-inline-first">
               Email:&nbsp;</div>
-                    <span class="spamspan"><a href="mailto:kenj@chwa.com">kenj@chwa.com</a></span>        </div>
+                    <span class="spamspan"><a href="mailto:kenj[at]chwa[dot]com">kenj@chwa.com</a></span>        </div>
         </div>
 </div>
 </div>
